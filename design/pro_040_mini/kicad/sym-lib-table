@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name m68k)(type Legacy)(uri ${KIPRJMOD}/m68k.lib)(options "")(descr ""))
+  (lib (name rosco_m68k)(type Legacy)(uri ${KIPRJMOD}/rosco_m68k.lib)(options "")(descr ""))
+)
