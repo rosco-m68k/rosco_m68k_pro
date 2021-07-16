@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name m68k)(type Legacy)(uri ${KIPRJMOD}/m68k.lib)(options "")(descr ""))
+  (lib (name rosco_m68k)(type Legacy)(uri ${KIPRJMOD}/rosco_m68k.lib)(options "")(descr ""))
+  (lib (name rosco_m68k-eagle-import)(type Legacy)(uri /Users/rosco/Development/rosco-m68k/rosco_m68k/design/r1.2/kicad/rosco_m68k-eagle-import.lib)(options "")(descr ""))
+)
