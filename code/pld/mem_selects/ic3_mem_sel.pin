@@ -1,0 +1,29 @@
+
+
+ Pin # | Name     | Pin Type
+-----------------------------
+   1   | ROMS     | Clock/Input
+   2   | RAMS     | Input
+   3   | A22      | Input
+   4   | A21      | Input
+   5   | A1       | Input
+   6   | A0       | Input
+   7   | RW       | Input
+   8   | NC       | Input
+   9   | NC       | Input
+  10   | SIZ0     | Input
+  11   | SIZ1     | Input
+  12   | GND      | GND
+  13   | ZRAMS    | Input
+  14   | RAMEN0   | Output
+  15   | RAMEN1   | Output
+  16   | RAMEN2   | Output
+  17   | RAMEN3   | Output
+  18   | ROMEN0   | Output
+  19   | ROMEN1   | Output
+  20   | ROMEN2   | Output
+  21   | ROMEN3   | Output
+  22   | DSA0     | Output
+  23   | DSA1     | Output
+  24   | VCC      | VCC
+
