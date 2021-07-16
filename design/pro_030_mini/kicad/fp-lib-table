@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name rosco_m68k)(type KiCad)(uri ${KIPRJMOD}/../../../../hardware-projects/kicad-libs/rosco_m68k.pretty)(options "")(descr ""))
-)
