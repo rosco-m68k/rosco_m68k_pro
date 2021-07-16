@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
-Title "rosco_m68k Pro Mini (040)"
-Date "2021-05-15"
+Sheet 3 7
+Title "rosco_m68k Pro (030) Prototype"
+Date "2021-07-16"
 Rev "0"
 Comp "The Really Old-School Company Limited"
 Comment1 "Copyright ©2021 The Really Old-School Company Limited"
@@ -19,7 +19,7 @@ U 1 1 60F2DD00
 P 4500 3900
 F 0 "U2" H 4500 5181 50  0000 C CNN
 F 1 "AS6C4008-55TIN" H 4500 5090 50  0000 C CNN
-F 2 "Package_SO:TSOP-I-32_18.4x8mm_P0.5mm" H 4500 4000 50  0001 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm_Socket_LongPads" H 4500 4000 50  0001 C CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf" H 4500 4000 50  0001 C CNN
 	1    4500 3900
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 60F2DE47
 P 2300 3850
 F 0 "U1" H 2300 5131 50  0000 C CNN
 F 1 "AS6C4008-55TIN" H 2300 5040 50  0000 C CNN
-F 2 "Package_SO:TSOP-I-32_18.4x8mm_P0.5mm" H 2300 3950 50  0001 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm_Socket_LongPads" H 2300 3950 50  0001 C CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf" H 2300 3950 50  0001 C CNN
 	1    2300 3850
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 60F2E768
 P 6750 3900
 F 0 "U3" H 6750 5181 50  0000 C CNN
 F 1 "AS6C4008-55TIN" H 6750 5090 50  0000 C CNN
-F 2 "Package_SO:TSOP-I-32_18.4x8mm_P0.5mm" H 6750 4000 50  0001 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm_Socket_LongPads" H 6750 4000 50  0001 C CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf" H 6750 4000 50  0001 C CNN
 	1    6750 3900
 	1    0    0    -1  
@@ -52,7 +52,7 @@ U 1 1 60F2F729
 P 9000 3900
 F 0 "U4" H 9000 5181 50  0000 C CNN
 F 1 "AS6C4008-55TIN" H 9000 5090 50  0000 C CNN
-F 2 "Package_SO:TSOP-I-32_18.4x8mm_P0.5mm" H 9000 4000 50  0001 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm_Socket_LongPads" H 9000 4000 50  0001 C CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf" H 9000 4000 50  0001 C CNN
 	1    9000 3900
 	1    0    0    -1  
@@ -274,10 +274,10 @@ D30
 Text GLabel 9500 3700 2    50   BiDi ~ 0
 D31
 $Comp
-L power:VCC #PWR0109
+L power:VCC #PWR07
 U 1 1 60F4C3C9
 P 5650 1750
-F 0 "#PWR0109" H 5650 1600 50  0001 C CNN
+F 0 "#PWR07" H 5650 1600 50  0001 C CNN
 F 1 "VCC" H 5667 1923 50  0000 C CNN
 F 2 "" H 5650 1750 50  0001 C CNN
 F 3 "" H 5650 1750 50  0001 C CNN
@@ -306,10 +306,10 @@ Connection ~ 5650 1950
 Wire Wire Line
 	5650 1950 6750 1950
 $Comp
-L power:GND #PWR0110
+L power:GND #PWR08
 U 1 1 60F4DB93
 P 5650 5850
-F 0 "#PWR0110" H 5650 5600 50  0001 C CNN
+F 0 "#PWR08" H 5650 5600 50  0001 C CNN
 F 1 "GND" H 5655 5677 50  0000 C CNN
 F 2 "" H 5650 5850 50  0001 C CNN
 F 3 "" H 5650 5850 50  0001 C CNN
@@ -339,7 +339,7 @@ U 1 1 60F4FBAB
 P 1150 3800
 F 0 "C23" H 1265 3846 50  0000 L CNN
 F 1 "100nF" H 1265 3755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1188 3650 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 1188 3650 50  0001 C CNN
 F 3 "~" H 1150 3800 50  0001 C CNN
 	1    1150 3800
 	1    0    0    -1  
@@ -364,7 +364,7 @@ U 1 1 60F51E84
 P 3350 3800
 F 0 "C24" H 3465 3846 50  0000 L CNN
 F 1 "100nF" H 3465 3755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3388 3650 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 3388 3650 50  0001 C CNN
 F 3 "~" H 3350 3800 50  0001 C CNN
 	1    3350 3800
 	1    0    0    -1  
@@ -375,7 +375,7 @@ U 1 1 60F5278F
 P 7850 3800
 F 0 "C25" H 7965 3846 50  0000 L CNN
 F 1 "100nF" H 7965 3755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7888 3650 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 7888 3650 50  0001 C CNN
 F 3 "~" H 7850 3800 50  0001 C CNN
 	1    7850 3800
 	1    0    0    -1  
@@ -386,7 +386,7 @@ U 1 1 60F5320A
 P 10100 3800
 F 0 "C26" H 10215 3846 50  0000 L CNN
 F 1 "100nF" H 10215 3755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10138 3650 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 10138 3650 50  0001 C CNN
 F 3 "~" H 10100 3800 50  0001 C CNN
 	1    10100 3800
 	1    0    0    -1  
@@ -440,25 +440,25 @@ WR
 Text GLabel 2800 4050 2    50   Input ~ 0
 RD
 Text GLabel 2800 3950 2    50   Input ~ 0
-RAMEN
+RAMEN0
 Text GLabel 5000 4200 2    50   Input ~ 0
 WR
 Text GLabel 5000 4100 2    50   Input ~ 0
 RD
 Text GLabel 5000 4000 2    50   Input ~ 0
-RAMEN
+RAMEN1
 Text GLabel 7250 4200 2    50   Input ~ 0
 WR
 Text GLabel 7250 4100 2    50   Input ~ 0
 RD
 Text GLabel 7250 4000 2    50   Input ~ 0
-RAMEN
+RAMEN2
 Text GLabel 9500 4200 2    50   Input ~ 0
 WR
 Text GLabel 9500 4100 2    50   Input ~ 0
 RD
 Text GLabel 9500 4000 2    50   Input ~ 0
-RAMEN
+RAMEN3
 Wire Wire Line
 	3350 2350 3350 3650
 $EndSCHEMATC

@@ -1,0 +1,29 @@
+
+
+                                GAL22V10
+
+                          -------\___/-------
+                     ROMS |  1           24 | VCC
+                          |                 |
+                     RAMS |  2           23 | DSA1
+                          |                 |
+                      A22 |  3           22 | DSA0
+                          |                 |
+                      A21 |  4           21 | ROMEN3
+                          |                 |
+                       A1 |  5           20 | ROMEN2
+                          |                 |
+                       A0 |  6           19 | ROMEN1
+                          |                 |
+                       RW |  7           18 | ROMEN0
+                          |                 |
+                       NC |  8           17 | RAMEN3
+                          |                 |
+                       NC |  9           16 | RAMEN2
+                          |                 |
+                     SIZ0 | 10           15 | RAMEN1
+                          |                 |
+                     SIZ1 | 11           14 | RAMEN0
+                          |                 |
+                      GND | 12           13 | ZRAMS
+                          -------------------
