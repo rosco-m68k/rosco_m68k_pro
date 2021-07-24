@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 4 8
 Title "rosco_m68k Pro (030) Prototype"
 Date "2021-07-16"
 Rev "0"
@@ -273,66 +273,6 @@ Text GLabel 10200 2950 2    50   BiDi ~ 0
 D30
 Text GLabel 10200 3050 2    50   BiDi ~ 0
 D31
-$Comp
-L Device:R R1
-U 1 1 60F8DF4C
-P 1100 3950
-F 0 "R1" H 1170 3996 50  0000 L CNN
-F 1 "4K7" H 1170 3905 50  0000 L CNN
-F 2 "rosco_m68k:R-0207_10" V 1030 3950 50  0001 C CNN
-F 3 "~" H 1100 3950 50  0001 C CNN
-	1    1100 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 60F8F30B
-P 3700 4000
-F 0 "R2" H 3770 4046 50  0000 L CNN
-F 1 "4K7" H 3770 3955 50  0000 L CNN
-F 2 "rosco_m68k:R-0207_10" V 3630 4000 50  0001 C CNN
-F 3 "~" H 3700 4000 50  0001 C CNN
-	1    3700 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 60F8FB9F
-P 6150 4000
-F 0 "R3" H 6220 4046 50  0000 L CNN
-F 1 "4K7" H 6220 3955 50  0000 L CNN
-F 2 "rosco_m68k:R-0207_10" V 6080 4000 50  0001 C CNN
-F 3 "~" H 6150 4000 50  0001 C CNN
-	1    6150 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 60F90337
-P 8550 4000
-F 0 "R4" H 8620 4046 50  0000 L CNN
-F 1 "4K7" H 8620 3955 50  0000 L CNN
-F 2 "rosco_m68k:R-0207_10" V 8480 4000 50  0001 C CNN
-F 3 "~" H 8550 4000 50  0001 C CNN
-	1    8550 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9000 4350 8550 4350
-Wire Wire Line
-	8550 4350 8550 4150
-Wire Wire Line
-	6150 4150 6150 4350
-Wire Wire Line
-	6150 4350 6650 4350
-Wire Wire Line
-	3700 4150 3700 4350
-Wire Wire Line
-	3700 4350 4200 4350
-Wire Wire Line
-	1100 4100 1100 4350
-Wire Wire Line
-	1100 4350 1600 4350
 Wire Wire Line
 	2200 2250 2200 1650
 Wire Wire Line
@@ -356,37 +296,20 @@ F 3 "" H 6150 1050 50  0001 C CNN
 	1    6150 1050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1100 3800 1100 1650
-Wire Wire Line
-	1100 1650 2200 1650
-Connection ~ 2200 1650
-Wire Wire Line
-	3700 3850 3700 1650
-Connection ~ 3700 1650
-Wire Wire Line
-	3700 1650 4800 1650
-Wire Wire Line
-	6150 3850 6150 1650
 Connection ~ 6150 1650
 Wire Wire Line
 	6150 1650 7250 1650
 Wire Wire Line
-	8550 3850 8550 1650
-Connection ~ 8550 1650
-Wire Wire Line
-	8550 1650 9600 1650
-Wire Wire Line
 	4800 1650 5800 1650
 Wire Wire Line
 	6150 1050 6150 1650
-Text GLabel 6650 4650 0    50   Input ~ 0
+Text GLabel 6650 4550 0    50   Input ~ 0
 ROMEN2
-Text GLabel 4200 4650 0    50   Input ~ 0
+Text GLabel 4200 4550 0    50   Input ~ 0
 ROMEN1
-Text GLabel 1600 4650 0    50   Input ~ 0
+Text GLabel 1600 4550 0    50   Input ~ 0
 ROMEN0
-Text GLabel 9000 4650 0    50   Input ~ 0
+Text GLabel 9000 4550 0    50   Input ~ 0
 ROMEN3
 Wire Wire Line
 	2200 4750 2200 5250
@@ -420,28 +343,6 @@ Wire Wire Line
 Connection ~ 6150 5250
 Wire Wire Line
 	6150 5250 7250 5250
-Wire Wire Line
-	6650 4550 6150 4550
-Wire Wire Line
-	6150 4550 6150 5250
-Wire Wire Line
-	9000 4550 8550 4550
-Wire Wire Line
-	8550 4550 8550 5250
-Connection ~ 8550 5250
-Wire Wire Line
-	8550 5250 9600 5250
-Wire Wire Line
-	4200 4550 3700 4550
-Wire Wire Line
-	3700 4550 3700 5250
-Connection ~ 3700 5250
-Wire Wire Line
-	3700 5250 4800 5250
-Wire Wire Line
-	1600 4550 1100 4550
-Wire Wire Line
-	1100 4550 1100 5250
 Wire Wire Line
 	1100 5250 2200 5250
 Connection ~ 2200 5250
@@ -495,12 +396,8 @@ Wire Wire Line
 	2200 1650 3250 1650
 Connection ~ 3250 1650
 Wire Wire Line
-	3250 1650 3700 1650
-Wire Wire Line
 	3250 3600 3250 5250
 Connection ~ 3250 5250
-Wire Wire Line
-	3250 5250 3700 5250
 Wire Wire Line
 	5800 3600 5800 5250
 Connection ~ 5800 5250
@@ -515,12 +412,8 @@ Wire Wire Line
 	8250 3300 8250 1650
 Connection ~ 8250 1650
 Wire Wire Line
-	8250 1650 8550 1650
-Wire Wire Line
 	8250 3600 8250 5250
 Connection ~ 8250 5250
-Wire Wire Line
-	8250 5250 8550 5250
 Wire Wire Line
 	10600 3250 10600 1650
 Wire Wire Line
@@ -531,4 +424,28 @@ Wire Wire Line
 Wire Wire Line
 	10600 5250 10600 3550
 Connection ~ 9600 5250
+Wire Wire Line
+	8250 1650 9600 1650
+Wire Wire Line
+	3250 1650 4800 1650
+Text GLabel 9000 4350 0    50   Input ~ 0
+RW
+Text GLabel 6650 4350 0    50   Input ~ 0
+RW
+Text GLabel 4200 4350 0    50   Input ~ 0
+RW
+Text GLabel 1600 4350 0    50   Input ~ 0
+RW
+Wire Wire Line
+	3250 5250 4800 5250
+Wire Wire Line
+	8250 5250 9600 5250
+Text GLabel 1600 4650 0    50   Input ~ 0
+WR
+Text GLabel 4200 4650 0    50   Input ~ 0
+WR
+Text GLabel 6650 4650 0    50   Input ~ 0
+WR
+Text GLabel 9000 4650 0    50   Input ~ 0
+WR
 $EndSCHEMATC

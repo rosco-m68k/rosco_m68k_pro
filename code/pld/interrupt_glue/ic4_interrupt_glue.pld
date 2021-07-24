@@ -1,0 +1,40 @@
+GAL22V10
+INTRGLUE
+
+RnW   FC0   FC1   FC2   A1    A2    A3    A16   A17   A18   A19  GND
+NC    IACK1 IACK2 IACK3 IACK4 IACK5 IACK6 IACK7 AIACK NC    WnR  VCC
+
+/IACK1  = FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 * /A2 * /A3
+/IACK2  = FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 *  A2 * /A3
+/IACK3  = FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 *  A2 * /A3
+/IACK4  = FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 * /A2 *  A3
+/IACK5  = FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 * /A2 *  A3
+/IACK6  = FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 *  A2 *  A3
+/IACK7  = FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 *  A2 *  A3
+
+/AIACK  = FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 * /A2 * /A3
+        + FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 *  A2 * /A3
+        + FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 *  A2 * /A3
+        + FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 * /A2 *  A3
+        + FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 * /A2 *  A3
+        + FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 *  A2 *  A3
+        + FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 *  A2 *  A3
+
+DESCRIPTION
+
+rosco_m68k Pro Non-specific Interrupt Glue
+
+Copyright (c)2021 Ross Bamford & Contributors
+See LICENSE.md for licence details (spoiler: CERN / MIT).
+
+This GAL handles non-peripheral-specific interrupt acknowledgement
+glue. General R/W inversion for use in various places is also handled
+here.
+
+The individual IACKn signals generated here indicate interrupt 
+acknowledgement for the seven interrupt levels. They are active low.
+
+The AIACK signal is also active low, and indicates that an IACK is
+being signalled for *any* priority level. This is primarily used for
+the spurious interrupt watchdog.
+

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 6 8
 Title "rosco_m68k Pro (030) Prototype"
 Date "2021-07-16"
 Rev "0"
@@ -173,569 +173,148 @@ Connection ~ 18700 7800
 Wire Wire Line
 	18700 7800 18700 7950
 Wire Wire Line
-	4800 5000 4800 5600
+	9450 4000 9050 4000
 Wire Wire Line
-	5700 6200 5900 6200
+	9050 4000 8650 4000
 Wire Wire Line
-	3800 5300 3800 5600
+	8650 4000 8650 4300
 Wire Wire Line
-	5600 5000 5700 5000
+	9850 4000 10250 4000
 Wire Wire Line
-	9550 3500 9550 3600
+	10250 4000 10650 4000
 Wire Wire Line
-	10200 3600 10200 3500
+	10650 4000 10650 4300
 Wire Wire Line
-	8500 3600 8500 3500
-Connection ~ 9550 3500
+	10250 4300 10250 4000
 Wire Wire Line
-	4600 4600 4800 4600
+	9850 4300 9850 4000
 Wire Wire Line
-	2100 5350 1900 5350
+	9450 4300 9450 4000
 Wire Wire Line
-	1900 5350 1500 5350
+	9050 4300 9050 4000
+Connection ~ 10250 4000
+Connection ~ 9850 4000
+Connection ~ 9450 4000
+Connection ~ 9050 4000
 Wire Wire Line
-	1500 5350 1100 5350
+	8650 5500 8650 4700
 Wire Wire Line
-	1100 5350 1100 5650
-Wire Wire Line
-	2100 5350 2300 5350
-Wire Wire Line
-	2300 5350 2700 5350
-Wire Wire Line
-	2700 5350 3100 5350
-Wire Wire Line
-	3100 5350 3100 5650
-Wire Wire Line
-	2700 5650 2700 5350
-Wire Wire Line
-	2300 5650 2300 5350
-Wire Wire Line
-	1900 5650 1900 5350
-Wire Wire Line
-	1500 5650 1500 5350
-Connection ~ 2100 5350
-Connection ~ 2700 5350
-Connection ~ 2300 5350
-Connection ~ 1900 5350
-Connection ~ 1500 5350
-Wire Wire Line
-	4200 3900 4200 4800
-Wire Wire Line
-	4200 4800 4800 4800
-Wire Wire Line
-	7150 5800 7250 5800
-Wire Wire Line
-	7350 4800 7250 4800
-Wire Wire Line
-	7250 4800 7250 4600
-Wire Wire Line
-	7250 4600 7350 4600
-Connection ~ 7250 4800
-Text GLabel 10700 5800 2    67   Output ~ 0
-HALT
-Wire Wire Line
-	8500 4700 8500 4500
-Wire Wire Line
-	8500 4200 8500 4000
-Wire Wire Line
-	6250 5800 6450 5800
-Wire Wire Line
-	6450 5800 6450 5700
-Wire Wire Line
-	6450 5700 6550 5700
-Wire Wire Line
-	6450 5800 6450 5900
-Wire Wire Line
-	6450 5900 6550 5900
-Wire Wire Line
-	6250 5800 6250 6300
-Wire Wire Line
-	6250 6300 6450 6300
-Wire Wire Line
-	6450 6300 6450 6200
-Wire Wire Line
-	6450 6200 6550 6200
-Wire Wire Line
-	6450 6300 6450 6400
-Wire Wire Line
-	6450 6400 6550 6400
-Connection ~ 6450 5800
-Connection ~ 6450 6300
-Connection ~ 6250 5800
-Wire Wire Line
-	5100 6200 5300 6200
-Wire Wire Line
-	5600 4800 5900 4800
-Wire Wire Line
-	4800 4400 3800 4400
-Wire Wire Line
-	3800 4400 3400 4400
-Wire Wire Line
-	4100 5900 3400 5900
-Wire Wire Line
-	3400 5900 3400 4400
-Wire Wire Line
-	4700 6200 4100 6200
-Wire Wire Line
-	4100 6200 4100 5900
-Wire Wire Line
-	3800 3900 3800 4400
-Wire Wire Line
-	5900 4800 5900 5900
-Wire Wire Line
-	5900 5900 4100 5900
-Wire Wire Line
-	3800 4400 3800 5000
-Connection ~ 3800 4400
-Connection ~ 4100 5900
-Text GLabel 10700 6300 2    67   Output ~ 0
-RESET
-Wire Wire Line
-	1100 6850 1100 6050
-Wire Wire Line
-	1500 6850 1500 6050
-Text GLabel 1500 6850 3    70   UnSpc ~ 0
+	9050 5500 9050 4700
+Text GLabel 9050 5500 3    70   UnSpc ~ 0
 IPL1
 Wire Wire Line
-	1900 6850 1900 6050
-Text GLabel 1900 6850 3    70   UnSpc ~ 0
+	9450 5500 9450 4700
+Text GLabel 9450 5500 3    70   UnSpc ~ 0
 IPL0
 Wire Wire Line
-	2700 6850 2700 6050
-Text GLabel 2700 6850 3    70   UnSpc ~ 0
+	10250 5500 10250 4700
+Text GLabel 10250 5500 3    70   UnSpc ~ 0
 BGACK
 Wire Wire Line
-	2300 6850 2300 6050
-Text GLabel 2300 6850 3    70   UnSpc ~ 0
+	9850 5500 9850 4700
+Text GLabel 9850 5500 3    70   UnSpc ~ 0
 BR
 Wire Wire Line
-	3100 6850 3100 6050
-Text GLabel 3100 6850 3    70   UnSpc ~ 0
+	10650 5500 10650 4700
+Text GLabel 10650 5500 3    70   UnSpc ~ 0
 BERR
-$Comp
-L rosco_m68k-eagle-import:555N IC?
-U 1 1 60F551B6
-P 5200 4700
-AR Path="/60F551B6" Ref="IC?"  Part="1" 
-AR Path="/5E53B952/60F551B6" Ref="IC?"  Part="1" 
-AR Path="/60FBFA5C/60F551B6" Ref="IC?"  Part="1" 
-F 0 "IC?" H 4900 5130 59  0000 L BNN
-F 1 "555N" H 4900 4195 59  0000 L BNN
-F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 5200 4700 50  0001 C CNN
-F 3 "" H 5200 4700 50  0001 C CNN
-	1    5200 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:7401N IC?
-U 1 1 60F551BC
-P 6850 5800
-AR Path="/60F551BC" Ref="IC?"  Part="1" 
-AR Path="/5E53B952/60F551BC" Ref="IC?"  Part="1" 
-AR Path="/60FBFA5C/60F551BC" Ref="IC?"  Part="1" 
-F 0 "IC?" H 6950 5925 59  0000 L BNN
-F 1 "74LS01N" H 6950 5600 59  0001 L BNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6850 5800 50  0001 C CNN
-F 3 "" H 6850 5800 50  0001 C CNN
-	1    6850 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:7401N IC?
-U 2 1 60F551C2
-P 6850 6300
-AR Path="/60F551C2" Ref="IC?"  Part="2" 
-AR Path="/5E53B952/60F551C2" Ref="IC?"  Part="2" 
-AR Path="/60FBFA5C/60F551C2" Ref="IC?"  Part="2" 
-F 0 "IC?" H 6950 6425 59  0000 L BNN
-F 1 "74LS01N" H 6950 6100 59  0001 L BNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6850 6300 50  0001 C CNN
-F 3 "" H 6850 6300 50  0001 C CNN
-	2    6850 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:7401N IC?
-U 3 1 60F551C8
-P 7650 4700
-AR Path="/60F551C8" Ref="IC?"  Part="3" 
-AR Path="/5E53B952/60F551C8" Ref="IC?"  Part="3" 
-AR Path="/60FBFA5C/60F551C8" Ref="IC?"  Part="3" 
-F 0 "IC?" H 7750 4825 59  0000 L BNN
-F 1 "74LS01N" H 7750 4500 59  0001 L BNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 7650 4700 50  0001 C CNN
-F 3 "" H 7650 4700 50  0001 C CNN
-	3    7650 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:R-EU_0207_10 R?
-U 1 1 60F551CE
-P 3800 3700
-AR Path="/60F551CE" Ref="R?"  Part="1" 
-AR Path="/5E53B952/60F551CE" Ref="R?"  Part="1" 
-AR Path="/60FBFA5C/60F551CE" Ref="R?"  Part="1" 
-F 0 "R?" V 3941 3750 59  0000 L BNN
-F 1 "2K2" V 3830 3750 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 3800 3700 50  0001 C CNN
-F 3 "" H 3800 3700 50  0001 C CNN
-	1    3800 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:R-EU_0207_10 R?
-U 1 1 60F551D4
-P 5500 6200
-AR Path="/60F551D4" Ref="R?"  Part="1" 
-AR Path="/5E53B952/60F551D4" Ref="R?"  Part="1" 
-AR Path="/60FBFA5C/60F551D4" Ref="R?"  Part="1" 
-F 0 "R?" H 5450 6050 59  0000 L BNN
-F 1 "270R" H 5400 6300 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 5500 6200 50  0001 C CNN
-F 3 "" H 5500 6200 50  0001 C CNN
-	1    5500 6200
-	-1   0    0    1   
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:R-EU_0207_10 R?
-U 1 1 60F551DA
-P 9100 3800
-AR Path="/60F551DA" Ref="R?"  Part="1" 
-AR Path="/5E53B952/60F551DA" Ref="R?"  Part="1" 
-AR Path="/60FBFA5C/60F551DA" Ref="R?"  Part="1" 
-F 0 "R?" V 9241 3850 59  0000 L BNN
-F 1 "330R" V 9130 3850 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 9100 3800 50  0001 C CNN
-F 3 "" H 9100 3800 50  0001 C CNN
-	1    9100 3800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:R-EU_0207_10 R?
-U 1 1 60F551E0
-P 9550 3800
-AR Path="/60F551E0" Ref="R?"  Part="1" 
-AR Path="/5E53B952/60F551E0" Ref="R?"  Part="1" 
-AR Path="/60FBFA5C/60F551E0" Ref="R?"  Part="1" 
-F 0 "R?" V 9691 3850 59  0000 L BNN
-F 1 "4K7" V 9580 3850 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 9550 3800 50  0001 C CNN
-F 3 "" H 9550 3800 50  0001 C CNN
-	1    9550 3800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:R-EU_0207_10 R?
-U 1 1 60F551E6
-P 10200 3800
-AR Path="/60F551E6" Ref="R?"  Part="1" 
-AR Path="/5E53B952/60F551E6" Ref="R?"  Part="1" 
-AR Path="/60FBFA5C/60F551E6" Ref="R?"  Part="1" 
-F 0 "R?" V 10341 3850 59  0000 L BNN
-F 1 "4K7" V 10230 3850 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 10200 3800 50  0001 C CNN
-F 3 "" H 10200 3800 50  0001 C CNN
-	1    10200 3800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:R-EU_0207_10 R?
-U 1 1 60F551EC
-P 8500 3800
-AR Path="/60F551EC" Ref="R?"  Part="1" 
-AR Path="/5E53B952/60F551EC" Ref="R?"  Part="1" 
-AR Path="/60FBFA5C/60F551EC" Ref="R?"  Part="1" 
-F 0 "R?" V 8641 3850 59  0000 L BNN
-F 1 "330R" V 8530 3850 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 8500 3800 50  0001 C CNN
-F 3 "" H 8500 3800 50  0001 C CNN
-	1    8500 3800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:C2,5-3 C?
-U 1 1 60F551F2
-P 4200 3700
-AR Path="/60F551F2" Ref="C?"  Part="1" 
-AR Path="/5E53B952/60F551F2" Ref="C?"  Part="1" 
-AR Path="/60FBFA5C/60F551F2" Ref="C?"  Part="1" 
-F 0 "C?" H 4260 3715 59  0000 L BNN
-F 1 "100nF" H 4260 3515 59  0000 L BNN
-F 2 "rosco_m68k:C2.5-3" H 4200 3700 50  0001 C CNN
-F 3 "" H 4200 3700 50  0001 C CNN
-	1    4200 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:10-XX S?
-U 1 1 60F551F8
-P 4900 6200
-AR Path="/60F551F8" Ref="S?"  Part="1" 
-AR Path="/5E53B952/60F551F8" Ref="S?"  Part="1" 
-AR Path="/60FBFA5C/60F551F8" Ref="S?"  Part="1" 
-F 0 "S?" V 4650 6100 59  0000 L BNN
-F 1 "10-XX" V 4750 6325 59  0000 L BNN
-F 2 "rosco_m68k:B3F-10XX" H 4900 6200 50  0001 C CNN
-F 3 "" H 4900 6200 50  0001 C CNN
-	1    4900 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:GND #SUPPLY?
-U 1 1 60F551FE
-P 3800 5700
-AR Path="/60F551FE" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5E53B952/60F551FE" Ref="#SUPPLY?"  Part="1" 
-AR Path="/60FBFA5C/60F551FE" Ref="#SUPPLY?"  Part="1" 
-F 0 "#SUPPLY?" H 3800 5700 50  0001 C CNN
-F 1 "GND" H 3725 5575 59  0000 L BNN
-F 2 "" H 3800 5700 50  0001 C CNN
-F 3 "" H 3800 5700 50  0001 C CNN
-	1    3800 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:LED5MM LED?
-U 1 1 60F55204
-P 9100 4300
-AR Path="/60F55204" Ref="LED?"  Part="1" 
-AR Path="/5E53B952/60F55204" Ref="LED?"  Part="1" 
-AR Path="/60FBFA5C/60F55204" Ref="LED?"  Part="1" 
-F 0 "LED?" H 9350 4400 59  0000 R TNN
-F 1 "RED" H 9350 4300 59  0000 R TNN
-F 2 "rosco_m68k:LED5MM" H 9100 4300 50  0001 C CNN
-F 3 "" H 9100 4300 50  0001 C CNN
-	1    9100 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:LED5MM LED?
-U 1 1 60F5520A
-P 8500 4300
-AR Path="/60F5520A" Ref="LED?"  Part="1" 
-AR Path="/5E53B952/60F5520A" Ref="LED?"  Part="1" 
-AR Path="/60FBFA5C/60F5520A" Ref="LED?"  Part="1" 
-F 0 "LED?" H 8750 4400 59  0000 R TNN
-F 1 "GREEN" H 8850 4300 59  0000 R TNN
-F 2 "rosco_m68k:LED5MM" H 8500 4300 50  0001 C CNN
-F 3 "" H 8500 4300 50  0001 C CNN
-	1    8500 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:GND #SUPPLY?
-U 1 1 60F55210
-P 4800 5700
-AR Path="/60F55210" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5E53B952/60F55210" Ref="#SUPPLY?"  Part="1" 
-AR Path="/60FBFA5C/60F55210" Ref="#SUPPLY?"  Part="1" 
-F 0 "#SUPPLY?" H 4800 5700 50  0001 C CNN
-F 1 "GND" H 4725 5575 59  0000 L BNN
-F 2 "" H 4800 5700 50  0001 C CNN
-F 3 "" H 4800 5700 50  0001 C CNN
-	1    4800 5700
-	1    0    0    -1  
-$EndComp
 $Comp
 L rosco_m68k-eagle-import:R-EU_0207_10 R?
 U 1 1 60F55216
-P 1100 5850
+P 8650 4500
 AR Path="/60F55216" Ref="R?"  Part="1" 
 AR Path="/5E53B952/60F55216" Ref="R?"  Part="1" 
 AR Path="/60FBFA5C/60F55216" Ref="R?"  Part="1" 
-F 0 "R?" V 950 5909 59  0000 L BNN
-F 1 "4K7" V 1130 5900 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 1100 5850 50  0001 C CNN
-F 3 "" H 1100 5850 50  0001 C CNN
-	1    1100 5850
+F 0 "R?" V 8500 4559 59  0000 L BNN
+F 1 "4K7" V 8680 4550 59  0000 L BNN
+F 2 "rosco_m68k:0207_10" H 8650 4500 50  0001 C CNN
+F 3 "" H 8650 4500 50  0001 C CNN
+	1    8650 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L rosco_m68k-eagle-import:R-EU_0207_10 R?
 U 1 1 60F5521C
-P 1500 5850
+P 9050 4500
 AR Path="/60F5521C" Ref="R?"  Part="1" 
 AR Path="/5E53B952/60F5521C" Ref="R?"  Part="1" 
 AR Path="/60FBFA5C/60F5521C" Ref="R?"  Part="1" 
-F 0 "R?" V 1350 5909 59  0000 L BNN
-F 1 "4K7" V 1530 5900 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 1500 5850 50  0001 C CNN
-F 3 "" H 1500 5850 50  0001 C CNN
-	1    1500 5850
+F 0 "R?" V 8900 4559 59  0000 L BNN
+F 1 "4K7" V 9080 4550 59  0000 L BNN
+F 2 "rosco_m68k:0207_10" H 9050 4500 50  0001 C CNN
+F 3 "" H 9050 4500 50  0001 C CNN
+	1    9050 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L rosco_m68k-eagle-import:R-EU_0207_10 R?
 U 1 1 60F55222
-P 1900 5850
+P 9450 4500
 AR Path="/60F55222" Ref="R?"  Part="1" 
 AR Path="/5E53B952/60F55222" Ref="R?"  Part="1" 
 AR Path="/60FBFA5C/60F55222" Ref="R?"  Part="1" 
-F 0 "R?" V 1750 5909 59  0000 L BNN
-F 1 "4K7" V 1930 5900 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 1900 5850 50  0001 C CNN
-F 3 "" H 1900 5850 50  0001 C CNN
-	1    1900 5850
+F 0 "R?" V 9300 4559 59  0000 L BNN
+F 1 "4K7" V 9480 4550 59  0000 L BNN
+F 2 "rosco_m68k:0207_10" H 9450 4500 50  0001 C CNN
+F 3 "" H 9450 4500 50  0001 C CNN
+	1    9450 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L rosco_m68k-eagle-import:R-EU_0207_10 R?
 U 1 1 60F55228
-P 2300 5850
+P 9850 4500
 AR Path="/60F55228" Ref="R?"  Part="1" 
 AR Path="/5E53B952/60F55228" Ref="R?"  Part="1" 
 AR Path="/60FBFA5C/60F55228" Ref="R?"  Part="1" 
-F 0 "R?" V 2150 5909 59  0000 L BNN
-F 1 "4K7" V 2330 5900 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 2300 5850 50  0001 C CNN
-F 3 "" H 2300 5850 50  0001 C CNN
-	1    2300 5850
+F 0 "R?" V 9700 4559 59  0000 L BNN
+F 1 "4K7" V 9880 4550 59  0000 L BNN
+F 2 "rosco_m68k:0207_10" H 9850 4500 50  0001 C CNN
+F 3 "" H 9850 4500 50  0001 C CNN
+	1    9850 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L rosco_m68k-eagle-import:R-EU_0207_10 R?
 U 1 1 60F5522E
-P 2700 5850
+P 10250 4500
 AR Path="/60F5522E" Ref="R?"  Part="1" 
 AR Path="/5E53B952/60F5522E" Ref="R?"  Part="1" 
 AR Path="/60FBFA5C/60F5522E" Ref="R?"  Part="1" 
-F 0 "R?" V 2550 5909 59  0000 L BNN
-F 1 "4K7" V 2730 5900 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 2700 5850 50  0001 C CNN
-F 3 "" H 2700 5850 50  0001 C CNN
-	1    2700 5850
+F 0 "R?" V 10100 4559 59  0000 L BNN
+F 1 "4K7" V 10280 4550 59  0000 L BNN
+F 2 "rosco_m68k:0207_10" H 10250 4500 50  0001 C CNN
+F 3 "" H 10250 4500 50  0001 C CNN
+	1    10250 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L rosco_m68k-eagle-import:R-EU_0207_10 R?
 U 1 1 60F55234
-P 3100 5850
+P 10650 4500
 AR Path="/60F55234" Ref="R?"  Part="1" 
 AR Path="/5E53B952/60F55234" Ref="R?"  Part="1" 
 AR Path="/60FBFA5C/60F55234" Ref="R?"  Part="1" 
-F 0 "R?" V 2950 5909 59  0000 L BNN
-F 1 "4K7" V 3130 5900 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 3100 5850 50  0001 C CNN
-F 3 "" H 3100 5850 50  0001 C CNN
-	1    3100 5850
+F 0 "R?" V 10500 4559 59  0000 L BNN
+F 1 "4K7" V 10680 4550 59  0000 L BNN
+F 2 "rosco_m68k:0207_10" H 10650 4500 50  0001 C CNN
+F 3 "" H 10650 4500 50  0001 C CNN
+	1    10650 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L rosco_m68k-eagle-import:CPOL-EUE2.5-5 C?
-U 1 1 60F5523A
-P 3800 5100
-AR Path="/60F5523A" Ref="C?"  Part="1" 
-AR Path="/5E53B952/60F5523A" Ref="C?"  Part="1" 
-AR Path="/60FBFA5C/60F5523A" Ref="C?"  Part="1" 
-F 0 "C?" H 3845 5119 59  0000 L BNN
-F 1 "100uF" H 3845 4919 59  0000 L BNN
-F 2 "rosco_m68k:E2,5-5" H 3800 5100 50  0001 C CNN
-F 3 "" H 3800 5100 50  0001 C CNN
-	1    3800 5100
-	1    0    0    -1  
-$EndComp
-Text Notes 6450 4050 0    98   ~ 0
-RESET CIRCUIT
-NoConn ~ 5100 6100
-NoConn ~ 4700 6100
-NoConn ~ 5600 4600
-$Comp
-L power:GND #PWR?
-U 1 1 60F55244
-P 5900 6700
-F 0 "#PWR?" H 5900 6450 50  0001 C CNN
-F 1 "GND" H 5905 6527 50  0000 C CNN
-F 2 "" H 5900 6700 50  0001 C CNN
-F 3 "" H 5900 6700 50  0001 C CNN
-	1    5900 6700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 6200 5900 6700
-$Comp
-L power:VCC #PWR?
-U 1 1 60F5524B
-P 4600 3200
-F 0 "#PWR?" H 4600 3050 50  0001 C CNN
-F 1 "VCC" H 4617 3373 50  0000 C CNN
-F 2 "" H 4600 3200 50  0001 C CNN
-F 3 "" H 4600 3200 50  0001 C CNN
-	1    4600 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 60F55251
-P 5700 3200
-F 0 "#PWR?" H 5700 3050 50  0001 C CNN
-F 1 "VCC" H 5717 3373 50  0000 C CNN
-F 2 "" H 5700 3200 50  0001 C CNN
-F 3 "" H 5700 3200 50  0001 C CNN
-	1    5700 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 60F55257
-P 9550 3200
-F 0 "#PWR?" H 9550 3050 50  0001 C CNN
-F 1 "VCC" H 9567 3373 50  0000 C CNN
-F 2 "" H 9550 3200 50  0001 C CNN
-F 3 "" H 9550 3200 50  0001 C CNN
-	1    9550 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9550 3200 9550 3500
-Wire Wire Line
-	5700 3200 5700 5000
-$Comp
 L power:VCC #PWR?
 U 1 1 60F5525F
-P 2100 4950
-F 0 "#PWR?" H 2100 4800 50  0001 C CNN
-F 1 "VCC" H 2117 5123 50  0000 C CNN
-F 2 "" H 2100 4950 50  0001 C CNN
-F 3 "" H 2100 4950 50  0001 C CNN
-	1    2100 4950
+P 9650 3800
+F 0 "#PWR?" H 9650 3650 50  0001 C CNN
+F 1 "VCC" H 9667 3973 50  0000 C CNN
+F 2 "" H 9650 3800 50  0001 C CNN
+F 3 "" H 9650 3800 50  0001 C CNN
+	1    9650 3800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2100 4950 2100 5350
-Text GLabel 1100 6850 3    70   UnSpc ~ 0
+Text GLabel 8650 5500 3    70   UnSpc ~ 0
 IPL2
-Wire Wire Line
-	7250 4800 7250 5800
-Wire Wire Line
-	10200 4000 10200 6300
-Wire Wire Line
-	9550 4000 9550 5800
-Connection ~ 9550 5800
-Wire Wire Line
-	9550 5800 10700 5800
-Wire Wire Line
-	8500 3500 9100 3500
-Wire Wire Line
-	9100 3600 9100 3500
-Connection ~ 9100 3500
-Wire Wire Line
-	9100 3500 9550 3500
-Wire Wire Line
-	9100 4000 9100 4200
-Wire Wire Line
-	7950 4700 8500 4700
-Wire Wire Line
-	7250 5800 9550 5800
-Connection ~ 7250 5800
-Connection ~ 10200 6300
-Wire Wire Line
-	10200 6300 10700 6300
-Wire Wire Line
-	9550 3500 10200 3500
-Wire Wire Line
-	5600 4400 6250 4400
-Wire Wire Line
-	6250 4400 6250 5800
 Wire Wire Line
 	1950 1150 2750 1150
 Wire Wire Line
@@ -838,41 +417,6 @@ Wire Wire Line
 	1950 1550 1950 2450
 Wire Wire Line
 	1950 750  1950 1150
-Wire Wire Line
-	4600 3200 4600 4600
-$Comp
-L power:VCC #PWR?
-U 1 1 60F552AB
-P 4200 3200
-F 0 "#PWR?" H 4200 3050 50  0001 C CNN
-F 1 "VCC" H 4217 3373 50  0000 C CNN
-F 2 "" H 4200 3200 50  0001 C CNN
-F 3 "" H 4200 3200 50  0001 C CNN
-	1    4200 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 60F552B1
-P 3800 3200
-F 0 "#PWR?" H 3800 3050 50  0001 C CNN
-F 1 "VCC" H 3817 3373 50  0000 C CNN
-F 2 "" H 3800 3200 50  0001 C CNN
-F 3 "" H 3800 3200 50  0001 C CNN
-	1    3800 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 3200 4200 3600
-Wire Wire Line
-	3800 3200 3800 3500
-Wire Wire Line
-	7150 6300 9100 6300
-Wire Wire Line
-	9100 4500 9100 6300
-Connection ~ 9100 6300
-Wire Wire Line
-	9100 6300 10200 6300
 $Comp
 L rosco_m68k-eagle-import:7401N IC?
 U 4 1 60F552BD
@@ -893,7 +437,7 @@ BERR
 Text Notes 8900 2600 2    50   ~ 0
 DTACK WATCHDOG
 Wire Wire Line
-	8550 750  8550 1000
+	8550 750  8550 850 
 Wire Wire Line
 	8550 2000 8550 2200
 $Comp
@@ -932,12 +476,6 @@ Wire Wire Line
 Text GLabel 8050 1300 0    50   Input ~ 0
 E
 Wire Wire Line
-	7200 1400 8050 1400
-Wire Wire Line
-	7200 2450 7200 1400
-Wire Wire Line
-	9200 2450 7200 2450
-Wire Wire Line
 	9200 1300 9200 2450
 Wire Wire Line
 	9050 1300 9200 1300
@@ -950,7 +488,7 @@ Wire Wire Line
 	8050 1600 7850 1600
 Wire Wire Line
 	7650 1700 7850 1700
-Text GLabel 7650 1700 0    50   Input ~ 0
+Text GLabel 7050 1600 0    50   Input ~ 0
 AS
 $Comp
 L 74xx:74LS93 IC?
@@ -963,6 +501,288 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS93" H 8550 1500 50  0001 C CNN
 	1    8550 1500
 	1    0    0    -1  
 $EndComp
+$Comp
+L 74xx:74LS08 U?
+U 1 1 60FBB5A0
+P 7350 1700
+F 0 "U?" H 7350 2025 50  0000 C CNN
+F 1 "74LS08" H 7350 1934 50  0000 C CNN
+F 2 "" H 7350 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7350 1700 50  0001 C CNN
+	1    7350 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 7050 1800 0    50   Input ~ 0
+ANYIACK
+Wire Wire Line
+	6600 1400 6600 2450
+Wire Wire Line
+	6600 1400 8050 1400
+Wire Wire Line
+	6600 2450 9200 2450
+$Comp
+L 74xx:74LS08 U?
+U 5 1 60FC7B8C
+P 6050 1550
+F 0 "U?" H 6280 1596 50  0000 L CNN
+F 1 "74LS08" H 6280 1505 50  0000 L CNN
+F 2 "" H 6050 1550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 6050 1550 50  0001 C CNN
+	5    6050 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1050 6050 850 
+Wire Wire Line
+	6050 850  8550 850 
+Connection ~ 8550 850 
+Wire Wire Line
+	8550 850  8550 1000
+$Comp
+L power:GND #PWR?
+U 1 1 60FD4226
+P 6050 2400
+F 0 "#PWR?" H 6050 2150 50  0001 C CNN
+F 1 "GND" H 6055 2227 50  0000 C CNN
+F 2 "" H 6050 2400 50  0001 C CNN
+F 3 "" H 6050 2400 50  0001 C CNN
+	1    6050 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2050 6050 2400
+$Comp
+L 74xx:74LS148 U?
+U 1 1 60FDC019
+P 2650 5150
+F 0 "U?" H 2650 6031 50  0000 C CNN
+F 1 "74LS148" H 2650 5940 50  0000 C CNN
+F 2 "" H 2650 5150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS148" H 2650 5150 50  0001 C CNN
+	1    2650 5150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3150 5250
+NoConn ~ 3150 5350
+Text GLabel 2150 4850 0    50   Input ~ 0
+IRQ1
+Text GLabel 2150 4950 0    50   Input ~ 0
+IRQ2
+Text GLabel 2150 5050 0    50   Input ~ 0
+IRQ3
+Text GLabel 2150 5150 0    50   Input ~ 0
+IRQ4
+Text GLabel 2150 5250 0    50   Input ~ 0
+IRQ5
+Text GLabel 2150 5350 0    50   Input ~ 0
+IRQ6
+Text GLabel 2150 5450 0    50   Input ~ 0
+IRQ7
+$Comp
+L Device:R R?
+U 1 1 60FEC615
+P 1950 5950
+F 0 "R?" H 2020 5996 50  0000 L CNN
+F 1 "R" H 2020 5905 50  0000 L CNN
+F 2 "" V 1880 5950 50  0001 C CNN
+F 3 "~" H 1950 5950 50  0001 C CNN
+	1    1950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60FED0CB
+P 1950 4300
+F 0 "R?" H 2020 4346 50  0000 L CNN
+F 1 "R" H 2020 4255 50  0000 L CNN
+F 2 "" V 1880 4300 50  0001 C CNN
+F 3 "~" H 1950 4300 50  0001 C CNN
+	1    1950 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 4450 1950 4750
+Wire Wire Line
+	1950 4750 2150 4750
+Wire Wire Line
+	1950 5800 1950 5550
+Wire Wire Line
+	1950 5550 2150 5550
+Wire Wire Line
+	2650 4450 2300 4450
+Wire Wire Line
+	2300 4450 2300 4000
+Wire Wire Line
+	2300 4000 1950 4000
+Wire Wire Line
+	1950 4000 1950 4150
+Wire Wire Line
+	1950 4000 1950 3800
+$Comp
+L power:VCC #PWR?
+U 1 1 61009CD3
+P 1950 3800
+F 0 "#PWR?" H 1950 3650 50  0001 C CNN
+F 1 "VCC" H 1967 3973 50  0000 C CNN
+F 2 "" H 1950 3800 50  0001 C CNN
+F 3 "" H 1950 3800 50  0001 C CNN
+	1    1950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6100AA24
+P 1950 6200
+F 0 "#PWR?" H 1950 5950 50  0001 C CNN
+F 1 "GND" H 1955 6027 50  0000 C CNN
+F 2 "" H 1950 6200 50  0001 C CNN
+F 3 "" H 1950 6200 50  0001 C CNN
+	1    1950 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 6100 1950 6200
+Wire Wire Line
+	2000 6150 2650 6150
+Wire Wire Line
+	2650 6150 2650 5850
+$Comp
+L rosco_m68k-eagle-import:C2,5-3 C?
+U 1 1 6101C10C
+P 3650 5000
+AR Path="/6101C10C" Ref="C?"  Part="1" 
+AR Path="/5E53B952/6101C10C" Ref="C?"  Part="1" 
+AR Path="/60FBFA5C/6101C10C" Ref="C?"  Part="1" 
+F 0 "C?" H 3710 5015 59  0000 L BNN
+F 1 "100nF" H 3710 4815 59  0000 L BNN
+F 2 "rosco_m68k:C2.5-3" H 3650 5000 50  0001 C CNN
+F 3 "" H 3650 5000 50  0001 C CNN
+	1    3650 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4900 3650 4450
+Wire Wire Line
+	3650 4450 2650 4450
+Connection ~ 2650 4450
+Wire Wire Line
+	9450 4000 9650 4000
+Wire Wire Line
+	9650 3800 9650 4000
+Connection ~ 9650 4000
+Wire Wire Line
+	9650 4000 9850 4000
+Wire Wire Line
+	2650 6150 3650 6150
+Wire Wire Line
+	3650 6150 3650 5200
+Connection ~ 2650 6150
+Text GLabel 3150 4750 2    50   Output ~ 0
+IPL1
+Text GLabel 3150 4850 2    50   Output ~ 0
+IPL2
+Text GLabel 3150 4950 2    50   Output ~ 0
+IPL3
+Connection ~ 1950 4000
+Text Notes 2200 6450 0    59   ~ 0
+INTERRUPT PRIORITY ENCODER
+$Comp
+L 74xx:74LS93 IC?
+U 1 1 6107269E
+P 6150 4300
+F 0 "IC?" H 5950 4700 50  0000 C CNN
+F 1 "74LS93" H 6350 4700 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6150 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS93" H 6150 4300 50  0001 C CNN
+	1    6150 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4100 6900 4100
+Wire Wire Line
+	6900 4100 6900 3400
+Wire Wire Line
+	6900 3400 5400 3400
+Wire Wire Line
+	5400 3400 5400 4200
+Wire Wire Line
+	5400 4200 5650 4200
+Wire Wire Line
+	5650 4400 5400 4400
+Wire Wire Line
+	5650 4500 5400 4500
+Wire Wire Line
+	5400 4400 5400 4500
+Connection ~ 5400 4500
+NoConn ~ 6650 4300
+NoConn ~ 6650 4400
+Text GLabel 5650 4100 0    50   Input ~ 0
+CLK
+Text GLabel 6650 4200 2    50   Output ~ 0
+CLK_1M
+$Comp
+L power:VCC #PWR?
+U 1 1 6108898F
+P 6150 3650
+F 0 "#PWR?" H 6150 3500 50  0001 C CNN
+F 1 "VCC" H 6167 3823 50  0000 C CNN
+F 2 "" H 6150 3650 50  0001 C CNN
+F 3 "" H 6150 3650 50  0001 C CNN
+	1    6150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61089066
+P 6150 5150
+F 0 "#PWR?" H 6150 4900 50  0001 C CNN
+F 1 "GND" H 6155 4977 50  0000 C CNN
+F 2 "" H 6150 5150 50  0001 C CNN
+F 3 "" H 6150 5150 50  0001 C CNN
+	1    6150 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 4800 6150 4850
+Wire Wire Line
+	6150 5000 5400 5000
+Wire Wire Line
+	5400 4500 5400 5000
+Connection ~ 6150 5000
+Wire Wire Line
+	6150 5000 6150 5150
+Wire Wire Line
+	6150 3650 6150 3700
+$Comp
+L rosco_m68k-eagle-import:C2,5-3 C?
+U 1 1 6109A096
+P 7350 4100
+AR Path="/6109A096" Ref="C?"  Part="1" 
+AR Path="/5E53B952/6109A096" Ref="C?"  Part="1" 
+AR Path="/60FBFA5C/6109A096" Ref="C?"  Part="1" 
+F 0 "C?" H 7410 4115 59  0000 L BNN
+F 1 "100nF" H 7410 3915 59  0000 L BNN
+F 2 "rosco_m68k:C2.5-3" H 7350 4100 50  0001 C CNN
+F 3 "" H 7350 4100 50  0001 C CNN
+	1    7350 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3700 7350 3700
+Wire Wire Line
+	7350 3700 7350 4000
+Connection ~ 6150 3700
+Wire Wire Line
+	6150 3700 6150 3800
+Wire Wire Line
+	6150 4850 7350 4850
+Wire Wire Line
+	7350 4850 7350 4300
+Connection ~ 6150 4850
+Wire Wire Line
+	6150 4850 6150 5000
+Text Notes 5900 5600 0    59   ~ 0
+1MHz CLOCK DIVIDER
 Wire Wire Line
 	18700 6600 19700 6600
 Wire Bus Line
