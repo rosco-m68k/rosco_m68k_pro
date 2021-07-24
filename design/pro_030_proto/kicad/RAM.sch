@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 3 10
 Title "rosco_m68k Pro (030) Prototype"
-Date "2021-07-16"
+Date "2021-07-24"
 Rev "0"
 Comp "The Really Old-School Company Limited"
 Comment1 "Copyright ©2021 The Really Old-School Company Limited"
@@ -436,27 +436,27 @@ Connection ~ 4500 5150
 Wire Wire Line
 	4500 5150 4500 5600
 Text GLabel 2800 4150 2    50   Input ~ 0
-WR
+RW
 Text GLabel 2800 4050 2    50   Input ~ 0
-RD
+WR
 Text GLabel 2800 3950 2    50   Input ~ 0
 RAMEN0
 Text GLabel 5000 4200 2    50   Input ~ 0
-WR
+RW
 Text GLabel 5000 4100 2    50   Input ~ 0
-RD
+WR
 Text GLabel 5000 4000 2    50   Input ~ 0
 RAMEN1
 Text GLabel 7250 4200 2    50   Input ~ 0
-WR
+RW
 Text GLabel 7250 4100 2    50   Input ~ 0
-RD
+WR
 Text GLabel 7250 4000 2    50   Input ~ 0
 RAMEN2
 Text GLabel 9500 4200 2    50   Input ~ 0
-WR
+RW
 Text GLabel 9500 4100 2    50   Input ~ 0
-RD
+WR
 Text GLabel 9500 4000 2    50   Input ~ 0
 RAMEN3
 Wire Wire Line

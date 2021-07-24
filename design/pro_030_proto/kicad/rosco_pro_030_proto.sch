@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 10
 Title "rosco_m68k Pro (030) Prototype"
-Date "2021-07-16"
+Date "2021-07-24"
 Rev "0"
 Comp "The Really Old-School Company Limited"
 Comment1 "Copyright ©2021 The Really Old-School Company Limited"
@@ -54,5 +54,17 @@ S 3000 3150 950  1100
 U 61043B8D
 F0 "RESET" 50
 F1 "RESET.sch" 50
+$EndSheet
+$Sheet
+S 1900 4650 950  1100
+U 60FC48A0
+F0 "POWER" 50
+F1 "POWER.sch" 50
+$EndSheet
+$Sheet
+S 3000 4650 950  1100
+U 61302589
+F0 "TESTPOINTS" 50
+F1 "TESTPOINTS.sch" 50
 $EndSheet
 $EndSCHEMATC

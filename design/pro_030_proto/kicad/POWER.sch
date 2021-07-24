@@ -1,0 +1,666 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 10
+Title "rosco_m68k Pro (030) Prototype"
+Date "2021-07-24"
+Rev "0"
+Comp "The Really Old-School Company Limited"
+Comment1 "Copyright ©2021 The Really Old-School Company Limited"
+Comment2 "Open Source Hardware (CERN OHL)"
+Comment3 "Prototype Hardware! Not suitable for general use!"
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS08 U?
+U 5 1 60FCB732
+P 2350 2850
+AR Path="/60FBFA5C/60FCB732" Ref="U?"  Part="5" 
+AR Path="/60FC48A0/60FCB732" Ref="IC13"  Part="5" 
+F 0 "IC13" H 2580 2896 50  0000 L CNN
+F 1 "74LS08" H 2580 2805 50  0000 L CNN
+F 2 "" H 2350 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2350 2850 50  0001 C CNN
+	5    2350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60FCB739
+P 2350 3700
+AR Path="/60FBFA5C/60FCB739" Ref="#PWR?"  Part="1" 
+AR Path="/60FC48A0/60FCB739" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 2350 3450 50  0001 C CNN
+F 1 "GND" H 2355 3527 50  0000 C CNN
+F 2 "" H 2350 3700 50  0001 C CNN
+F 3 "" H 2350 3700 50  0001 C CNN
+	1    2350 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3350 2350 3500
+$Comp
+L power:VCC #PWR0133
+U 1 1 60FCB87C
+P 2350 2100
+F 0 "#PWR0133" H 2350 1950 50  0001 C CNN
+F 1 "VCC" H 2367 2273 50  0000 C CNN
+F 2 "" H 2350 2100 50  0001 C CNN
+F 3 "" H 2350 2100 50  0001 C CNN
+	1    2350 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2100 2350 2250
+$Comp
+L rosco_m68k-eagle-import:C2,5-3 C?
+U 1 1 60FCDD34
+P 3100 2800
+AR Path="/60FCDD34" Ref="C?"  Part="1" 
+AR Path="/5E53B952/60FCDD34" Ref="C?"  Part="1" 
+AR Path="/60FBFA5C/60FCDD34" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/60FCDD34" Ref="C21"  Part="1" 
+F 0 "C21" H 3160 2815 59  0000 L BNN
+F 1 "100nF" H 3160 2615 59  0000 L BNN
+F 2 "rosco_m68k:C2.5-3" H 3100 2800 50  0001 C CNN
+F 3 "" H 3100 2800 50  0001 C CNN
+	1    3100 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2250 3100 2250
+Wire Wire Line
+	3100 2250 3100 2700
+Connection ~ 2350 2250
+Wire Wire Line
+	2350 2250 2350 2350
+Wire Wire Line
+	2350 3500 3100 3500
+Wire Wire Line
+	3100 3500 3100 3000
+Connection ~ 2350 3500
+Wire Wire Line
+	2350 3500 2350 3700
+$Comp
+L Device:C C?
+U 1 1 61295B6B
+P 1850 5400
+AR Path="/60EC67C5/61295B6B" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295B6B" Ref="C15"  Part="1" 
+F 0 "C15" H 1965 5446 50  0000 L CNN
+F 1 "100nF" H 1965 5355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 1888 5250 50  0001 C CNN
+F 3 "~" H 1850 5400 50  0001 C CNN
+	1    1850 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61295B71
+P 2300 5400
+AR Path="/60EC67C5/61295B71" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295B71" Ref="C17"  Part="1" 
+F 0 "C17" H 2415 5446 50  0000 L CNN
+F 1 "100nF" H 2415 5355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 2338 5250 50  0001 C CNN
+F 3 "~" H 2300 5400 50  0001 C CNN
+	1    2300 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61295B77
+P 2750 5400
+AR Path="/60EC67C5/61295B77" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295B77" Ref="C19"  Part="1" 
+F 0 "C19" H 2865 5446 50  0000 L CNN
+F 1 "100nF" H 2865 5355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 2788 5250 50  0001 C CNN
+F 3 "~" H 2750 5400 50  0001 C CNN
+	1    2750 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61295B7D
+P 3200 5400
+AR Path="/60EC67C5/61295B7D" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295B7D" Ref="C22"  Part="1" 
+F 0 "C22" H 3315 5446 50  0000 L CNN
+F 1 "100nF" H 3315 5355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 3238 5250 50  0001 C CNN
+F 3 "~" H 3200 5400 50  0001 C CNN
+	1    3200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61295B83
+P 3650 5400
+AR Path="/60EC67C5/61295B83" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295B83" Ref="C32"  Part="1" 
+F 0 "C32" H 3765 5446 50  0000 L CNN
+F 1 "100nF" H 3765 5355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 3688 5250 50  0001 C CNN
+F 3 "~" H 3650 5400 50  0001 C CNN
+	1    3650 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61295B89
+P 4100 5400
+AR Path="/60EC67C5/61295B89" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295B89" Ref="C34"  Part="1" 
+F 0 "C34" H 4215 5446 50  0000 L CNN
+F 1 "100nF" H 4215 5355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 4138 5250 50  0001 C CNN
+F 3 "~" H 4100 5400 50  0001 C CNN
+	1    4100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61295B8F
+P 4550 5400
+AR Path="/60EC67C5/61295B8F" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295B8F" Ref="C36"  Part="1" 
+F 0 "C36" H 4665 5446 50  0000 L CNN
+F 1 "100nF" H 4665 5355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 4588 5250 50  0001 C CNN
+F 3 "~" H 4550 5400 50  0001 C CNN
+	1    4550 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61295B95
+P 5000 5400
+AR Path="/60EC67C5/61295B95" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295B95" Ref="C38"  Part="1" 
+F 0 "C38" H 5115 5446 50  0000 L CNN
+F 1 "100nF" H 5115 5355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 5038 5250 50  0001 C CNN
+F 3 "~" H 5000 5400 50  0001 C CNN
+	1    5000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61295B9B
+P 5450 5400
+AR Path="/60EC67C5/61295B9B" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295B9B" Ref="C40"  Part="1" 
+F 0 "C40" H 5565 5446 50  0000 L CNN
+F 1 "100nF" H 5565 5355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 5488 5250 50  0001 C CNN
+F 3 "~" H 5450 5400 50  0001 C CNN
+	1    5450 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61295BA1
+P 5900 5400
+AR Path="/60EC67C5/61295BA1" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295BA1" Ref="C42"  Part="1" 
+F 0 "C42" H 6015 5446 50  0000 L CNN
+F 1 "100nF" H 6015 5355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 5938 5250 50  0001 C CNN
+F 3 "~" H 5900 5400 50  0001 C CNN
+	1    5900 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61295BA7
+P 1850 6750
+AR Path="/60EC67C5/61295BA7" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295BA7" Ref="C16"  Part="1" 
+F 0 "C16" H 1965 6796 50  0000 L CNN
+F 1 "100nF" H 1965 6705 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 1888 6600 50  0001 C CNN
+F 3 "~" H 1850 6750 50  0001 C CNN
+	1    1850 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61295BAD
+P 2300 6750
+AR Path="/60EC67C5/61295BAD" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295BAD" Ref="C18"  Part="1" 
+F 0 "C18" H 2415 6796 50  0000 L CNN
+F 1 "100nF" H 2415 6705 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 2338 6600 50  0001 C CNN
+F 3 "~" H 2300 6750 50  0001 C CNN
+	1    2300 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61295BB3
+P 2750 6750
+AR Path="/60EC67C5/61295BB3" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295BB3" Ref="C20"  Part="1" 
+F 0 "C20" H 2865 6796 50  0000 L CNN
+F 1 "100nF" H 2865 6705 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 2788 6600 50  0001 C CNN
+F 3 "~" H 2750 6750 50  0001 C CNN
+	1    2750 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61295BB9
+P 3200 6750
+AR Path="/60EC67C5/61295BB9" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295BB9" Ref="C31"  Part="1" 
+F 0 "C31" H 3315 6796 50  0000 L CNN
+F 1 "100nF" H 3315 6705 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 3238 6600 50  0001 C CNN
+F 3 "~" H 3200 6750 50  0001 C CNN
+	1    3200 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61295BBF
+P 3650 6750
+AR Path="/60EC67C5/61295BBF" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295BBF" Ref="C33"  Part="1" 
+F 0 "C33" H 3765 6796 50  0000 L CNN
+F 1 "100nF" H 3765 6705 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 3688 6600 50  0001 C CNN
+F 3 "~" H 3650 6750 50  0001 C CNN
+	1    3650 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61295BC5
+P 4100 6750
+AR Path="/60EC67C5/61295BC5" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295BC5" Ref="C35"  Part="1" 
+F 0 "C35" H 4215 6796 50  0000 L CNN
+F 1 "100nF" H 4215 6705 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 4138 6600 50  0001 C CNN
+F 3 "~" H 4100 6750 50  0001 C CNN
+	1    4100 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 61295BCB
+P 4550 6750
+AR Path="/60EC67C5/61295BCB" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295BCB" Ref="C37"  Part="1" 
+F 0 "C37" H 4668 6796 50  0000 L CNN
+F 1 "100uF" H 4668 6705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4588 6600 50  0001 C CNN
+F 3 "~" H 4550 6750 50  0001 C CNN
+	1    4550 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 61295BD1
+P 5000 6750
+AR Path="/60EC67C5/61295BD1" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295BD1" Ref="C39"  Part="1" 
+F 0 "C39" H 5118 6796 50  0000 L CNN
+F 1 "100uF" H 5118 6705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5038 6600 50  0001 C CNN
+F 3 "~" H 5000 6750 50  0001 C CNN
+	1    5000 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 61295BD7
+P 5450 6750
+AR Path="/60EC67C5/61295BD7" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295BD7" Ref="C41"  Part="1" 
+F 0 "C41" H 5568 6796 50  0000 L CNN
+F 1 "100uF" H 5568 6705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5488 6600 50  0001 C CNN
+F 3 "~" H 5450 6750 50  0001 C CNN
+	1    5450 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 61295BDD
+P 5900 6750
+AR Path="/60EC67C5/61295BDD" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295BDD" Ref="C43"  Part="1" 
+F 0 "C43" H 6018 6796 50  0000 L CNN
+F 1 "100uF" H 6018 6705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5938 6600 50  0001 C CNN
+F 3 "~" H 5900 6750 50  0001 C CNN
+	1    5900 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61295BE3
+P 3650 5800
+AR Path="/60EC67C5/61295BE3" Ref="#PWR?"  Part="1" 
+AR Path="/60FC48A0/61295BE3" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 3650 5550 50  0001 C CNN
+F 1 "GND" H 3655 5627 50  0000 C CNN
+F 2 "" H 3650 5800 50  0001 C CNN
+F 3 "" H 3650 5800 50  0001 C CNN
+	1    3650 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61295BE9
+P 3650 7250
+AR Path="/60EC67C5/61295BE9" Ref="#PWR?"  Part="1" 
+AR Path="/60FC48A0/61295BE9" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 3650 7000 50  0001 C CNN
+F 1 "GND" H 3655 7077 50  0000 C CNN
+F 2 "" H 3650 7250 50  0001 C CNN
+F 3 "" H 3650 7250 50  0001 C CNN
+	1    3650 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 61295BEF
+P 3650 6350
+AR Path="/60EC67C5/61295BEF" Ref="#PWR?"  Part="1" 
+AR Path="/60FC48A0/61295BEF" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR0136" H 3650 6200 50  0001 C CNN
+F 1 "VCC" H 3667 6523 50  0000 C CNN
+F 2 "" H 3650 6350 50  0001 C CNN
+F 3 "" H 3650 6350 50  0001 C CNN
+	1    3650 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 6350 3650 6450
+Wire Wire Line
+	1400 6450 1400 6600
+Wire Wire Line
+	5900 6450 5900 6600
+Wire Wire Line
+	3650 6450 4100 6450
+Connection ~ 3650 6450
+Wire Wire Line
+	1400 6900 1400 7050
+Wire Wire Line
+	1400 7050 1850 7050
+Wire Wire Line
+	3650 7050 3650 7250
+Wire Wire Line
+	3650 7050 4100 7050
+Wire Wire Line
+	5900 7050 5900 6900
+Connection ~ 3650 7050
+Wire Wire Line
+	5450 6900 5450 7050
+Connection ~ 5450 7050
+Wire Wire Line
+	5450 7050 5900 7050
+Wire Wire Line
+	5000 6900 5000 7050
+Connection ~ 5000 7050
+Wire Wire Line
+	5000 7050 5450 7050
+Connection ~ 4550 7050
+Wire Wire Line
+	4550 7050 5000 7050
+Wire Wire Line
+	4550 6900 4550 7050
+Wire Wire Line
+	4100 6900 4100 7050
+Connection ~ 4100 7050
+Wire Wire Line
+	4100 7050 4550 7050
+Wire Wire Line
+	3650 6900 3650 7050
+Wire Wire Line
+	3200 6900 3200 7050
+Connection ~ 3200 7050
+Wire Wire Line
+	3200 7050 3650 7050
+Wire Wire Line
+	2750 6900 2750 7050
+Connection ~ 2750 7050
+Wire Wire Line
+	2750 7050 3200 7050
+Wire Wire Line
+	2300 6900 2300 7050
+Connection ~ 2300 7050
+Wire Wire Line
+	2300 7050 2750 7050
+Wire Wire Line
+	1850 6900 1850 7050
+Connection ~ 1850 7050
+Wire Wire Line
+	1850 7050 2300 7050
+Wire Wire Line
+	1850 6600 1850 6450
+Connection ~ 1850 6450
+Wire Wire Line
+	1850 6450 1400 6450
+Wire Wire Line
+	2300 6600 2300 6450
+Wire Wire Line
+	1850 6450 2300 6450
+Connection ~ 2300 6450
+Wire Wire Line
+	2300 6450 2750 6450
+Wire Wire Line
+	2750 6600 2750 6450
+Connection ~ 2750 6450
+Wire Wire Line
+	2750 6450 3200 6450
+Wire Wire Line
+	3200 6600 3200 6450
+Connection ~ 3200 6450
+Wire Wire Line
+	3200 6450 3650 6450
+Wire Wire Line
+	3650 6450 3650 6600
+Wire Wire Line
+	4100 6600 4100 6450
+Connection ~ 4100 6450
+Wire Wire Line
+	4100 6450 4550 6450
+Wire Wire Line
+	4550 6600 4550 6450
+Connection ~ 4550 6450
+Wire Wire Line
+	4550 6450 5000 6450
+Wire Wire Line
+	5000 6600 5000 6450
+Connection ~ 5000 6450
+Wire Wire Line
+	5000 6450 5450 6450
+Wire Wire Line
+	5450 6600 5450 6450
+Connection ~ 5450 6450
+Wire Wire Line
+	5450 6450 5900 6450
+Wire Wire Line
+	1400 5550 1400 5700
+Wire Wire Line
+	1400 5700 1850 5700
+Wire Wire Line
+	3650 5700 3650 5800
+Wire Wire Line
+	3650 5700 4100 5700
+Wire Wire Line
+	5900 5700 5900 5550
+Connection ~ 3650 5700
+Wire Wire Line
+	5450 5550 5450 5700
+Connection ~ 5450 5700
+Wire Wire Line
+	5450 5700 5900 5700
+Wire Wire Line
+	5000 5550 5000 5700
+Connection ~ 5000 5700
+Wire Wire Line
+	5000 5700 5450 5700
+Wire Wire Line
+	4550 5550 4550 5700
+Connection ~ 4550 5700
+Wire Wire Line
+	4550 5700 5000 5700
+Wire Wire Line
+	4100 5550 4100 5700
+Connection ~ 4100 5700
+Wire Wire Line
+	4100 5700 4550 5700
+Wire Wire Line
+	3650 5550 3650 5700
+Wire Wire Line
+	3200 5550 3200 5700
+Connection ~ 3200 5700
+Wire Wire Line
+	3200 5700 3650 5700
+Wire Wire Line
+	2750 5550 2750 5700
+Connection ~ 2750 5700
+Wire Wire Line
+	2750 5700 3200 5700
+Wire Wire Line
+	2300 5550 2300 5700
+Connection ~ 2300 5700
+Wire Wire Line
+	2300 5700 2750 5700
+Wire Wire Line
+	1850 5550 1850 5700
+Connection ~ 1850 5700
+Wire Wire Line
+	1850 5700 2300 5700
+$Comp
+L power:VCC #PWR?
+U 1 1 61295C52
+P 3650 5000
+AR Path="/60EC67C5/61295C52" Ref="#PWR?"  Part="1" 
+AR Path="/60FC48A0/61295C52" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 3650 4850 50  0001 C CNN
+F 1 "VCC" H 3667 5173 50  0000 C CNN
+F 2 "" H 3650 5000 50  0001 C CNN
+F 3 "" H 3650 5000 50  0001 C CNN
+	1    3650 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 5250 1850 5100
+Wire Wire Line
+	1850 5100 1400 5100
+Wire Wire Line
+	1400 5100 1400 5250
+Wire Wire Line
+	1850 5100 2300 5100
+Wire Wire Line
+	3650 5000 3650 5100
+Connection ~ 1850 5100
+Wire Wire Line
+	2300 5250 2300 5100
+Connection ~ 2300 5100
+Wire Wire Line
+	2300 5100 2750 5100
+Wire Wire Line
+	2750 5250 2750 5100
+Connection ~ 2750 5100
+Wire Wire Line
+	2750 5100 3200 5100
+Wire Wire Line
+	3200 5250 3200 5100
+Connection ~ 3200 5100
+Wire Wire Line
+	3200 5100 3650 5100
+Wire Wire Line
+	3650 5100 3650 5250
+Connection ~ 3650 5100
+Wire Wire Line
+	3650 5100 4100 5100
+Wire Wire Line
+	5900 5100 5900 5250
+Wire Wire Line
+	5450 5250 5450 5100
+Connection ~ 5450 5100
+Wire Wire Line
+	5450 5100 5900 5100
+Wire Wire Line
+	5000 5250 5000 5100
+Connection ~ 5000 5100
+Wire Wire Line
+	5000 5100 5450 5100
+Wire Wire Line
+	4550 5250 4550 5100
+Connection ~ 4550 5100
+Wire Wire Line
+	4550 5100 5000 5100
+Wire Wire Line
+	4100 5250 4100 5100
+Connection ~ 4100 5100
+Wire Wire Line
+	4100 5100 4550 5100
+$Comp
+L Device:C C?
+U 1 1 61295C77
+P 1400 5400
+AR Path="/60EC67C5/61295C77" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295C77" Ref="C12"  Part="1" 
+F 0 "C12" H 1515 5446 50  0000 L CNN
+F 1 "100nF" H 1515 5355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 1438 5250 50  0001 C CNN
+F 3 "~" H 1400 5400 50  0001 C CNN
+	1    1400 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61295C7D
+P 1400 6750
+AR Path="/60EC67C5/61295C7D" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/61295C7D" Ref="C14"  Part="1" 
+F 0 "C14" H 1515 6796 50  0000 L CNN
+F 1 "100nF" H 1515 6705 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 1438 6600 50  0001 C CNN
+F 3 "~" H 1400 6750 50  0001 C CNN
+	1    1400 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack J8
+U 1 1 61364993
+P 4750 2450
+F 0 "J8" H 4807 2775 50  0000 C CNN
+F 1 "Barrel_Jack" H 4807 2684 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 4800 2410 50  0001 C CNN
+F 3 "~" H 4800 2410 50  0001 C CNN
+	1    4750 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5050 2350 2    50   UnSpc ~ 0
+VCC
+Text GLabel 5050 2550 2    50   UnSpc ~ 0
+GND
+$Comp
+L Connector:Conn_01x02_Male J9
+U 1 1 613661C8
+P 4850 3050
+F 0 "J9" H 4958 3231 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4958 3140 50  0000 C CNN
+F 2 "rosco_m68k:pin-1X02" H 4850 3050 50  0001 C CNN
+F 3 "~" H 4850 3050 50  0001 C CNN
+	1    4850 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 5050 3050 2    50   UnSpc ~ 0
+VCC
+Text GLabel 5050 3150 2    50   UnSpc ~ 0
+GND
+$EndSCHEMATC

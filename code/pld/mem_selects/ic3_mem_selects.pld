@@ -2,7 +2,7 @@ GAL22V10
 MEMSELS
 
 ROMS   RAMS   A22    A21    A1     A0     RW     NC     NC     SIZ0   SIZ1   GND
-ZRAMS  RAMEN0 RAMEN1 RAMEN2 RAMEN3 ROMEN0 ROMEN1 ROMEN2 ROMEN3 DSA0   DSA1   VCC
+ZRAMS  RAMEN0 RAMEN1 RAMEN2 RAMEN3 ROMEN0 ROMEN1 ROMEN2 ROMEN3 PPDT32 DT32   VCC
 
 ROMEN0  = ROMS * A22 * A21 * /A1 * /RW *       /SIZ0 *  SIZ1
         + ROMS * A22 * A21 * /A0 * /A1 * /RW *  SIZ0
@@ -36,7 +36,7 @@ RAMEN2  = RAMS * A22 * A21 * /A0 * /RW *        SIZ0 * /SIZ1
 RAMEN3  = RAMS * A22 * A21 *  A1 * /RW 
         + RAMS * A22 * A21 *  A0 * /RW
 
-/DSA0   = /ROMEN0
+/PPDT32 = /ROMEN0
         + /ROMEN1
         + /ROMEN2
         + /ROMEN3
@@ -45,14 +45,8 @@ RAMEN3  = RAMS * A22 * A21 *  A1 * /RW
         + /RAMEN2
         + /RAMEN3
  
-DSA1    = /ROMEN0
-        + /ROMEN1
-        + /ROMEN2
-        + /ROMEN3
-        + /RAMEN0
-        + /RAMEN1
-        + /RAMEN2
-        + /RAMEN3
+DT32.T  = GND
+DT32.E  = /PPDT32
 
 DESCRIPTION
 

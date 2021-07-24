@@ -3,296 +3,462 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Sheet 7 10
+Title "rosco_m68k Pro (030) Prototype"
+Date "2021-07-24"
+Rev "0"
+Comp "The Really Old-School Company Limited"
+Comment1 "Copyright ©2021 The Really Old-School Company Limited"
+Comment2 "Open Source Hardware (CERN OHL)"
+Comment3 "Prototype Hardware! Not suitable for general use!"
 Comment4 ""
 $EndDescr
-Text Notes 6250 3150 0    50   ~ 0
-IC2_ADDRESS_DECODER.PLD
-$Comp
-L rosco_m68k:GAL22V10 IC2
-U 1 1 60F1E34A
-P 6800 2050
-F 0 "IC2" H 6800 2931 50  0000 C CNN
-F 1 "ATF22V10C" H 6800 2840 50  0000 C CNN
-F 2 "Package_DIP:DIP-24_W7.62mm_Socket_LongPads" H 6800 2050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/268/doc0735-1369018.pdf" H 6800 2050 50  0001 C CNN
-	1    6800 2050
-	1    0    0    -1  
-$EndComp
-Text GLabel 6300 1550 0    50   Input ~ 0
-A31
-Text GLabel 6300 1650 0    50   Input ~ 0
-A30
-Text GLabel 6300 1750 0    50   Input ~ 0
-A29
-Text GLabel 6300 1850 0    50   Input ~ 0
-A28
-Text GLabel 6300 2050 0    50   Input ~ 0
-A26
-Text GLabel 6300 2150 0    50   Input ~ 0
-A25
-Text GLabel 6300 2250 0    50   Input ~ 0
-A24
-Text GLabel 6300 2350 0    50   Input ~ 0
-A23
-Text GLabel 6300 2450 0    50   Input ~ 0
-A22
-Text GLabel 6300 2550 0    50   Input ~ 0
-A21
-Text GLabel 6300 1950 0    50   Input ~ 0
-A27
-Text GLabel 7300 2550 2    50   Input ~ 0
-A20
-Text GLabel 7300 2450 2    50   Input ~ 0
-A19
-Text GLabel 7300 2350 2    50   Input ~ 0
-A18
-Text GLabel 7300 2250 2    50   Input ~ 0
-A17
-Text GLabel 7300 2150 2    50   Input ~ 0
-A16
-Text GLabel 7300 2050 2    50   Input ~ 0
-A15
-Text GLabel 7300 1950 2    50   Input ~ 0
-AS
-Text GLabel 7300 1850 2    50   Output ~ 0
-RAMS
-Text GLabel 7300 1750 2    50   Output ~ 0
-ZRAMS
-Text GLabel 7300 1650 2    50   Output ~ 0
-ROMS
-Text GLabel 7300 1550 2    50   Output ~ 0
-IOS
-Text Notes 8650 3150 0    50   ~ 0
-IC3_MEM_SELECTS.PLD
-$Comp
-L rosco_m68k:GAL22V10 IC3
-U 1 1 60F2CECC
-P 9100 2050
-F 0 "IC3" H 9100 2931 50  0000 C CNN
-F 1 "ATF22V10C" H 9100 2840 50  0000 C CNN
-F 2 "Package_DIP:DIP-24_W7.62mm_Socket_LongPads" H 9100 2050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/268/doc0735-1369018.pdf" H 9100 2050 50  0001 C CNN
-	1    9100 2050
-	1    0    0    -1  
-$EndComp
-Text GLabel 8600 1550 0    50   Input ~ 0
-ROMS
-Text GLabel 8600 1650 0    50   Input ~ 0
-RAMS
-Text GLabel 8600 1750 0    50   Input ~ 0
-A22
-Text GLabel 8600 1850 0    50   Input ~ 0
-A21
-Text GLabel 8600 1950 0    50   Input ~ 0
-A1
-Text GLabel 8600 2050 0    50   Input ~ 0
-A0
-Text GLabel 8600 2150 0    50   Input ~ 0
-RnW
-Text GLabel 8600 2450 0    50   Input ~ 0
-SIZ0
-Text GLabel 8600 2550 0    50   Input ~ 0
-SIZ1
-Text GLabel 9600 2550 2    50   Input ~ 0
-ZRAMS
-Text GLabel 9600 2450 2    50   Output ~ 0
-RAMEN0
-Text GLabel 9600 2350 2    50   Output ~ 0
-RAMEN1
-Text GLabel 9600 2250 2    50   Output ~ 0
-RAMEN2
-Text GLabel 9600 2150 2    50   Output ~ 0
-RAMEN3
-Text GLabel 9600 2050 2    50   Output ~ 0
-ROMEN0
-Text GLabel 9600 1950 2    50   Output ~ 0
-ROMEN1
-Text GLabel 9600 1850 2    50   Output ~ 0
-ROMEN2
-Text GLabel 9600 1750 2    50   Output ~ 0
-ROMEN3
-Text GLabel 9600 1650 2    50   Output ~ 0
-DSA0
-Text GLabel 9600 1550 2    50   Output ~ 0
-DSA1
-NoConn ~ 8600 2250
-NoConn ~ 8600 2350
-$Comp
-L power:VCC #PWR?
-U 1 1 60F30787
-P 7950 1000
-F 0 "#PWR?" H 7950 850 50  0001 C CNN
-F 1 "VCC" H 7967 1173 50  0000 C CNN
-F 2 "" H 7950 1000 50  0001 C CNN
-F 3 "" H 7950 1000 50  0001 C CNN
-	1    7950 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60F311F4
-P 7950 3100
-F 0 "#PWR?" H 7950 2850 50  0001 C CNN
-F 1 "GND" H 7955 2927 50  0000 C CNN
-F 2 "" H 7950 3100 50  0001 C CNN
-F 3 "" H 7950 3100 50  0001 C CNN
-	1    7950 3100
-	1    0    0    -1  
-$EndComp
+Text GLabel 7500 1950 2    50   Output ~ 0
+ANYIACK
 Wire Wire Line
-	9100 2750 9100 3000
+	3550 2350 3550 3200
 Wire Wire Line
-	9100 3000 7950 3000
-Wire Wire Line
-	7950 3000 7950 3100
-Wire Wire Line
-	7950 3000 6800 3000
-Wire Wire Line
-	6800 3000 6800 2750
-Connection ~ 7950 3000
-Wire Wire Line
-	6800 1350 7950 1350
-Wire Wire Line
-	7950 1350 7950 1000
-Wire Wire Line
-	9100 1350 7950 1350
-Connection ~ 7950 1350
-$Comp
-L rosco_m68k-eagle-import:C2,5-3 C?
-U 1 1 60F343B0
-P 5700 1950
-AR Path="/60F343B0" Ref="C?"  Part="1" 
-AR Path="/5E53B810/60F343B0" Ref="C?"  Part="1" 
-AR Path="/5E53B952/60F343B0" Ref="C?"  Part="1" 
-AR Path="/6103896C/60F343B0" Ref="C?"  Part="1" 
-F 0 "C?" H 5760 1965 59  0000 L BNN
-F 1 "100nF" H 5760 1765 59  0000 L BNN
-F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 5700 1950 50  0001 C CNN
-F 3 "" H 5700 1950 50  0001 C CNN
-	1    5700 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:C2,5-3 C?
-U 1 1 60F35442
-P 10200 1950
-AR Path="/60F35442" Ref="C?"  Part="1" 
-AR Path="/5E53B810/60F35442" Ref="C?"  Part="1" 
-AR Path="/5E53B952/60F35442" Ref="C?"  Part="1" 
-AR Path="/6103896C/60F35442" Ref="C?"  Part="1" 
-F 0 "C?" H 10260 1965 59  0000 L BNN
-F 1 "100nF" H 10260 1765 59  0000 L BNN
-F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 10200 1950 50  0001 C CNN
-F 3 "" H 10200 1950 50  0001 C CNN
-	1    10200 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9100 1350 10200 1350
-Wire Wire Line
-	10200 1350 10200 1850
-Connection ~ 9100 1350
-Wire Wire Line
-	6800 1350 5700 1350
-Wire Wire Line
-	5700 1350 5700 1850
-Connection ~ 6800 1350
-Wire Wire Line
-	5700 2150 5700 3000
-Wire Wire Line
-	5700 3000 6800 3000
-Connection ~ 6800 3000
-Wire Wire Line
-	9100 3000 10200 3000
-Wire Wire Line
-	10200 3000 10200 2150
-Connection ~ 9100 3000
-$Comp
-L rosco_m68k:GAL22V10 IC?
-U 1 1 60FE4F51
-P 4550 2050
-F 0 "IC?" H 4550 2931 50  0000 C CNN
-F 1 "ATF22V10C" H 4550 2840 50  0000 C CNN
-F 2 "Package_DIP:DIP-24_W7.62mm_Socket_LongPads" H 4550 2050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/268/doc0735-1369018.pdf" H 4550 2050 50  0001 C CNN
-	1    4550 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4550 3000 4550 2750
-Text GLabel 4050 1550 0    50   Input ~ 0
-RW
-Text GLabel 5050 1550 2    50   Output ~ 0
-WR
-Text GLabel 4050 1650 0    50   Input ~ 0
-FC0
-Text GLabel 4050 1750 0    50   Input ~ 0
-FC1
-Text GLabel 4050 1850 0    50   Input ~ 0
-FC2
-Text GLabel 4050 2250 0    50   Input ~ 0
-A16
-Text GLabel 4050 2350 0    50   Input ~ 0
-A17
-Text GLabel 4050 2450 0    50   Input ~ 0
-A18
-Text GLabel 4050 2550 0    50   Input ~ 0
-A19
-Text GLabel 4050 1950 0    50   Input ~ 0
-A1
-Text GLabel 4050 2050 0    50   Input ~ 0
-A2
-Text GLabel 4050 2150 0    50   Input ~ 0
-A3
-Text GLabel 5050 2450 2    50   Output ~ 0
-IACK1
-Text GLabel 5050 2350 2    50   Output ~ 0
-IACK2
-Text GLabel 5050 2250 2    50   Output ~ 0
-IACK3
-Text GLabel 5050 2150 2    50   Output ~ 0
-IACK4
-Text GLabel 5050 2050 2    50   Output ~ 0
-IACK5
-Text GLabel 5050 1950 2    50   Output ~ 0
-IACK6
-Text GLabel 5050 1850 2    50   Output ~ 0
-IACK7
-Wire Wire Line
-	5700 1350 4550 1350
-Connection ~ 5700 1350
-Wire Wire Line
-	4550 3000 5700 3000
-Connection ~ 5700 3000
+	3550 1550 3550 2050
 $Comp
 L rosco_m68k-eagle-import:C2,5-3 C?
 U 1 1 60FE89A7
-P 7950 1950
+P 3550 2150
 AR Path="/60FE89A7" Ref="C?"  Part="1" 
 AR Path="/5E53B810/60FE89A7" Ref="C?"  Part="1" 
 AR Path="/5E53B952/60FE89A7" Ref="C?"  Part="1" 
-AR Path="/6103896C/60FE89A7" Ref="C?"  Part="1" 
-F 0 "C?" H 8010 1965 59  0000 L BNN
-F 1 "100nF" H 8010 1765 59  0000 L BNN
-F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 7950 1950 50  0001 C CNN
-F 3 "" H 7950 1950 50  0001 C CNN
-	1    7950 1950
+AR Path="/6103896C/60FE89A7" Ref="C7"  Part="1" 
+F 0 "C7" H 3610 2165 59  0000 L BNN
+F 1 "100nF" H 3610 1965 59  0000 L BNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 3550 2150 50  0001 C CNN
+F 3 "" H 3550 2150 50  0001 C CNN
+	1    3550 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 2050 2    50   Output ~ 0
+IACK7
+Text GLabel 7500 2150 2    50   Output ~ 0
+IACK6
+Text GLabel 7500 2250 2    50   Output ~ 0
+IACK5
+Text GLabel 7500 2350 2    50   Output ~ 0
+IACK4
+Text GLabel 7500 2450 2    50   Output ~ 0
+IACK3
+Text GLabel 7500 2550 2    50   Output ~ 0
+IACK2
+Text GLabel 7500 2650 2    50   Output ~ 0
+IACK1
+Text GLabel 7500 1750 2    50   Output ~ 0
+WR
+Connection ~ 4700 3200
+Wire Wire Line
+	5800 3200 5800 2350
+Wire Wire Line
+	4700 3200 5800 3200
+Connection ~ 2400 3200
+Wire Wire Line
+	1300 3200 2400 3200
+Wire Wire Line
+	1300 2350 1300 3200
+Connection ~ 2400 1550
+Wire Wire Line
+	1300 1550 1300 2050
+Wire Wire Line
+	2400 1550 1300 1550
+Connection ~ 4700 1550
+Wire Wire Line
+	5800 1550 5800 2050
+Wire Wire Line
+	4700 1550 5800 1550
+$Comp
+L rosco_m68k-eagle-import:C2,5-3 C?
+U 1 1 60F35442
+P 5800 2150
+AR Path="/60F35442" Ref="C?"  Part="1" 
+AR Path="/5E53B810/60F35442" Ref="C?"  Part="1" 
+AR Path="/5E53B952/60F35442" Ref="C?"  Part="1" 
+AR Path="/6103896C/60F35442" Ref="C8"  Part="1" 
+F 0 "C8" H 5860 2165 59  0000 L BNN
+F 1 "100nF" H 5860 1965 59  0000 L BNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 5800 2150 50  0001 C CNN
+F 3 "" H 5800 2150 50  0001 C CNN
+	1    5800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L rosco_m68k-eagle-import:C2,5-3 C?
+U 1 1 60F343B0
+P 1300 2150
+AR Path="/60F343B0" Ref="C?"  Part="1" 
+AR Path="/5E53B810/60F343B0" Ref="C?"  Part="1" 
+AR Path="/5E53B952/60F343B0" Ref="C?"  Part="1" 
+AR Path="/6103896C/60F343B0" Ref="C6"  Part="1" 
+F 0 "C6" H 1360 2165 59  0000 L BNN
+F 1 "100nF" H 1360 1965 59  0000 L BNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 1300 2150 50  0001 C CNN
+F 3 "" H 1300 2150 50  0001 C CNN
+	1    1300 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 3550 1550
+Wire Wire Line
+	4700 1550 3550 1550
+Wire Wire Line
+	2400 1550 3550 1550
+Connection ~ 3550 3200
+Wire Wire Line
+	2400 3200 2400 2950
+Wire Wire Line
+	3550 3200 2400 3200
+Wire Wire Line
+	4700 3200 3550 3200
+Wire Wire Line
+	4700 2950 4700 3200
+$Comp
+L power:GND #PWR0124
+U 1 1 60F311F4
+P 9300 3550
+F 0 "#PWR0124" H 9300 3300 50  0001 C CNN
+F 1 "GND" H 9305 3377 50  0000 C CNN
+F 2 "" H 9300 3550 50  0001 C CNN
+F 3 "" H 9300 3550 50  0001 C CNN
+	1    9300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0125
+U 1 1 60F30787
+P 1300 1150
+F 0 "#PWR0125" H 1300 1000 50  0001 C CNN
+F 1 "VCC" H 1317 1323 50  0000 C CNN
+F 2 "" H 1300 1150 50  0001 C CNN
+F 3 "" H 1300 1150 50  0001 C CNN
+	1    1300 1150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4200 2550
+NoConn ~ 4200 2450
+Text GLabel 5200 1750 2    50   3State ~ 0
+DT32
+Text GLabel 5200 1950 2    50   Output ~ 0
+ROMEN3
+Text GLabel 5200 2050 2    50   Output ~ 0
+ROMEN2
+Text GLabel 5200 2150 2    50   Output ~ 0
+ROMEN1
+Text GLabel 5200 2250 2    50   Output ~ 0
+ROMEN0
+Text GLabel 5200 2350 2    50   Output ~ 0
+RAMEN3
+Text GLabel 5200 2450 2    50   Output ~ 0
+RAMEN2
+Text GLabel 5200 2550 2    50   Output ~ 0
+RAMEN1
+Text GLabel 5200 2650 2    50   Output ~ 0
+RAMEN0
+Text GLabel 5200 2750 2    50   Input ~ 0
+ZRAMS
+Text GLabel 4200 2750 0    50   Input ~ 0
+SIZ1
+Text GLabel 4200 2650 0    50   Input ~ 0
+SIZ0
+Text GLabel 4200 2350 0    50   Input ~ 0
+RnW
+Text GLabel 4200 2250 0    50   Input ~ 0
+A0
+Text GLabel 4200 2150 0    50   Input ~ 0
+A1
+Text GLabel 4200 2050 0    50   Input ~ 0
+A21
+Text GLabel 4200 1950 0    50   Input ~ 0
+A22
+Text GLabel 4200 1850 0    50   Input ~ 0
+RAMS
+Text GLabel 4200 1750 0    50   Input ~ 0
+ROMS
+$Comp
+L rosco_m68k:GAL22V10 IC3
+U 1 1 60F2CECC
+P 4700 2250
+F 0 "IC3" H 4700 3131 50  0000 C CNN
+F 1 "ATF22V10C" H 4700 3040 50  0000 C CNN
+F 2 "Package_DIP:DIP-24_W7.62mm_Socket_LongPads" H 4700 2250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/268/doc0735-1369018.pdf" H 4700 2250 50  0001 C CNN
+	1    4700 2250
+	1    0    0    -1  
+$EndComp
+Text Notes 4250 3350 0    50   ~ 0
+IC3_MEM_SELECTS.PLD
+Text GLabel 2900 1750 2    50   Output ~ 0
+IOS
+Text GLabel 2900 1850 2    50   Output ~ 0
+ROMS
+Text GLabel 2900 1950 2    50   Output ~ 0
+ZRAMS
+Text GLabel 2900 2050 2    50   Output ~ 0
+RAMS
+Text GLabel 2900 2150 2    50   Input ~ 0
+AS
+Text GLabel 2900 2250 2    50   Input ~ 0
+A15
+Text GLabel 2900 2350 2    50   Input ~ 0
+A16
+Text GLabel 2900 2450 2    50   Input ~ 0
+A17
+Text GLabel 2900 2550 2    50   Input ~ 0
+A18
+Text GLabel 2900 2650 2    50   Input ~ 0
+A19
+Text GLabel 2900 2750 2    50   Input ~ 0
+A20
+Text GLabel 1900 2150 0    50   Input ~ 0
+A27
+Text GLabel 1900 2750 0    50   Input ~ 0
+A21
+Text GLabel 1900 2650 0    50   Input ~ 0
+A22
+Text GLabel 1900 2550 0    50   Input ~ 0
+A23
+Text GLabel 1900 2450 0    50   Input ~ 0
+A24
+Text GLabel 1900 2350 0    50   Input ~ 0
+A25
+Text GLabel 1900 2250 0    50   Input ~ 0
+A26
+Text GLabel 1900 2050 0    50   Input ~ 0
+A28
+Text GLabel 1900 1950 0    50   Input ~ 0
+A29
+Text GLabel 1900 1850 0    50   Input ~ 0
+A30
+Text GLabel 1900 1750 0    50   Input ~ 0
+A31
+$Comp
+L rosco_m68k:GAL22V10 IC2
+U 1 1 60F1E34A
+P 2400 2250
+F 0 "IC2" H 2400 3131 50  0000 C CNN
+F 1 "ATF22V10C" H 2400 3040 50  0000 C CNN
+F 2 "Package_DIP:DIP-24_W7.62mm_Socket_LongPads" H 2400 2250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/268/doc0735-1369018.pdf" H 2400 2250 50  0001 C CNN
+	1    2400 2250
+	1    0    0    -1  
+$EndComp
+Text Notes 1850 3350 0    50   ~ 0
+IC2_ADDRESS_DECODER.PLD
+Text Notes 6450 3350 0    50   ~ 0
+IC4_INTERRUPT_GLUE.PLD
+Text GLabel 6500 2350 0    50   Input ~ 0
+A3
+Text GLabel 6500 2250 0    50   Input ~ 0
+A2
+Text GLabel 6500 2150 0    50   Input ~ 0
+A1
+Text GLabel 6500 2750 0    50   Input ~ 0
+A19
+Text GLabel 6500 2650 0    50   Input ~ 0
+A18
+Text GLabel 6500 2550 0    50   Input ~ 0
+A17
+Text GLabel 6500 2450 0    50   Input ~ 0
+A16
+Text GLabel 6500 2050 0    50   Input ~ 0
+FC2
+Text GLabel 6500 1950 0    50   Input ~ 0
+FC1
+Text GLabel 6500 1850 0    50   Input ~ 0
+FC0
+Text GLabel 6500 1750 0    50   Input ~ 0
+RW
+Wire Wire Line
+	7000 3200 7000 2950
+$Comp
+L rosco_m68k:GAL22V10 IC4
+U 1 1 60FE4F51
+P 7000 2250
+F 0 "IC4" H 7000 3131 50  0000 C CNN
+F 1 "ATF22V10C" H 7000 3040 50  0000 C CNN
+F 2 "Package_DIP:DIP-24_W7.62mm_Socket_LongPads" H 7000 2250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/268/doc0735-1369018.pdf" H 7000 2250 50  0001 C CNN
+	1    7000 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 1350 7950 1850
+	5800 1550 7000 1550
+Connection ~ 5800 1550
 Wire Wire Line
-	7950 2150 7950 3000
-Text GLabel 5050 1750 2    50   Output ~ 0
-ANYIACK
-Text Notes 4000 3150 0    50   ~ 0
-IC4_INTERRUPT_GLUE.PLD
+	7000 3200 5800 3200
+Connection ~ 5800 3200
+Wire Wire Line
+	8100 3200 8100 2350
+Wire Wire Line
+	8100 1550 8100 2050
+$Comp
+L rosco_m68k-eagle-import:C2,5-3 C?
+U 1 1 610AB2E1
+P 8100 2150
+AR Path="/610AB2E1" Ref="C?"  Part="1" 
+AR Path="/5E53B810/610AB2E1" Ref="C?"  Part="1" 
+AR Path="/5E53B952/610AB2E1" Ref="C?"  Part="1" 
+AR Path="/6103896C/610AB2E1" Ref="C9"  Part="1" 
+F 0 "C9" H 8160 2165 59  0000 L BNN
+F 1 "100nF" H 8160 1965 59  0000 L BNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 8100 2150 50  0001 C CNN
+F 3 "" H 8100 2150 50  0001 C CNN
+	1    8100 2150
+	1    0    0    -1  
+$EndComp
+Text Notes 8900 3350 0    50   ~ 0
+IC5_DTACK_GENERATION
+Wire Wire Line
+	9300 3200 9300 2950
+Wire Wire Line
+	8100 1550 9300 1550
+Wire Wire Line
+	9300 3200 8100 3200
+Wire Wire Line
+	7000 1550 8100 1550
+Connection ~ 7000 1550
+Connection ~ 8100 1550
+Wire Wire Line
+	7000 3200 8100 3200
+Connection ~ 7000 3200
+Connection ~ 8100 3200
+Wire Wire Line
+	9300 3550 9300 3200
+Connection ~ 9300 3200
+Wire Wire Line
+	1300 1150 1300 1550
+Connection ~ 1300 1550
+Text GLabel 9800 1750 2    50   3State ~ 0
+DSACK1
+Text GLabel 9800 1850 2    50   3State ~ 0
+DSACK0
+NoConn ~ 9800 2050
+Text GLabel 8800 1850 0    50   3State ~ 0
+DT8
+Text GLabel 8800 1950 0    50   3State ~ 0
+DT16
+Text GLabel 8800 2050 0    50   3State ~ 0
+DT32
+NoConn ~ 5200 1850
+NoConn ~ 7500 1850
+$Comp
+L rosco_m68k:GAL22V10 IC5
+U 1 1 610AB2F4
+P 9300 2250
+F 0 "IC5" H 9300 3131 50  0000 C CNN
+F 1 "ATF22V10C" H 9300 3040 50  0000 C CNN
+F 2 "Package_DIP:DIP-24_W7.62mm_Socket_LongPads" H 9300 2250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/268/doc0735-1369018.pdf" H 9300 2250 50  0001 C CNN
+	1    9300 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 9800 1950 2    50   3State ~ 0
+CIIN
+NoConn ~ 9800 2150
+NoConn ~ 9800 2250
+NoConn ~ 9800 2350
+NoConn ~ 9800 2450
+NoConn ~ 9800 2550
+NoConn ~ 9800 2650
+NoConn ~ 9800 2750
+NoConn ~ 8800 2150
+NoConn ~ 8800 1750
+NoConn ~ 8800 2250
+NoConn ~ 8800 2350
+NoConn ~ 8800 2450
+NoConn ~ 8800 2550
+NoConn ~ 8800 2650
+NoConn ~ 8800 2750
+Text GLabel 8700 4900 0    50   Input ~ 0
+DT8
+Text GLabel 8700 5000 0    50   Input ~ 0
+DT16
+Text GLabel 8700 5100 0    50   Input ~ 0
+DT32
+Text GLabel 9950 4900 2    50   Output ~ 0
+DT8
+Text GLabel 9950 5000 2    50   Output ~ 0
+DT16
+Text GLabel 9950 5100 2    50   Output ~ 0
+DT32
+$Comp
+L Device:R R32
+U 1 1 60FCD0F0
+P 9000 4550
+F 0 "R32" H 9070 4596 50  0000 L CNN
+F 1 "4K7" H 9070 4505 50  0000 L CNN
+F 2 "rosco_m68k:R-0207_10" V 8930 4550 50  0001 C CNN
+F 3 "~" H 9000 4550 50  0001 C CNN
+	1    9000 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 60FCDD0E
+P 9300 4550
+F 0 "R33" H 9370 4596 50  0000 L CNN
+F 1 "4K7" H 9370 4505 50  0000 L CNN
+F 2 "rosco_m68k:R-0207_10" V 9230 4550 50  0001 C CNN
+F 3 "~" H 9300 4550 50  0001 C CNN
+	1    9300 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 60FCE353
+P 9600 4550
+F 0 "R34" H 9670 4596 50  0000 L CNN
+F 1 "4K7" H 9670 4505 50  0000 L CNN
+F 2 "rosco_m68k:R-0207_10" V 9530 4550 50  0001 C CNN
+F 3 "~" H 9600 4550 50  0001 C CNN
+	1    9600 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0110
+U 1 1 60FCF006
+P 9300 4100
+F 0 "#PWR0110" H 9300 3950 50  0001 C CNN
+F 1 "VCC" H 9317 4273 50  0000 C CNN
+F 2 "" H 9300 4100 50  0001 C CNN
+F 3 "" H 9300 4100 50  0001 C CNN
+	1    9300 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 4400 9000 4200
+Wire Wire Line
+	9000 4200 9300 4200
+Wire Wire Line
+	9300 4200 9300 4100
+Wire Wire Line
+	9300 4200 9600 4200
+Wire Wire Line
+	9600 4200 9600 4400
+Connection ~ 9300 4200
+Wire Wire Line
+	9300 4250 9300 4400
+Wire Wire Line
+	8700 4900 9000 4900
+Wire Wire Line
+	8700 5000 9300 5000
+Wire Wire Line
+	8700 5100 9600 5100
+Wire Wire Line
+	9000 4700 9000 4900
+Connection ~ 9000 4900
+Wire Wire Line
+	9000 4900 9950 4900
+Wire Wire Line
+	9300 4700 9300 5000
+Connection ~ 9300 5000
+Wire Wire Line
+	9300 5000 9950 5000
+Wire Wire Line
+	9600 4700 9600 5100
+Connection ~ 9600 5100
+Wire Wire Line
+	9600 5100 9950 5100
 $EndSCHEMATC
