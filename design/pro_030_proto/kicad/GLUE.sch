@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 10
 Title "rosco_m68k Pro (030) Prototype"
-Date "2021-07-16"
+Date "2021-07-24"
 Rev "0"
 Comp "The Really Old-School Company Limited"
 Comment1 "Copyright ©2021 The Really Old-School Company Limited"
@@ -13,308 +13,6 @@ Comment2 "Open Source Hardware (CERN OHL)"
 Comment3 "Prototype Hardware! Not suitable for general use!"
 Comment4 ""
 $EndDescr
-$Comp
-L rosco_m68k-eagle-import:ATF16V8BP3 IC?
-U 1 1 5EF2F381
-P 20100 7200
-AR Path="/5E53B810/5EF2F381" Ref="IC?"  Part="1" 
-AR Path="/5E53B952/5EF2F381" Ref="IC3"  Part="1" 
-AR Path="/60FBFA5C/5EF2F381" Ref="IC3"  Part="1" 
-F 0 "IC3" H 20100 8086 59  0000 C CNN
-F 1 "ATF16V8BQL-15PU" H 20100 7981 59  0000 C CNN
-F 2 "rosco_m68k:DIL20" H 20100 7200 50  0001 C CNN
-F 3 "" H 20100 7200 50  0001 C CNN
-	1    20100 7200
-	1    0    0    -1  
-$EndComp
-Text Notes 19800 8050 0    50   ~ 0
-MFPSEL.PLD
-Text GLabel 20500 7200 2    50   Input ~ 0
-LDS
-Text GLabel 20500 7100 2    50   Input ~ 0
-IOSEL
-Text GLabel 20500 7000 2    50   Output ~ 0
-MFPSEL
-NoConn ~ 20500 6900
-NoConn ~ 20500 7600
-Wire Bus Line
-	19400 6050 19250 6050
-Text HLabel 19250 6050 0    50   Input ~ 0
-A[1..23]
-Entry Wire Line
-	19400 6600 19500 6700
-Entry Wire Line
-	19400 6800 19500 6900
-Entry Wire Line
-	19400 6900 19500 7000
-Entry Wire Line
-	19400 7000 19500 7100
-Entry Wire Line
-	19400 7100 19500 7200
-Entry Wire Line
-	19400 7200 19500 7300
-Entry Wire Line
-	19400 7300 19500 7400
-Entry Wire Line
-	19400 7400 19500 7500
-Entry Wire Line
-	19400 7500 19500 7600
-Wire Bus Line
-	21150 6050 21350 6050
-Text HLabel 21350 6050 2    50   Input ~ 0
-A[1..23]
-Entry Wire Line
-	21050 7500 21150 7400
-Wire Wire Line
-	20500 7500 21050 7500
-Wire Wire Line
-	20500 7300 21050 7300
-Wire Wire Line
-	20500 7400 21050 7400
-Entry Wire Line
-	21050 7300 21150 7200
-Entry Wire Line
-	21050 7400 21150 7300
-Text Label 19500 6700 0    50   ~ 0
-A6
-Text Label 19500 6900 0    50   ~ 0
-A7
-Text Label 19500 7000 0    50   ~ 0
-A8
-Text Label 19500 7100 0    50   ~ 0
-A9
-Text Label 19500 7200 0    50   ~ 0
-A10
-Text Label 19500 7300 0    50   ~ 0
-A11
-Text Label 19500 7400 0    50   ~ 0
-A12
-Text Label 19500 7500 0    50   ~ 0
-A13
-Text Label 19500 7600 0    50   ~ 0
-A14
-Entry Wire Line
-	21050 6700 21150 6600
-Wire Wire Line
-	21050 6700 20500 6700
-Text Label 21050 6700 2    50   ~ 0
-A15
-Text Label 21050 7500 2    50   ~ 0
-A16
-Text Label 21050 7400 2    50   ~ 0
-A17
-Text Label 21050 7300 2    50   ~ 0
-A18
-$Comp
-L power:VCC #PWR0110
-U 1 1 5F056E21
-P 18700 5950
-F 0 "#PWR0110" H 18700 5800 50  0001 C CNN
-F 1 "VCC" H 18717 6123 50  0000 C CNN
-F 2 "" H 18700 5950 50  0001 C CNN
-F 3 "" H 18700 5950 50  0001 C CNN
-	1    18700 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0111
-U 1 1 5F057711
-P 18700 7950
-F 0 "#PWR0111" H 18700 7700 50  0001 C CNN
-F 1 "GND" H 18705 7777 50  0000 C CNN
-F 2 "" H 18700 7950 50  0001 C CNN
-F 3 "" H 18700 7950 50  0001 C CNN
-	1    18700 7950
-	1    0    0    -1  
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:C2,5-3 C?
-U 1 1 5F060B7D
-P 18700 6950
-AR Path="/5F060B7D" Ref="C?"  Part="1" 
-AR Path="/5E53B630/5F060B7D" Ref="C?"  Part="1" 
-AR Path="/5E53B952/5F060B7D" Ref="C13"  Part="1" 
-AR Path="/60FBFA5C/5F060B7D" Ref="C13"  Part="1" 
-F 0 "C13" H 18760 6965 59  0000 L BNN
-F 1 "100nF" H 18760 6765 59  0000 L BNN
-F 2 "rosco_m68k:C2.5-3" H 18700 6950 50  0001 C CNN
-F 3 "" H 18700 6950 50  0001 C CNN
-	1    18700 6950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19500 6700 19700 6700
-Wire Wire Line
-	19500 6900 19700 6900
-Wire Wire Line
-	19500 7000 19700 7000
-Wire Wire Line
-	19500 7100 19700 7100
-Wire Wire Line
-	19500 7200 19700 7200
-Wire Wire Line
-	19500 7300 19700 7300
-Wire Wire Line
-	19500 7400 19700 7400
-Wire Wire Line
-	19500 7500 19700 7500
-Wire Wire Line
-	19500 7600 19700 7600
-Wire Wire Line
-	18700 5950 18700 6600
-Connection ~ 18700 6600
-Wire Wire Line
-	18700 6600 18700 6850
-Wire Wire Line
-	19700 7800 18700 7800
-Wire Wire Line
-	18700 7150 18700 7800
-Connection ~ 18700 7800
-Wire Wire Line
-	18700 7800 18700 7950
-Wire Wire Line
-	9450 4000 9050 4000
-Wire Wire Line
-	9050 4000 8650 4000
-Wire Wire Line
-	8650 4000 8650 4300
-Wire Wire Line
-	9850 4000 10250 4000
-Wire Wire Line
-	10250 4000 10650 4000
-Wire Wire Line
-	10650 4000 10650 4300
-Wire Wire Line
-	10250 4300 10250 4000
-Wire Wire Line
-	9850 4300 9850 4000
-Wire Wire Line
-	9450 4300 9450 4000
-Wire Wire Line
-	9050 4300 9050 4000
-Connection ~ 10250 4000
-Connection ~ 9850 4000
-Connection ~ 9450 4000
-Connection ~ 9050 4000
-Wire Wire Line
-	8650 5500 8650 4700
-Wire Wire Line
-	9050 5500 9050 4700
-Text GLabel 9050 5500 3    70   UnSpc ~ 0
-IPL1
-Wire Wire Line
-	9450 5500 9450 4700
-Text GLabel 9450 5500 3    70   UnSpc ~ 0
-IPL0
-Wire Wire Line
-	10250 5500 10250 4700
-Text GLabel 10250 5500 3    70   UnSpc ~ 0
-BGACK
-Wire Wire Line
-	9850 5500 9850 4700
-Text GLabel 9850 5500 3    70   UnSpc ~ 0
-BR
-Wire Wire Line
-	10650 5500 10650 4700
-Text GLabel 10650 5500 3    70   UnSpc ~ 0
-BERR
-$Comp
-L rosco_m68k-eagle-import:R-EU_0207_10 R?
-U 1 1 60F55216
-P 8650 4500
-AR Path="/60F55216" Ref="R?"  Part="1" 
-AR Path="/5E53B952/60F55216" Ref="R?"  Part="1" 
-AR Path="/60FBFA5C/60F55216" Ref="R?"  Part="1" 
-F 0 "R?" V 8500 4559 59  0000 L BNN
-F 1 "4K7" V 8680 4550 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 8650 4500 50  0001 C CNN
-F 3 "" H 8650 4500 50  0001 C CNN
-	1    8650 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:R-EU_0207_10 R?
-U 1 1 60F5521C
-P 9050 4500
-AR Path="/60F5521C" Ref="R?"  Part="1" 
-AR Path="/5E53B952/60F5521C" Ref="R?"  Part="1" 
-AR Path="/60FBFA5C/60F5521C" Ref="R?"  Part="1" 
-F 0 "R?" V 8900 4559 59  0000 L BNN
-F 1 "4K7" V 9080 4550 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 9050 4500 50  0001 C CNN
-F 3 "" H 9050 4500 50  0001 C CNN
-	1    9050 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:R-EU_0207_10 R?
-U 1 1 60F55222
-P 9450 4500
-AR Path="/60F55222" Ref="R?"  Part="1" 
-AR Path="/5E53B952/60F55222" Ref="R?"  Part="1" 
-AR Path="/60FBFA5C/60F55222" Ref="R?"  Part="1" 
-F 0 "R?" V 9300 4559 59  0000 L BNN
-F 1 "4K7" V 9480 4550 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 9450 4500 50  0001 C CNN
-F 3 "" H 9450 4500 50  0001 C CNN
-	1    9450 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:R-EU_0207_10 R?
-U 1 1 60F55228
-P 9850 4500
-AR Path="/60F55228" Ref="R?"  Part="1" 
-AR Path="/5E53B952/60F55228" Ref="R?"  Part="1" 
-AR Path="/60FBFA5C/60F55228" Ref="R?"  Part="1" 
-F 0 "R?" V 9700 4559 59  0000 L BNN
-F 1 "4K7" V 9880 4550 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 9850 4500 50  0001 C CNN
-F 3 "" H 9850 4500 50  0001 C CNN
-	1    9850 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:R-EU_0207_10 R?
-U 1 1 60F5522E
-P 10250 4500
-AR Path="/60F5522E" Ref="R?"  Part="1" 
-AR Path="/5E53B952/60F5522E" Ref="R?"  Part="1" 
-AR Path="/60FBFA5C/60F5522E" Ref="R?"  Part="1" 
-F 0 "R?" V 10100 4559 59  0000 L BNN
-F 1 "4K7" V 10280 4550 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 10250 4500 50  0001 C CNN
-F 3 "" H 10250 4500 50  0001 C CNN
-	1    10250 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rosco_m68k-eagle-import:R-EU_0207_10 R?
-U 1 1 60F55234
-P 10650 4500
-AR Path="/60F55234" Ref="R?"  Part="1" 
-AR Path="/5E53B952/60F55234" Ref="R?"  Part="1" 
-AR Path="/60FBFA5C/60F55234" Ref="R?"  Part="1" 
-F 0 "R?" V 10500 4559 59  0000 L BNN
-F 1 "4K7" V 10680 4550 59  0000 L BNN
-F 2 "rosco_m68k:0207_10" H 10650 4500 50  0001 C CNN
-F 3 "" H 10650 4500 50  0001 C CNN
-	1    10650 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 60F5525F
-P 9650 3800
-F 0 "#PWR?" H 9650 3650 50  0001 C CNN
-F 1 "VCC" H 9667 3973 50  0000 C CNN
-F 2 "" H 9650 3800 50  0001 C CNN
-F 3 "" H 9650 3800 50  0001 C CNN
-	1    9650 3800
-	1    0    0    -1  
-$EndComp
-Text GLabel 8650 5500 3    70   UnSpc ~ 0
-IPL2
 Wire Wire Line
 	1950 1150 2750 1150
 Wire Wire Line
@@ -373,8 +71,8 @@ P 3250 1550
 AR Path="/60F55293" Ref="IC?"  Part="1" 
 AR Path="/5E53B810/60F55293" Ref="IC?"  Part="1" 
 AR Path="/5E53B952/60F55293" Ref="IC?"  Part="1" 
-AR Path="/60FBFA5C/60F55293" Ref="IC?"  Part="1" 
-F 0 "IC?" H 2950 2075 59  0000 L BNN
+AR Path="/60FBFA5C/60F55293" Ref="IC6"  Part="1" 
+F 0 "IC6" H 2950 2075 59  0000 L BNN
 F 1 "74174N" H 2950 950 59  0000 L BNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 3250 1550 50  0001 C CNN
 F 3 "" H 3250 1550 50  0001 C CNN
@@ -391,8 +89,8 @@ U 1 1 60F5529C
 P 1950 2450
 AR Path="/5E53B810/60F5529C" Ref="#PWR?"  Part="1" 
 AR Path="/5E53B952/60F5529C" Ref="#PWR?"  Part="1" 
-AR Path="/60FBFA5C/60F5529C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1950 2200 50  0001 C CNN
+AR Path="/60FBFA5C/60F5529C" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 1950 2200 50  0001 C CNN
 F 1 "GND" H 1955 2277 50  0000 C CNN
 F 2 "" H 1950 2450 50  0001 C CNN
 F 3 "" H 1950 2450 50  0001 C CNN
@@ -405,8 +103,8 @@ U 1 1 60F552A2
 P 1950 750
 AR Path="/5E53B810/60F552A2" Ref="#PWR?"  Part="1" 
 AR Path="/5E53B952/60F552A2" Ref="#PWR?"  Part="1" 
-AR Path="/60FBFA5C/60F552A2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1950 600 50  0001 C CNN
+AR Path="/60FBFA5C/60F552A2" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 1950 600 50  0001 C CNN
 F 1 "VCC" H 1967 923 50  0000 C CNN
 F 2 "" H 1950 750 50  0001 C CNN
 F 3 "" H 1950 750 50  0001 C CNN
@@ -424,8 +122,8 @@ P 9950 1700
 AR Path="/60F552BD" Ref="IC?"  Part="3" 
 AR Path="/5E53B952/60F552BD" Ref="IC?"  Part="4" 
 AR Path="/5E53BC83/60F552BD" Ref="IC?"  Part="4" 
-AR Path="/60FBFA5C/60F552BD" Ref="IC?"  Part="4" 
-F 0 "IC?" H 10050 1825 59  0000 L BNN
+AR Path="/60FBFA5C/60F552BD" Ref="IC9"  Part="4" 
+F 0 "IC9" H 10050 1825 59  0000 L BNN
 F 1 "74LS01N" H 10050 1500 59  0001 L BNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 9950 1700 50  0001 C CNN
 F 3 "" H 9950 1700 50  0001 C CNN
@@ -437,14 +135,12 @@ BERR
 Text Notes 8900 2600 2    50   ~ 0
 DTACK WATCHDOG
 Wire Wire Line
-	8550 750  8550 850 
-Wire Wire Line
 	8550 2000 8550 2200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0116
 U 1 1 60F552C7
 P 8550 2200
-F 0 "#PWR?" H 8550 1950 50  0001 C CNN
+F 0 "#PWR0116" H 8550 1950 50  0001 C CNN
 F 1 "GND" H 8555 2027 50  0000 C CNN
 F 2 "" H 8550 2200 50  0001 C CNN
 F 3 "" H 8550 2200 50  0001 C CNN
@@ -452,10 +148,10 @@ F 3 "" H 8550 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0117
 U 1 1 60F552CD
 P 8550 750
-F 0 "#PWR?" H 8550 600 50  0001 C CNN
+F 0 "#PWR0117" H 8550 600 50  0001 C CNN
 F 1 "VCC" H 8567 923 50  0000 C CNN
 F 2 "" H 8550 750 50  0001 C CNN
 F 3 "" H 8550 750 50  0001 C CNN
@@ -491,10 +187,10 @@ Wire Wire Line
 Text GLabel 7050 1600 0    50   Input ~ 0
 AS
 $Comp
-L 74xx:74LS93 IC?
+L 74xx:74LS93 IC8
 U 1 1 60F552E6
 P 8550 1500
-F 0 "IC?" H 8350 1900 50  0000 C CNN
+F 0 "IC8" H 8350 1900 50  0000 C CNN
 F 1 "74LS93" H 8750 1900 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8550 1500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS93" H 8550 1500 50  0001 C CNN
@@ -502,12 +198,12 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS93" H 8550 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS08 U?
+L 74xx:74LS08 IC13
 U 1 1 60FBB5A0
 P 7350 1700
-F 0 "U?" H 7350 2025 50  0000 C CNN
+F 0 "IC13" H 7350 2025 50  0000 C CNN
 F 1 "74LS08" H 7350 1934 50  0000 C CNN
-F 2 "" H 7350 1700 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 7350 1700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7350 1700 50  0001 C CNN
 	1    7350 1700
 	1    0    0    -1  
@@ -521,43 +217,12 @@ Wire Wire Line
 Wire Wire Line
 	6600 2450 9200 2450
 $Comp
-L 74xx:74LS08 U?
-U 5 1 60FC7B8C
-P 6050 1550
-F 0 "U?" H 6280 1596 50  0000 L CNN
-F 1 "74LS08" H 6280 1505 50  0000 L CNN
-F 2 "" H 6050 1550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 6050 1550 50  0001 C CNN
-	5    6050 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6050 1050 6050 850 
-Wire Wire Line
-	6050 850  8550 850 
-Connection ~ 8550 850 
-Wire Wire Line
-	8550 850  8550 1000
-$Comp
-L power:GND #PWR?
-U 1 1 60FD4226
-P 6050 2400
-F 0 "#PWR?" H 6050 2150 50  0001 C CNN
-F 1 "GND" H 6055 2227 50  0000 C CNN
-F 2 "" H 6050 2400 50  0001 C CNN
-F 3 "" H 6050 2400 50  0001 C CNN
-	1    6050 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6050 2050 6050 2400
-$Comp
-L 74xx:74LS148 U?
+L 74xx:74LS148 IC12
 U 1 1 60FDC019
 P 2650 5150
-F 0 "U?" H 2650 6031 50  0000 C CNN
+F 0 "IC12" H 2650 6031 50  0000 C CNN
 F 1 "74LS148" H 2650 5940 50  0000 C CNN
-F 2 "" H 2650 5150 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 2650 5150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS148" H 2650 5150 50  0001 C CNN
 	1    2650 5150
 	1    0    0    -1  
@@ -579,23 +244,23 @@ IRQ6
 Text GLabel 2150 5450 0    50   Input ~ 0
 IRQ7
 $Comp
-L Device:R R?
+L Device:R R25
 U 1 1 60FEC615
 P 1950 5950
-F 0 "R?" H 2020 5996 50  0000 L CNN
+F 0 "R25" H 2020 5996 50  0000 L CNN
 F 1 "R" H 2020 5905 50  0000 L CNN
-F 2 "" V 1880 5950 50  0001 C CNN
+F 2 "rosco_m68k:R-0207_10" V 1880 5950 50  0001 C CNN
 F 3 "~" H 1950 5950 50  0001 C CNN
 	1    1950 5950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R24
 U 1 1 60FED0CB
 P 1950 4300
-F 0 "R?" H 2020 4346 50  0000 L CNN
+F 0 "R24" H 2020 4346 50  0000 L CNN
 F 1 "R" H 2020 4255 50  0000 L CNN
-F 2 "" V 1880 4300 50  0001 C CNN
+F 2 "rosco_m68k:R-0207_10" V 1880 4300 50  0001 C CNN
 F 3 "~" H 1950 4300 50  0001 C CNN
 	1    1950 4300
 	1    0    0    -1  
@@ -619,10 +284,10 @@ Wire Wire Line
 Wire Wire Line
 	1950 4000 1950 3800
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0118
 U 1 1 61009CD3
 P 1950 3800
-F 0 "#PWR?" H 1950 3650 50  0001 C CNN
+F 0 "#PWR0118" H 1950 3650 50  0001 C CNN
 F 1 "VCC" H 1967 3973 50  0000 C CNN
 F 2 "" H 1950 3800 50  0001 C CNN
 F 3 "" H 1950 3800 50  0001 C CNN
@@ -630,10 +295,10 @@ F 3 "" H 1950 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0119
 U 1 1 6100AA24
 P 1950 6200
-F 0 "#PWR?" H 1950 5950 50  0001 C CNN
+F 0 "#PWR0119" H 1950 5950 50  0001 C CNN
 F 1 "GND" H 1955 6027 50  0000 C CNN
 F 2 "" H 1950 6200 50  0001 C CNN
 F 3 "" H 1950 6200 50  0001 C CNN
@@ -652,8 +317,8 @@ U 1 1 6101C10C
 P 3650 5000
 AR Path="/6101C10C" Ref="C?"  Part="1" 
 AR Path="/5E53B952/6101C10C" Ref="C?"  Part="1" 
-AR Path="/60FBFA5C/6101C10C" Ref="C?"  Part="1" 
-F 0 "C?" H 3710 5015 59  0000 L BNN
+AR Path="/60FBFA5C/6101C10C" Ref="C4"  Part="1" 
+F 0 "C4" H 3710 5015 59  0000 L BNN
 F 1 "100nF" H 3710 4815 59  0000 L BNN
 F 2 "rosco_m68k:C2.5-3" H 3650 5000 50  0001 C CNN
 F 3 "" H 3650 5000 50  0001 C CNN
@@ -665,13 +330,6 @@ Wire Wire Line
 Wire Wire Line
 	3650 4450 2650 4450
 Connection ~ 2650 4450
-Wire Wire Line
-	9450 4000 9650 4000
-Wire Wire Line
-	9650 3800 9650 4000
-Connection ~ 9650 4000
-Wire Wire Line
-	9650 4000 9850 4000
 Wire Wire Line
 	2650 6150 3650 6150
 Wire Wire Line
@@ -687,10 +345,10 @@ Connection ~ 1950 4000
 Text Notes 2200 6450 0    59   ~ 0
 INTERRUPT PRIORITY ENCODER
 $Comp
-L 74xx:74LS93 IC?
+L 74xx:74LS93 IC7
 U 1 1 6107269E
 P 6150 4300
-F 0 "IC?" H 5950 4700 50  0000 C CNN
+F 0 "IC7" H 5950 4700 50  0000 C CNN
 F 1 "74LS93" H 6350 4700 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6150 4300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS93" H 6150 4300 50  0001 C CNN
@@ -716,15 +374,13 @@ Wire Wire Line
 Connection ~ 5400 4500
 NoConn ~ 6650 4300
 NoConn ~ 6650 4400
-Text GLabel 5650 4100 0    50   Input ~ 0
-CLK
-Text GLabel 6650 4200 2    50   Output ~ 0
+Text GLabel 7300 4200 2    50   Output ~ 0
 CLK_1M
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0120
 U 1 1 6108898F
 P 6150 3650
-F 0 "#PWR?" H 6150 3500 50  0001 C CNN
+F 0 "#PWR0120" H 6150 3500 50  0001 C CNN
 F 1 "VCC" H 6167 3823 50  0000 C CNN
 F 2 "" H 6150 3650 50  0001 C CNN
 F 3 "" H 6150 3650 50  0001 C CNN
@@ -732,10 +388,10 @@ F 3 "" H 6150 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0121
 U 1 1 61089066
 P 6150 5150
-F 0 "#PWR?" H 6150 4900 50  0001 C CNN
+F 0 "#PWR0121" H 6150 4900 50  0001 C CNN
 F 1 "GND" H 6155 4977 50  0000 C CNN
 F 2 "" H 6150 5150 50  0001 C CNN
 F 3 "" H 6150 5150 50  0001 C CNN
@@ -743,50 +399,106 @@ F 3 "" H 6150 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 4800 6150 4850
-Wire Wire Line
 	6150 5000 5400 5000
 Wire Wire Line
 	5400 4500 5400 5000
 Connection ~ 6150 5000
 Wire Wire Line
 	6150 5000 6150 5150
-Wire Wire Line
-	6150 3650 6150 3700
 $Comp
 L rosco_m68k-eagle-import:C2,5-3 C?
 U 1 1 6109A096
-P 7350 4100
+P 7100 4500
 AR Path="/6109A096" Ref="C?"  Part="1" 
 AR Path="/5E53B952/6109A096" Ref="C?"  Part="1" 
-AR Path="/60FBFA5C/6109A096" Ref="C?"  Part="1" 
-F 0 "C?" H 7410 4115 59  0000 L BNN
-F 1 "100nF" H 7410 3915 59  0000 L BNN
-F 2 "rosco_m68k:C2.5-3" H 7350 4100 50  0001 C CNN
-F 3 "" H 7350 4100 50  0001 C CNN
-	1    7350 4100
+AR Path="/60FBFA5C/6109A096" Ref="C5"  Part="1" 
+F 0 "C5" H 7160 4515 59  0000 L BNN
+F 1 "100nF" H 7160 4315 59  0000 L BNN
+F 2 "rosco_m68k:C2.5-3" H 7100 4500 50  0001 C CNN
+F 3 "" H 7100 4500 50  0001 C CNN
+	1    7100 4500
+	1    0    0    -1  
+$EndComp
+Text Notes 5200 5550 0    59   ~ 0
+8MHz/1MHz PERIPHERAL CLOCK
+Wire Wire Line
+	8550 750  8550 1000
+$Comp
+L Oscillator:CXO_DIP8 X?
+U 1 1 61242927
+P 4650 4100
+AR Path="/60EC67C5/61242927" Ref="X?"  Part="1" 
+AR Path="/60FBFA5C/61242927" Ref="X2"  Part="1" 
+F 0 "X2" H 4994 4146 50  0000 L CNN
+F 1 "8MHz" H 4994 4055 50  0000 L CNN
+F 2 "Oscillator:Oscillator_DIP-8" H 5100 3750 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf" H 4550 4100 50  0001 C CNN
+	1    4650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 6124292D
+P 4650 3550
+AR Path="/60EC67C5/6124292D" Ref="#PWR?"  Part="1" 
+AR Path="/60FBFA5C/6124292D" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 4650 3400 50  0001 C CNN
+F 1 "VCC" H 4667 3723 50  0000 C CNN
+F 2 "" H 4650 3550 50  0001 C CNN
+F 3 "" H 4650 3550 50  0001 C CNN
+	1    4650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61242933
+P 4650 4700
+AR Path="/60EC67C5/61242933" Ref="#PWR?"  Part="1" 
+AR Path="/60FBFA5C/61242933" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 4650 4450 50  0001 C CNN
+F 1 "GND" H 4655 4527 50  0000 C CNN
+F 2 "" H 4650 4700 50  0001 C CNN
+F 3 "" H 4650 4700 50  0001 C CNN
+	1    4650 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 3700 7350 3700
+	4350 4100 4150 4100
 Wire Wire Line
-	7350 3700 7350 4000
+	4150 4100 4150 4700
+Wire Wire Line
+	4150 4700 4650 4700
+Wire Wire Line
+	4650 4400 4650 4700
+Connection ~ 4650 4700
+Wire Wire Line
+	4650 3550 4650 3800
+Text GLabel 7300 3300 2    50   Output ~ 0
+CLK_8M
+Wire Wire Line
+	4950 4100 5300 4100
+Wire Wire Line
+	6150 3650 6150 3700
+Wire Wire Line
+	6150 4800 6150 5000
+Wire Wire Line
+	7100 3700 6150 3700
 Connection ~ 6150 3700
 Wire Wire Line
 	6150 3700 6150 3800
 Wire Wire Line
-	6150 4850 7350 4850
+	7100 3700 7100 4400
 Wire Wire Line
-	7350 4850 7350 4300
-Connection ~ 6150 4850
+	7100 4700 7100 5000
 Wire Wire Line
-	6150 4850 6150 5000
-Text Notes 5900 5600 0    59   ~ 0
-1MHz CLOCK DIVIDER
+	7100 5000 6150 5000
 Wire Wire Line
-	18700 6600 19700 6600
-Wire Bus Line
-	21150 6050 21150 7400
-Wire Bus Line
-	19400 6050 19400 7500
+	5300 4100 5300 3300
+Wire Wire Line
+	5300 3300 7300 3300
+Connection ~ 5300 4100
+Wire Wire Line
+	5300 4100 5650 4100
+Wire Wire Line
+	7300 4200 6650 4200
 $EndSCHEMATC

@@ -1,0 +1,45 @@
+GAL22V10
+DTACKGEN
+
+NC    DT8   DT16  DT32  NC    NC    NC    NC    NC    NC    NC   GND
+NC    NC    NC    NC    NC    PPCI  PPDS0 PPDS1 CI    DS0   DS1  VCC
+
+/PPCI   = DT32
+
+/PPDS0  = /DT8
+        + /DT32
+
+/PPDS1  = /DT16
+        + /DT32
+
+CI.T    = GND
+DS0.T   = GND
+DS1.T   = GND
+
+CI.E    = /PPCI
+DS0.E   = /PPDS0
+DS1.E   = /PPDS1 
+
+DESCRIPTION
+
+rosco_m68k Pro dynamic bus-sizing DSACKn generation and cache
+control for on-board bus ports.
+
+Copyright (c)2021 Ross Bamford & Contributors
+See LICENSE.md for licence details (spoiler: CERN / MIT).
+
+This GAL generates appropriate DSACKn signals to reflect the sizes
+of the various on-board bus ports for the rosco m68k pro. 
+
+Onboard peripherals are connected directly to the DT8, DT16 or DT32
+inputs, depending on their bus port size.
+
+This GAL also generates CIIN signals to inhibit the data cache
+when accessing 8 and 16-bit ports. Since all onboard memory is
+connected via 32-bit ports, it is assumed that all 8 and 16-bit
+accesses are to peripherals, for which caching should be disabled.
+
+The output CIIN, DS0 and DS1 pins are 'open-collector emulated', to 
+allow them to be connected directly to the CPU lines with other 
+(expansion) devices in a wire-or configuration.
+
