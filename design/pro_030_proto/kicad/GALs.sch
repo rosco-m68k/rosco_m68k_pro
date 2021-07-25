@@ -335,11 +335,11 @@ DSACK1
 Text GLabel 9800 1850 2    50   3State ~ 0
 DSACK0
 NoConn ~ 9800 2050
-Text GLabel 8800 1850 0    50   3State ~ 0
-DT8
-Text GLabel 8800 1950 0    50   3State ~ 0
-DT16
 Text GLabel 8800 2050 0    50   3State ~ 0
+DT8
+Text GLabel 8800 2150 0    50   3State ~ 0
+DT16
+Text GLabel 8800 2250 0    50   3State ~ 0
 DT32
 NoConn ~ 5200 1850
 NoConn ~ 7500 1850
@@ -361,11 +361,7 @@ NoConn ~ 9800 2250
 NoConn ~ 9800 2350
 NoConn ~ 9800 2450
 NoConn ~ 9800 2550
-NoConn ~ 9800 2650
 NoConn ~ 9800 2750
-NoConn ~ 8800 2150
-NoConn ~ 8800 1750
-NoConn ~ 8800 2250
 NoConn ~ 8800 2350
 NoConn ~ 8800 2450
 NoConn ~ 8800 2550
@@ -461,4 +457,12 @@ Wire Wire Line
 Connection ~ 9600 5100
 Wire Wire Line
 	9600 5100 9950 5100
+Text GLabel 8800 1750 0    50   Input ~ 0
+RAMS
+Text GLabel 8800 1850 0    50   Input ~ 0
+ROMS
+Text GLabel 8800 1950 0    50   Input ~ 0
+RAMROMDT
+Text GLabel 9800 2650 2    50   Output ~ 0
+RAMROMSEL
 $EndSCHEMATC
