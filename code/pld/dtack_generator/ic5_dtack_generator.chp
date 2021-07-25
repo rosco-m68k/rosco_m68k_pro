@@ -3,17 +3,17 @@
                                 GAL22V10
 
                           -------\___/-------
-                       NC |  1           24 | VCC
+                     RAMS |  1           24 | VCC
                           |                 |
-                      DT8 |  2           23 | DS1
+                     ROMS |  2           23 | DS1
                           |                 |
-                     DT16 |  3           22 | DS0
+                     RRDT |  3           22 | DS0
                           |                 |
-                     DT32 |  4           21 | CI
+                      DT8 |  4           21 | CI
                           |                 |
-                       NC |  5           20 | PPDS1
+                     DT16 |  5           20 | PPDS1
                           |                 |
-                       NC |  6           19 | PPDS0
+                     DT32 |  6           19 | PPDS0
                           |                 |
                        NC |  7           18 | PPCI
                           |                 |
@@ -23,7 +23,7 @@
                           |                 |
                        NC | 10           15 | NC
                           |                 |
-                       NC | 11           14 | NC
+                       NC | 11           14 | RRSEL
                           |                 |
                       GND | 12           13 | NC
                           -------------------

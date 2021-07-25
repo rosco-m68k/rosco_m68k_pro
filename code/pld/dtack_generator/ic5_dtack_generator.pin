@@ -2,12 +2,12 @@
 
  Pin # | Name     | Pin Type
 -----------------------------
-   1   | NC       | Clock/Input
-   2   | DT8      | Input
-   3   | DT16     | Input
-   4   | DT32     | Input
-   5   | NC       | Input
-   6   | NC       | Input
+   1   | RAMS     | Clock/Input
+   2   | ROMS     | Input
+   3   | RRDT     | Input
+   4   | DT8      | Input
+   5   | DT16     | Input
+   6   | DT32     | Input
    7   | NC       | Input
    8   | NC       | Input
    9   | NC       | Input
@@ -15,7 +15,7 @@
   11   | NC       | Input
   12   | GND      | GND
   13   | NC       | Input
-  14   | NC       | NC
+  14   | RRSEL    | Output
   15   | NC       | NC
   16   | NC       | NC
   17   | NC       | NC
