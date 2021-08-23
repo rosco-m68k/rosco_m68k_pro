@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 10 13
 Title "rosco_m68k Pro (030) Prototype"
 Date "2021-07-24"
 Rev "0"
@@ -14,10 +14,10 @@ Comment3 "Prototype Hardware! Not suitable for general use!"
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x16_Odd_Even J4
+L Connector_Generic:Conn_02x16_Odd_Even J6
 U 1 1 61302767
 P 3500 3700
-F 0 "J4" H 3550 4617 50  0000 C CNN
+F 0 "J6" H 3550 4617 50  0000 C CNN
 F 1 "Conn_02x16_Odd_Even" H 3550 4526 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical" H 3500 3700 50  0001 C CNN
 F 3 "~" H 3500 3700 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "~" H 3500 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x16_Odd_Even J5
+L Connector_Generic:Conn_02x16_Odd_Even J7
 U 1 1 6130437C
 P 4850 3700
-F 0 "J5" H 4900 4617 50  0000 C CNN
+F 0 "J7" H 4900 4617 50  0000 C CNN
 F 1 "Conn_02x16_Odd_Even" H 4900 4526 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical" H 4850 3700 50  0001 C CNN
 F 3 "~" H 4850 3700 50  0001 C CNN
@@ -164,10 +164,10 @@ A29
 Text GLabel 5150 4500 2    50   Input ~ 0
 A31
 $Comp
-L Connector_Generic:Conn_02x16_Odd_Even J6
+L Connector_Generic:Conn_02x16_Odd_Even J8
 U 1 1 6131D7DE
 P 6400 3700
-F 0 "J6" H 6450 4617 50  0000 C CNN
+F 0 "J8" H 6450 4617 50  0000 C CNN
 F 1 "Conn_02x16_Odd_Even" H 6450 4526 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical" H 6400 3700 50  0001 C CNN
 F 3 "~" H 6400 3700 50  0001 C CNN
@@ -239,10 +239,10 @@ GND
 Text GLabel 6700 4500 2    50   UnSpc ~ 0
 GND
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J7
+L Connector_Generic:Conn_02x08_Odd_Even J9
 U 1 1 6132B041
 P 8100 3300
-F 0 "J7" H 8150 3817 50  0000 C CNN
+F 0 "J9" H 8150 3817 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 8150 3726 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 8100 3300 50  0001 C CNN
 F 3 "~" H 8100 3300 50  0001 C CNN
