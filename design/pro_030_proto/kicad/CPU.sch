@@ -439,23 +439,23 @@ F 3 "" H 5500 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Jumper JP1
+L Device:Jumper JP2
 U 1 1 61161044
 P 6250 2050
-F 0 "JP1" H 6250 2314 50  0000 C CNN
+F 0 "JP2" H 6250 2314 50  0000 C CNN
 F 1 "Jumper" H 6250 2223 50  0000 C CNN
-F 2 "rosco_m68k:pin-1X02" H 6250 2050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6250 2050 50  0001 C CNN
 F 3 "~" H 6250 2050 50  0001 C CNN
 	1    6250 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper JP2
+L Device:Jumper JP1
 U 1 1 61161F89
 P 6250 2400
-F 0 "JP2" H 6250 2664 50  0000 C CNN
+F 0 "JP1" H 6250 2664 50  0000 C CNN
 F 1 "Jumper" H 6250 2573 50  0000 C CNN
-F 2 "rosco_m68k:pin-1X02" H 6250 2400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6250 2400 50  0001 C CNN
 F 3 "~" H 6250 2400 50  0001 C CNN
 	1    6250 2400
 	1    0    0    -1  

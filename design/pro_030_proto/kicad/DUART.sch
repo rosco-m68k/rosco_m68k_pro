@@ -486,7 +486,7 @@ U 1 1 61039AFE
 P 2050 6650
 F 0 "JP3" H 2050 6914 50  0000 C CNN
 F 1 "Jumper" H 2050 6823 50  0000 C CNN
-F 2 "rosco_m68k:pin-1X02" H 2050 6650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2050 6650 50  0001 C CNN
 F 3 "~" H 2050 6650 50  0001 C CNN
 	1    2050 6650
 	1    0    0    -1  
@@ -497,7 +497,7 @@ U 1 1 6103B350
 P 2050 7050
 F 0 "JP4" H 2050 7314 50  0000 C CNN
 F 1 "Jumper" H 2050 7223 50  0000 C CNN
-F 2 "rosco_m68k:pin-1X02" H 2050 7050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2050 7050 50  0001 C CNN
 F 3 "~" H 2050 7050 50  0001 C CNN
 	1    2050 7050
 	1    0    0    -1  

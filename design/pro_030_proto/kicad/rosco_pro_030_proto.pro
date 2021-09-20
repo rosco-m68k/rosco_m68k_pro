@@ -1,4 +1,4 @@
-update=Saturday, 15 May 2021 at 22:24:39
+update=Monday, 20 September 2021 at 20:53:53
 last_client=kicad
 [general]
 version=1
@@ -6,7 +6,7 @@ version=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -21,6 +21,8 @@ MinHoleToHole=0.25
 TrackWidth1=0.127
 TrackWidth2=0.1016
 TrackWidth3=0.127
+TrackWidth4=0.2
+TrackWidth5=0.254
 ViaDiameter1=0.4
 ViaDrill1=0.2
 dPairWidth1=0.2
@@ -52,16 +54,16 @@ SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
-Type=0
+Type=1
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
-Type=0
-Enabled=0
+Type=1
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
