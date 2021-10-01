@@ -22,11 +22,11 @@ Text Notes 6700 5200 0    59   ~ 0
 INTERRUPT PRIORITY ENCODER
 Connection ~ 6450 2750
 Text GLabel 7650 3700 2    50   Output ~ 0
-IPL3
-Text GLabel 7650 3600 2    50   Output ~ 0
 IPL2
-Text GLabel 7650 3500 2    50   Output ~ 0
+Text GLabel 7650 3600 2    50   Output ~ 0
 IPL1
+Text GLabel 7650 3500 2    50   Output ~ 0
+IPL0
 Connection ~ 7150 4900
 Wire Wire Line
 	8150 4900 8150 3950

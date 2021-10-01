@@ -14,17 +14,6 @@ Comment3 "Prototype Hardware! Not suitable for general use!"
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR02
-U 1 1 60A95AF5
-P 3250 7450
-F 0 "#PWR02" H 3250 7200 50  0001 C CNN
-F 1 "GND" H 3255 7277 50  0000 C CNN
-F 2 "" H 3250 7450 50  0001 C CNN
-F 3 "" H 3250 7450 50  0001 C CNN
-	1    3250 7450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR01
 U 1 1 60A969D2
 P 3050 700
@@ -81,8 +70,6 @@ Wire Wire Line
 Connection ~ 3450 900 
 Wire Wire Line
 	2950 900  3050 900 
-Wire Wire Line
-	3050 700  3050 750 
 Wire Wire Line
 	2350 6950 2350 7200
 Wire Wire Line
@@ -337,27 +324,9 @@ F 3 "" H 5200 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 2150 5200 2150
-NoConn ~ 4600 2750
-NoConn ~ 4600 2550
-NoConn ~ 4600 3050
-NoConn ~ 4600 3150
+	4600 2150 5050 2150
 Text GLabel 4600 1750 2    50   Output ~ 0
 IPEND
-$Comp
-L power:PWR_FLAG #FLG01
-U 1 1 60C2B135
-P 3050 750
-F 0 "#FLG01" H 3050 825 50  0001 C CNN
-F 1 "PWR_FLAG" V 3050 878 50  0000 L CNN
-F 2 "" H 3050 750 50  0001 C CNN
-F 3 "~" H 3050 750 50  0001 C CNN
-	1    3050 750 
-	0    1    1    0   
-$EndComp
-Connection ~ 3050 750 
-Wire Wire Line
-	3050 750  3050 900 
 $Comp
 L Oscillator:CXO_DIP8 X1
 U 1 1 60C2C5D7
@@ -405,7 +374,7 @@ Wire Wire Line
 Text GLabel 4600 2650 2    50   Input ~ 0
 CIIN
 Wire Wire Line
-	4600 2250 5200 2250
+	4600 2250 5050 2250
 $Comp
 L rosco_m68k-eagle-import:R-EU_0207_10 R?
 U 1 1 61135274
@@ -830,4 +799,30 @@ Text GLabel 4600 2450 2    50   Output ~ 0
 REFILL
 Text GLabel 4600 2350 2    50   Output ~ 0
 STATUS
+Wire Wire Line
+	5050 2150 5050 2050
+Connection ~ 5050 2150
+Wire Wire Line
+	5050 2150 5200 2150
+Text GLabel 5050 2050 1    50   Output ~ 0
+CDIS
+Wire Wire Line
+	5050 2250 5050 2350
+Connection ~ 5050 2250
+Wire Wire Line
+	5050 2250 5200 2250
+Text GLabel 5050 2350 3    50   Output ~ 0
+MMUDIS
+Text GLabel 4600 3050 2    50   Input ~ 0
+OCE
+Text GLabel 4600 3150 2    50   Input ~ 0
+ECS
+Text GLabel 4600 2550 2    50   Output ~ 0
+CIOUT
+Text GLabel 4600 2750 2    50   Output ~ 0
+CBREQ
+Wire Wire Line
+	3050 700  3050 900 
+Text GLabel 3250 7450 3    50   UnSpc ~ 0
+GND
 $EndSCHEMATC

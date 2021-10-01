@@ -283,4 +283,66 @@ Text GLabel 8400 3700 2    50   UnSpc ~ 0
 GND
 Text Notes 7300 1900 2    50   ~ 0
 All headers are provided for prototype development & testing only.\nThey are unlikely to appear in this configuration in the final design!
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J18
+U 1 1 6169B008
+P 8250 4600
+F 0 "J18" H 8300 5117 50  0000 C CNN
+F 1 "Conn_02x08_Male" H 8300 5026 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 8250 4600 50  0001 C CNN
+F 3 "~" H 8250 4600 50  0001 C CNN
+	1    8250 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 8550 4300 2    50   Input ~ 0
+IACK1
+Text GLabel 8550 4400 2    50   Input ~ 0
+IACK2
+Text GLabel 8550 4500 2    50   Input ~ 0
+IACK3
+Text GLabel 8550 4600 2    50   Input ~ 0
+IACK4
+Text GLabel 8550 4700 2    50   Input ~ 0
+IACK5
+Text GLabel 8550 4800 2    50   Input ~ 0
+IACK6
+Text GLabel 8550 4900 2    50   Input ~ 0
+IACK7
+Text GLabel 8550 5000 2    50   Input ~ 0
+ANYIACK
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J19
+U 1 1 616A9AD9
+P 9500 3000
+F 0 "J19" H 9550 3217 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 9550 3126 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 9500 3000 50  0001 C CNN
+F 3 "~" H 9500 3000 50  0001 C CNN
+	1    9500 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 9300 3000 0    50   Output ~ 0
+LV_R
+Text GLabel 9300 3100 0    50   Output ~ 0
+LV_W
+Text GLabel 9800 3000 2    50   UnSpc ~ 0
+GND
+Text GLabel 9800 3100 2    50   UnSpc ~ 0
+GND
+Text GLabel 8050 4300 0    50   3State ~ 0
+IRQ1
+Text GLabel 8050 4400 0    50   3State ~ 0
+IRQ2
+Text GLabel 8050 4500 0    50   3State ~ 0
+IRQ3
+Text GLabel 8050 4600 0    50   3State ~ 0
+IRQ4
+Text GLabel 8050 4700 0    50   3State ~ 0
+IRQ5
+Text GLabel 8050 4800 0    50   3State ~ 0
+IRQ6
+Text GLabel 8050 4900 0    50   3State ~ 0
+IRQ7
+Text GLabel 8050 5000 0    50   UnSpc ~ 0
+GND
 $EndSCHEMATC

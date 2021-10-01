@@ -303,8 +303,6 @@ Wire Wire Line
 Wire Wire Line
 	5650 1750 5650 1950
 Connection ~ 5650 1950
-Wire Wire Line
-	5650 1950 6750 1950
 $Comp
 L power:GND #PWR09
 U 1 1 60F4DB93
@@ -461,4 +459,6 @@ Text GLabel 9500 4000 2    50   Input ~ 0
 RAMEN3
 Wire Wire Line
 	3350 2350 3350 3650
+Wire Wire Line
+	5650 1950 6750 1950
 $EndSCHEMATC

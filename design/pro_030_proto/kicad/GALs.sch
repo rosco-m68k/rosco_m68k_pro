@@ -115,17 +115,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 2950 4700 3200
 $Comp
-L power:GND #PWR032
-U 1 1 60F311F4
-P 9300 3550
-F 0 "#PWR032" H 9300 3300 50  0001 C CNN
-F 1 "GND" H 9305 3377 50  0000 C CNN
-F 2 "" H 9300 3550 50  0001 C CNN
-F 3 "" H 9300 3550 50  0001 C CNN
-	1    9300 3550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR029
 U 1 1 60F30787
 P 1300 1150
@@ -269,8 +258,6 @@ Text GLabel 6500 1850 0    50   Input ~ 0
 FC0
 Text GLabel 6500 1750 0    50   Input ~ 0
 RW
-Wire Wire Line
-	7000 3200 7000 2950
 $Comp
 L rosco_m68k:GAL22V10 IC4
 U 1 1 60FE4F51
@@ -285,8 +272,6 @@ $EndComp
 Wire Wire Line
 	5800 1550 7000 1550
 Connection ~ 5800 1550
-Wire Wire Line
-	7000 3200 5800 3200
 Connection ~ 5800 3200
 Wire Wire Line
 	8100 3200 8100 2350
@@ -319,9 +304,6 @@ Wire Wire Line
 	7000 1550 8100 1550
 Connection ~ 7000 1550
 Connection ~ 8100 1550
-Wire Wire Line
-	7000 3200 8100 3200
-Connection ~ 7000 3200
 Connection ~ 8100 3200
 Wire Wire Line
 	9300 3550 9300 3200
@@ -434,8 +416,6 @@ Wire Wire Line
 	9600 4200 9600 4400
 Connection ~ 9300 4200
 Wire Wire Line
-	9300 4250 9300 4400
-Wire Wire Line
 	8700 4900 9000 4900
 Wire Wire Line
 	8700 5000 9300 5000
@@ -466,8 +446,8 @@ Text GLabel 9800 2650 2    50   Output ~ 0
 RAMROMSEL
 Text GLabel 1900 4400 0    50   Input ~ 0
 XVIDCS
-Text GLabel 2900 4400 2    50   Output ~ 0
-DTACK
+Text GLabel 2900 4400 2    50   3State ~ 0
+DT8
 Text GLabel 2900 4500 2    50   Output ~ 0
 AVEC
 Text GLabel 2900 4700 2    50   Output ~ 0
@@ -480,12 +460,6 @@ FPGA_R
 NoConn ~ 2900 4600
 Text GLabel 1900 5300 0    50   Input ~ 0
 RnW
-Text GLabel 1900 4500 0    50   Input ~ 0
-FC0
-Text GLabel 1900 4600 0    50   Input ~ 0
-FC1
-Text GLabel 1900 4700 0    50   Input ~ 0
-FC2
 Text GLabel 1900 4800 0    50   Input ~ 0
 AS
 Text GLabel 2900 5100 2    50   Output ~ 0
@@ -505,18 +479,6 @@ F 3 "https://www.mouser.com/datasheet/2/268/doc0735-1369018.pdf" H 2400 4900 50 
 	1    2400 4900
 	1    0    0    -1  
 $EndComp
-Text GLabel 1900 4900 0    50   Input ~ 0
-A1
-Text GLabel 1900 5000 0    50   Input ~ 0
-A2
-Text GLabel 1900 5100 0    50   Input ~ 0
-A3
-Text GLabel 1900 5200 0    50   Input ~ 0
-A4
-Text GLabel 2900 5400 2    50   Input ~ 0
-A5
-Text GLabel 2900 5300 2    50   Input ~ 0
-A7
 Text GLabel 2900 5200 2    50   Output ~ 0
 IRQRS
 $Comp
@@ -583,10 +545,6 @@ F 3 "" H 1300 4700 50  0001 C CNN
 	1    1300 4700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1300 3800 1300 4600
-Wire Wire Line
-	2400 4200 3600 4200
 $Comp
 L rosco_m68k-eagle-import:C2,5-3 C?
 U 1 1 615A307A
@@ -602,11 +560,6 @@ F 3 "" H 3600 4700 50  0001 C CNN
 	1    3600 4700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3600 4600 3600 4200
-Connection ~ 3600 4200
-Wire Wire Line
-	3600 4200 4700 4200
 Wire Wire Line
 	3600 4900 3600 5850
 Connection ~ 3600 5850
@@ -650,7 +603,7 @@ A1
 Text GLabel 5200 5100 2    50   Input ~ 0
 A0
 Text GLabel 5200 5000 2    50   Input ~ 0
-IOSEL
+IOS
 Text GLabel 5200 4900 2    50   Output ~ 0
 DUARTCS
 Text GLabel 5200 4800 2    50   Output ~ 0
@@ -659,7 +612,50 @@ NoConn ~ 5200 4700
 NoConn ~ 5200 4600
 NoConn ~ 5200 4500
 NoConn ~ 5200 4400
-NoConn ~ 7500 2750
 Text GLabel 4200 2450 0    50   Input ~ 0
 BOOT
+Wire Wire Line
+	9300 4200 9300 4400
+Wire Wire Line
+	2400 4200 3600 4200
+Wire Wire Line
+	3600 4600 3600 4200
+Connection ~ 3600 4200
+Wire Wire Line
+	3600 4200 4700 4200
+Wire Wire Line
+	1300 3800 1300 4200
+Wire Wire Line
+	1300 4200 1300 4600
+Connection ~ 1300 4200
+Text GLabel 7500 2750 2    50   Input ~ 0
+AS
+Text GLabel 1900 4500 0    50   Input ~ 0
+IACK2
+NoConn ~ 1900 4600
+NoConn ~ 1900 4700
+NoConn ~ 1900 4900
+NoConn ~ 1900 5000
+NoConn ~ 1900 5100
+NoConn ~ 1900 5200
+NoConn ~ 2900 5300
+NoConn ~ 2900 5400
+Wire Wire Line
+	5800 3200 7000 3200
+Wire Wire Line
+	7000 2950 7000 3200
+Connection ~ 7000 3200
+Wire Wire Line
+	7000 3200 8100 3200
+$Comp
+L power:GND #PWR0102
+U 1 1 616CEF14
+P 9300 3550
+F 0 "#PWR0102" H 9300 3300 50  0001 C CNN
+F 1 "GND" H 9305 3377 50  0000 C CNN
+F 2 "" H 9300 3550 50  0001 C CNN
+F 3 "" H 9300 3550 50  0001 C CNN
+	1    9300 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
