@@ -5,25 +5,25 @@
                           -------\___/-------
                      FSEL |  1           24 | VCC
                           |                 |
-                      FC0 |  2           23 | ODTACK
+                    IACK2 |  2           23 | ODTACK
                           |                 |
-                      FC1 |  3           22 | VPA
+                       NC |  3           22 | VPA
                           |                 |
-                      FC2 |  4           21 | PPVPA
+                       NC |  4           21 | PPVPA
                           |                 |
                        AS |  5           20 | FPGAW
                           |                 |
-                       A1 |  6           19 | OIRQ
+                       NC |  6           19 | OIRQ
                           |                 |
-                       A2 |  7           18 | FPGAR
+                       NC |  7           18 | FPGAR
                           |                 |
-                       A3 |  8           17 | PPDT
+                       NC |  8           17 | PPDT
                           |                 |
-                       A4 |  9           16 | FPGACS
+                       NC |  9           16 | FPGACS
                           |                 |
                       RnW | 10           15 | IRQRS
                           |                 |
-                    UDIRQ | 11           14 | A7
+                    UDIRQ | 11           14 | NC
                           |                 |
-                      GND | 12           13 | A5
+                      GND | 12           13 | NC
                           -------------------

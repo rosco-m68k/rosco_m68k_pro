@@ -2,23 +2,23 @@ GAL22V10
 INTRGLUE
 
 RnW   FC0   FC1   FC2   A1    A2    A3    A16   A17   A18   A19  GND
-NC    IACK1 IACK2 IACK3 IACK4 IACK5 IACK6 IACK7 AIACK NC    WnR  VCC
+AS    IACK1 IACK2 IACK3 IACK4 IACK5 IACK6 IACK7 AIACK NC    WnR  VCC
 
-/IACK1  = FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 * /A2 * /A3
-/IACK2  = FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 *  A2 * /A3
-/IACK3  = FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 *  A2 * /A3
-/IACK4  = FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 * /A2 *  A3
-/IACK5  = FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 * /A2 *  A3
-/IACK6  = FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 *  A2 *  A3
-/IACK7  = FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 *  A2 *  A3
+/IACK1  = /AS * RnW * FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 * /A2 * /A3
+/IACK2  = /AS * RnW * FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 *  A2 * /A3
+/IACK3  = /AS * RnW * FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 *  A2 * /A3
+/IACK4  = /AS * RnW * FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 * /A2 *  A3
+/IACK5  = /AS * RnW * FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 * /A2 *  A3
+/IACK6  = /AS * RnW * FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 *  A2 *  A3
+/IACK7  = /AS * RnW * FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 *  A2 *  A3
 
-/AIACK  = FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 * /A2 * /A3
-        + FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 *  A2 * /A3
-        + FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 *  A2 * /A3
-        + FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 * /A2 *  A3
-        + FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 * /A2 *  A3
-        + FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 *  A2 *  A3
-        + FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 *  A2 *  A3
+/AIACK  = /AS * RnW * FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 * /A2 * /A3
+        + /AS * RnW * FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 *  A2 * /A3
+        + /AS * RnW * FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 *  A2 * /A3
+        + /AS * RnW * FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 * /A2 *  A3
+        + /AS * RnW * FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 * /A2 *  A3
+        + /AS * RnW * FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 * /A1 *  A2 *  A3
+        + /AS * RnW * FC0 * FC1 * FC2 * A16 * A17 * A18 * A19 *  A1 *  A2 *  A3
 
 DESCRIPTION
 

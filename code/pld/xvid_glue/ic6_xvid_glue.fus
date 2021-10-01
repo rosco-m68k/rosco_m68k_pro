@@ -29,7 +29,7 @@ Pin 22 = VPA          S0 = 1   S1 = 0
 
 Pin 21 = PPVPA        S0 = 0   S1 = 0
  21  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
- 22  ---- x--- x--- x--- -x-- -x-- x--- -x-- ---- x--- ----
+ 22  ---- -x-- ---- ---- ---- ---- ---- ---- ---- ---- ----
  23  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  24  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  25  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -131,7 +131,7 @@ Pin 16 = FPGACS       S0 = 0   S1 = 0
 
 Pin 15 = IRQRS        S0 = 0   S1 = 0
 111  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
-112  ---- x--- x--- x--- -x-- -x-- x--- -x-- ---- x--- ----
+112  ---- -x-- ---- ---- ---- ---- ---- ---- ---- ---- ----
 113  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 114  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 115  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -142,7 +142,7 @@ Pin 15 = IRQRS        S0 = 0   S1 = 0
 120  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 121  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 14 = A7           S0 = 0   S1 = 0
+Pin 14 = NC           S0 = 0   S1 = 0
 122  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 123  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 124  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
