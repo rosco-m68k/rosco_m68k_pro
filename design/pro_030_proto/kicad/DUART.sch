@@ -14,10 +14,10 @@ Comment3 "Prototype Hardware! Not suitable for general use!"
 Comment4 ""
 $EndDescr
 $Comp
-L rosco_m68k:XR68C681CJTR-F-XR68C681 IC2
+L rosco_m68k:XR68C681CJTR-F-XR68C681 IC8
 U 1 1 60FBD731
 P 2000 1850
-F 0 "IC2" H 3000 2237 60  0000 C CNN
+F 0 "IC8" H 3000 2237 60  0000 C CNN
 F 1 "XR68C681CJTR-F-XR68C681" H 3000 2131 60  0000 C CNN
 F 2 "Package_LCC:PLCC-44_THT-Socket" H 3000 2090 60  0001 C CNN
 F 3 "https://www.maxlinear.com/ds/xr68c681v210.pdf" V 3050 800 60  0000 C CNN

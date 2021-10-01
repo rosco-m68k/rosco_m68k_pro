@@ -1,40 +1,44 @@
 GAL22V10
 MEMSELS
 
-ROMS   RAMS   A22    A21    A1     A0     RW     NC     NC     SIZ0   SIZ1   GND
+ROMS   RAMS   A22    A21    A1     A0     RW     BOOT   NC     SIZ0   SIZ1   GND
 ZRAMS  RAMEN0 RAMEN1 RAMEN2 RAMEN3 ROMEN0 ROMEN1 ROMEN2 ROMEN3 PPDT32 DT32   VCC
 
 ROMEN0  = ROMS * A22 * A21 * /A1 * /RW *       /SIZ0 *  SIZ1
         + ROMS * A22 * A21 * /A0 * /A1 * /RW *  SIZ0
         + ROMS * A22 * A21 * /A0 * /RW *        SIZ0 * /SIZ1
         + ROMS * A22 * A21 * /A1 * /RW *        SIZ0 * /SIZ1
+        + /BOOT
 
 ROMEN1  = ROMS * A22 * A21 * /A0 * /A1 * /RW * /SIZ0 *  SIZ1
         + ROMS * A22 * A21 * /A1 * /RW *        SIZ0 * /SIZ1
         + ROMS * A22 * A21 *  A0 *  A1 * /RW
+        + /BOOT
 
 
 ROMEN2  = ROMS * A22 * A21 * /A0 * /RW *        SIZ0 * /SIZ1
         + ROMS * A22 * A21 *  A1 * /RW
+        + /BOOT
 
 ROMEN3  = ROMS * A22 * A21 *  A1 * /RW 
         + ROMS * A22 * A21 *  A0 * /RW
+        + /BOOT
 
-RAMEN0  = RAMS * A22 * A21 * /A1 * /RW *       /SIZ0 *  SIZ1
-        + RAMS * A22 * A21 * /A0 * /A1 * /RW *  SIZ0
-        + RAMS * A22 * A21 * /A0 * /RW *        SIZ0 * /SIZ1
-        + RAMS * A22 * A21 * /A1 * /RW *        SIZ0 * /SIZ1
+RAMEN0  = BOOT * RAMS * A22 * A21 * /A1 * /RW *       /SIZ0 *  SIZ1
+        + BOOT * RAMS * A22 * A21 * /A0 * /A1 * /RW *  SIZ0
+        + BOOT * RAMS * A22 * A21 * /A0 * /RW *        SIZ0 * /SIZ1
+        + BOOT * RAMS * A22 * A21 * /A1 * /RW *        SIZ0 * /SIZ1
 
-RAMEN1  = RAMS * A22 * A21 * /A0 * /A1 * /RW * /SIZ0 *  SIZ1
-        + RAMS * A22 * A21 * /A1 * /RW *        SIZ0 * /SIZ1
-        + RAMS * A22 * A21 *  A0 *  A1 * /RW
+RAMEN1  = BOOT * RAMS * A22 * A21 * /A0 * /A1 * /RW * /SIZ0 *  SIZ1
+        + BOOT * RAMS * A22 * A21 * /A1 * /RW *        SIZ0 * /SIZ1
+        + BOOT * RAMS * A22 * A21 *  A0 *  A1 * /RW
 
 
-RAMEN2  = RAMS * A22 * A21 * /A0 * /RW *        SIZ0 * /SIZ1
-        + RAMS * A22 * A21 *  A1 * /RW
+RAMEN2  = BOOT * RAMS * A22 * A21 * /A0 * /RW *        SIZ0 * /SIZ1
+        + BOOT * RAMS * A22 * A21 *  A1 * /RW
 
-RAMEN3  = RAMS * A22 * A21 *  A1 * /RW 
-        + RAMS * A22 * A21 *  A0 * /RW
+RAMEN3  = BOOT * RAMS * A22 * A21 *  A1 * /RW 
+        + BOOT * RAMS * A22 * A21 *  A0 * /RW
 
 /PPDT32 = /ROMEN0
         + /ROMEN1
@@ -85,6 +89,8 @@ above to select RAM or ROM as appropriate) are:
 The onboard memory devices are numbered 0-3, where 0 is the least-significant byte (LLDS in the 
 notation above connecting to D0-D7), and 3 is the most-significant byte (UUDS above, connecting
 to D24-D31).
+
+The post-reset BOOT line is also handled here (and will always select all ROMs for 32-bit read).
 
 The address spaces decoded by this IC are as follows:
 

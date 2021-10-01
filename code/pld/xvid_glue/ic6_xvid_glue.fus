@@ -3,8 +3,8 @@
 AR
   0  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 23 = DT32         S0 = 1   S1 = 0
-  1  ---- ---x ---- ---- ---- ---- ---- ---- ---- ---- ----
+Pin 23 = ODTACK       S0 = 1   S1 = 0
+  1  ---- ---- ---- ---- ---- ---- ---x ---- ---- ---- ----
   2  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
   3  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
   4  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -14,24 +14,24 @@ Pin 23 = DT32         S0 = 1   S1 = 0
   8  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
   9  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 22 = PPDT32       S0 = 0   S1 = 0
- 10  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
- 11  ---- ---- ---- ---- ---- ---x ---- ---- ---- ---- ----
- 12  ---- ---- ---- ---- ---x ---- ---- ---- ---- ---- ----
- 13  ---- ---- ---- ---x ---- ---- ---- ---- ---- ---- ----
- 14  ---- ---- ---x ---- ---- ---- ---- ---- ---- ---- ----
- 15  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---x ----
- 16  ---- ---- ---- ---- ---- ---- ---- ---- ---x ---- ----
- 17  ---- ---- ---- ---- ---- ---- ---- ---x ---- ---- ----
- 18  ---- ---- ---- ---- ---- ---- ---x ---- ---- ---- ----
+Pin 22 = VPA          S0 = 1   S1 = 0
+ 10  ---- ---- ---x ---- ---- ---- ---- ---- ---- ---- ----
+ 11  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 12  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 13  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 14  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 15  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 16  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 17  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 18  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  19  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  20  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 21 = ROMEN3       S0 = 1   S1 = 0
+Pin 21 = PPVPA        S0 = 0   S1 = 0
  21  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
- 22  x--- ---- x--- x--- x--- ---- -x-- ---- ---- ---- ----
- 23  x--- ---- x--- x--- ---- x--- -x-- ---- ---- ---- ----
- 24  ---- ---- ---- ---- ---- ---- ---- -x-- ---- ---- ----
+ 22  ---- x--- x--- x--- -x-- -x-- x--- -x-- ---- x--- ----
+ 23  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 24  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  25  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  26  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  27  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -42,11 +42,11 @@ Pin 21 = ROMEN3       S0 = 1   S1 = 0
  32  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  33  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 20 = ROMEN2       S0 = 1   S1 = 0
+Pin 20 = FPGAW        S0 = 0   S1 = 0
  34  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
- 35  x--- ---- x--- x--- ---- -x-- -x-- ---- ---- x--- -x--
- 36  x--- ---- x--- x--- x--- ---- -x-- ---- ---- ---- ----
- 37  ---- ---- ---- ---- ---- ---- ---- -x-- ---- ---- ----
+ 35  -x-- ---- ---- ---- -x-- ---- ---- ---- ---- -x-- ----
+ 36  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 37  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  38  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  39  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  40  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -59,12 +59,12 @@ Pin 20 = ROMEN2       S0 = 1   S1 = 0
  47  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  48  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 19 = ROMEN1       S0 = 1   S1 = 0
+Pin 19 = OIRQ         S0 = 1   S1 = 0
  49  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
- 50  x--- ---- x--- x--- -x-- -x-- -x-- ---- ---- -x-- x---
- 51  x--- ---- x--- x--- -x-- ---- -x-- ---- ---- x--- -x--
- 52  x--- ---- x--- x--- x--- x--- -x-- ---- ---- ---- ----
- 53  ---- ---- ---- ---- ---- ---- ---- -x-- ---- ---- ----
+ 50  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- x---
+ 51  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 52  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 53  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  54  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  55  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  56  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -78,13 +78,13 @@ Pin 19 = ROMEN1       S0 = 1   S1 = 0
  64  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  65  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 18 = ROMEN0       S0 = 1   S1 = 0
+Pin 18 = FPGAR        S0 = 0   S1 = 0
  66  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
- 67  x--- ---- x--- x--- -x-- ---- -x-- ---- ---- -x-- x---
- 68  x--- ---- x--- x--- -x-- -x-- -x-- ---- ---- x--- ----
- 69  x--- ---- x--- x--- ---- -x-- -x-- ---- ---- x--- -x--
- 70  x--- ---- x--- x--- -x-- ---- -x-- ---- ---- x--- -x--
- 71  ---- ---- ---- ---- ---- ---- ---- -x-- ---- ---- ----
+ 67  -x-- ---- ---- ---- -x-- ---- ---- ---- ---- x--- ----
+ 68  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 69  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 70  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 71  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  72  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  73  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  74  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -97,10 +97,10 @@ Pin 18 = ROMEN0       S0 = 1   S1 = 0
  81  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  82  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 17 = RAMEN3       S0 = 1   S1 = 0
+Pin 17 = PPDT         S0 = 0   S1 = 0
  83  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
- 84  ---- x--- x--- x--- x--- ---- -x-- x--- ---- ---- ----
- 85  ---- x--- x--- x--- ---- x--- -x-- x--- ---- ---- ----
+ 84  -x-- ---- ---- ---- -x-- ---- ---- ---- ---- ---- ----
+ 85  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  86  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  87  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  88  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -114,10 +114,10 @@ Pin 17 = RAMEN3       S0 = 1   S1 = 0
  96  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  97  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 16 = RAMEN2       S0 = 1   S1 = 0
+Pin 16 = FPGACS       S0 = 0   S1 = 0
  98  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
- 99  ---- x--- x--- x--- ---- -x-- -x-- x--- ---- x--- -x--
-100  ---- x--- x--- x--- x--- ---- -x-- x--- ---- ---- ----
+ 99  -x-- ---- ---- ---- -x-- ---- ---- ---- ---- ---- ----
+100  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 101  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 102  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 103  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -129,11 +129,11 @@ Pin 16 = RAMEN2       S0 = 1   S1 = 0
 109  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 110  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 15 = RAMEN1       S0 = 1   S1 = 0
+Pin 15 = IRQRS        S0 = 0   S1 = 0
 111  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
-112  ---- x--- x--- x--- -x-- -x-- -x-- x--- ---- -x-- x---
-113  ---- x--- x--- x--- -x-- ---- -x-- x--- ---- x--- -x--
-114  ---- x--- x--- x--- x--- x--- -x-- x--- ---- ---- ----
+112  ---- x--- x--- x--- -x-- -x-- x--- -x-- ---- x--- ----
+113  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+114  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 115  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 116  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 117  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -142,12 +142,12 @@ Pin 15 = RAMEN1       S0 = 1   S1 = 0
 120  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 121  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 14 = RAMEN0       S0 = 1   S1 = 0
-122  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
-123  ---- x--- x--- x--- -x-- ---- -x-- x--- ---- -x-- x---
-124  ---- x--- x--- x--- -x-- -x-- -x-- x--- ---- x--- ----
-125  ---- x--- x--- x--- ---- -x-- -x-- x--- ---- x--- -x--
-126  ---- x--- x--- x--- -x-- ---- -x-- x--- ---- x--- -x--
+Pin 14 = A7           S0 = 0   S1 = 0
+122  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+123  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+124  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+125  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+126  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 127  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 128  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 129  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx

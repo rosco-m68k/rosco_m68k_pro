@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 13
 Title "rosco_m68k Pro (030) Prototype"
-Date "2021-07-24"
+Date "2021-10-01"
 Rev "0"
 Comp "The Really Old-School Company Limited"
 Comment1 "Copyright ©2021 The Really Old-School Company Limited"

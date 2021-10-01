@@ -1,0 +1,28 @@
+GAL22V10
+XVIDGLUE
+
+FSEL  FC0    FC1    FC2     AS    A1      A2     A3     A4       RnW   UDIRQ     GND
+A5    A7     IRQRS  FPGACS  PPDT  FPGAR   OIRQ   FPGAW  PPVPA    VPA   ODTACK    VCC
+
+/FPGAR     = /FSEL * /AS * RnW
+/FPGAW     = /FSEL * /AS * /RnW
+OIRQ       = UDIRQ
+/FPGACS    = /FSEL * /AS
+
+/PPDT      = /FSEL * /AS
+ODTACK.T   = GND
+ODTACK.E   = /PPDT
+
+/PPVPA     = FC0 * FC1 * FC2 * /AS * RnW * /A1 * A2 * /A3
+VPA.T      = GND
+VPA.E      = /PPVPA
+
+/IRQRS     = FC0 * FC1 * FC2 * /AS * RnW * /A1 * A2 * /A3
+
+DESCRIPTION
+
+Xosera DTACK / IACK and buffer enable glue 
+
+Copyright (c)2020-2021 Ross Bamford. See LICENSE.
+
+

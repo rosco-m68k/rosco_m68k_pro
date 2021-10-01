@@ -3,27 +3,27 @@
                                 GAL22V10
 
                           -------\___/-------
-                     ROMS |  1           24 | VCC
+                     FSEL |  1           24 | VCC
                           |                 |
-                     RAMS |  2           23 | DT32
+                      FC0 |  2           23 | ODTACK
                           |                 |
-                      A22 |  3           22 | PPDT32
+                      FC1 |  3           22 | VPA
                           |                 |
-                      A21 |  4           21 | ROMEN3
+                      FC2 |  4           21 | PPVPA
                           |                 |
-                       A1 |  5           20 | ROMEN2
+                       AS |  5           20 | FPGAW
                           |                 |
-                       A0 |  6           19 | ROMEN1
+                       A1 |  6           19 | OIRQ
                           |                 |
-                       RW |  7           18 | ROMEN0
+                       A2 |  7           18 | FPGAR
                           |                 |
-                     BOOT |  8           17 | RAMEN3
+                       A3 |  8           17 | PPDT
                           |                 |
-                       NC |  9           16 | RAMEN2
+                       A4 |  9           16 | FPGACS
                           |                 |
-                     SIZ0 | 10           15 | RAMEN1
+                      RnW | 10           15 | IRQRS
                           |                 |
-                     SIZ1 | 11           14 | RAMEN0
+                    UDIRQ | 11           14 | A7
                           |                 |
-                      GND | 12           13 | ZRAMS
+                      GND | 12           13 | A5
                           -------------------

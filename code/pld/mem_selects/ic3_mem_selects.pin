@@ -9,7 +9,7 @@
    5   | A1       | Input
    6   | A0       | Input
    7   | RW       | Input
-   8   | NC       | Input
+   8   | BOOT     | Input
    9   | NC       | Input
   10   | SIZ0     | Input
   11   | SIZ1     | Input

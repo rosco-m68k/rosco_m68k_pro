@@ -3,27 +3,27 @@
                                 GAL22V10
 
                           -------\___/-------
-                     ROMS |  1           24 | VCC
+                      A14 |  1           24 | VCC
                           |                 |
-                     RAMS |  2           23 | DT32
+                      A13 |  2           23 | NC
                           |                 |
-                      A22 |  3           22 | PPDT32
+                      A12 |  3           22 | NC
                           |                 |
-                      A21 |  4           21 | ROMEN3
+                      A11 |  4           21 | NC
                           |                 |
-                       A1 |  5           20 | ROMEN2
+                      A10 |  5           20 | NC
                           |                 |
-                       A0 |  6           19 | ROMEN1
+                       A9 |  6           19 | XVIDCS
                           |                 |
-                       RW |  7           18 | ROMEN0
+                       A8 |  7           18 | DUARTCS
                           |                 |
-                     BOOT |  8           17 | RAMEN3
+                       A7 |  8           17 | IOSEL
                           |                 |
-                       NC |  9           16 | RAMEN2
+                       A6 |  9           16 | A0
                           |                 |
-                     SIZ0 | 10           15 | RAMEN1
+                       A5 | 10           15 | A1
                           |                 |
-                     SIZ1 | 11           14 | RAMEN0
+                       A4 | 11           14 | A2
                           |                 |
-                      GND | 12           13 | ZRAMS
+                      GND | 12           13 | A3
                           -------------------
