@@ -89,7 +89,7 @@ GND
 Text GLabel 5700 4150 0    50   Input ~ 0
 I2CCS
 Text GLabel 5700 4450 0    50   Input ~ 0
-CLK_1M
+CLK_8M
 $Comp
 L Connector:Conn_01x02_Male J24
 U 1 1 6174523B

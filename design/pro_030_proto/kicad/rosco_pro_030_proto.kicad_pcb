@@ -1046,7 +1046,7 @@
     (pad 7 smd rect (at -4.75 1.905) (size 1.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 11 D0))
     (pad 1 smd rect (at -4.75 -5.715) (size 1.5 0.6) (layers F.Cu F.Paste F.Mask)
-      (net 135 CLK_1M))
+      (net 134 CLK_8M))
     (pad 2 smd rect (at -4.75 -4.445) (size 1.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 419 "Net-(IC30-Pad2)"))
     (pad 3 smd rect (at -4.75 -3.175) (size 1.5 0.6) (layers F.Cu F.Paste F.Mask)
