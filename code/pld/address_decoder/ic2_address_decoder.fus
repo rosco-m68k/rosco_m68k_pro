@@ -5,14 +5,14 @@ AR
 
 Pin 23 = IOS          S0 = 1   S1 = 0
   1  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
-  2  -x-- -x-- -x-- -x-- -x-x -x-- -x-- -x-- -x-- ---- ----
-  3  x--- x--- x--- x--- x--x x-x- x-x- x-x- x-x- x-x- x-x-
-  4  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
-  5  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
-  6  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
-  7  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
-  8  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
-  9  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+  2  x--- x--- x--- x--- x--x x--x x--x x--x x--x -x-x -x-x
+  3  x--- x--- x--- x--- x--x x--x x--x x--x x--x x--x -x-x
+  4  x--- x--- x--- x--- x--x x--x x--x x--x x--x x--x x--x
+  5  x--- x--- x--- x--- x--x x--x x--x x--x x--x x--x x-x-
+  6  x--- x--- x--- x--- x--x x--x x--x x--x x--x x-x- x-x-
+  7  x--- x--- x--- x--- x--x x--x x--x x--x x-x- x-x- x-x-
+  8  x--- x--- x--- x--- x--x x--x x--x x-x- x-x- x-x- x-x-
+  9  x--- x--- x--- x--- x--x x--x x-x- x-x- x-x- x-x- x-x-
 
 Pin 22 = ROMS         S0 = 0   S1 = 0
  10  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
