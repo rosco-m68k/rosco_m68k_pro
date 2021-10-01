@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 13
+Sheet 1 15
 Title "rosco_m68k Pro (030) Prototype"
 Date "2021-10-01"
 Rev "0"
@@ -84,5 +84,17 @@ S 6350 4650 950  1100
 U 611F7BD0
 F0 "INTERRUPTS" 50
 F1 "INTERRUPTS.sch" 50
+$EndSheet
+$Sheet
+S 8550 4650 950  1100
+U 61712F15
+F0 "UNUSED/MECH" 50
+F1 "UNUSED.sch" 50
+$EndSheet
+$Sheet
+S 7450 4650 950  1100
+U 61738494
+F0 "INTERFACE" 50
+F1 "INTERFACE.sch" 50
 $EndSheet
 $EndSCHEMATC

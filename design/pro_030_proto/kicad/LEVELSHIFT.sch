@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 13
+Sheet 12 15
 Title "rosco_m68k Pro (030) Prototype"
-Date "2021-07-24"
+Date "2021-10-01"
 Rev "0"
 Comp "The Really Old-School Company Limited"
 Comment1 "Copyright ©2021 The Really Old-School Company Limited"
@@ -762,15 +762,8 @@ Wire Wire Line
 Text GLabel 10350 3450 3    50   UnSpc ~ 0
 GND
 Wire Wire Line
-	8500 3250 9400 3250
-Wire Wire Line
 	10350 3250 10350 3450
 Connection ~ 8500 3250
-Wire Wire Line
-	9400 3100 9400 3250
-Connection ~ 9400 3250
-Wire Wire Line
-	9400 3250 10350 3250
 Wire Wire Line
 	6950 3100 6950 3250
 Connection ~ 6950 3250
@@ -1093,4 +1086,11 @@ Connection ~ 9750 1200
 Wire Wire Line
 	9250 1200 8750 1200
 Connection ~ 9250 1200
+Wire Wire Line
+	8500 3250 9400 3250
+Connection ~ 9400 3250
+Wire Wire Line
+	9400 3100 9400 3250
+Wire Wire Line
+	9400 3250 10350 3250
 $EndSCHEMATC

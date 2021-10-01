@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 13
+Sheet 7 15
 Title "rosco_m68k Pro (030) Prototype"
-Date "2021-07-24"
+Date "2021-10-01"
 Rev "0"
 Comp "The Really Old-School Company Limited"
 Comment1 "Copyright ©2021 The Really Old-School Company Limited"
@@ -508,28 +508,10 @@ $EndComp
 Wire Wire Line
 	1300 4200 2400 4200
 Connection ~ 2400 4200
-$Comp
-L power:GND #PWR031
-U 1 1 6159D82C
-P 4700 6200
-F 0 "#PWR031" H 4700 5950 50  0001 C CNN
-F 1 "GND" H 4705 6027 50  0000 C CNN
-F 2 "" H 4700 6200 50  0001 C CNN
-F 3 "" H 4700 6200 50  0001 C CNN
-	1    4700 6200
-	1    0    0    -1  
-$EndComp
 Text Notes 4450 6000 0    50   ~ 0
 IC7 - IO_SELECTS
 Wire Wire Line
-	4700 6200 4700 5850
-Wire Wire Line
 	4700 5600 4700 5850
-Connection ~ 4700 5850
-Wire Wire Line
-	2400 5600 2400 5850
-Wire Wire Line
-	2400 5850 3600 5850
 $Comp
 L rosco_m68k-eagle-import:C2,5-3 C?
 U 1 1 615A0C71
@@ -567,9 +549,6 @@ Wire Wire Line
 	3600 5850 4700 5850
 Wire Wire Line
 	1300 4900 1300 5850
-Wire Wire Line
-	1300 5850 2400 5850
-Connection ~ 2400 5850
 Text Notes 2200 6000 0    50   ~ 0
 IC6 - XVID_GLUE
 Text GLabel 4200 4400 0    50   Input ~ 0
@@ -608,7 +587,6 @@ Text GLabel 5200 4900 2    50   Output ~ 0
 DUARTCS
 Text GLabel 5200 4800 2    50   Output ~ 0
 XVIDCS
-NoConn ~ 5200 4700
 NoConn ~ 5200 4600
 NoConn ~ 5200 4500
 NoConn ~ 5200 4400
@@ -658,4 +636,15 @@ F 3 "" H 9300 3550 50  0001 C CNN
 	1    9300 3550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4700 5850 4700 6200
+Connection ~ 4700 5850
+Text GLabel 4700 6200 3    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	1300 5850 3600 5850
+Text GLabel 2400 5600 3    50   UnSpc ~ 0
+GND
+Text GLabel 5200 4700 2    50   Output ~ 0
+I2CCS
 $EndSCHEMATC

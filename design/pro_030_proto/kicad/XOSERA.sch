@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 13
+Sheet 11 15
 Title "rosco_m68k Pro (030) Prototype"
-Date "2021-07-24"
+Date "2021-10-01"
 Rev "0"
 Comp "The Really Old-School Company Limited"
 Comment1 "Copyright ©2021 The Really Old-School Company Limited"
@@ -536,7 +536,7 @@ Text GLabel 5100 1650 0    50   UnSpc ~ 0
 BUS_RD_NWR
 Text GLabel 5100 1850 0    50   UnSpc ~ 0
 UD_5V
-Text GLabel 4400 1950 0    50   UnSpc ~ 0
+Text GLabel 5100 1950 0    50   UnSpc ~ 0
 3V3
 Text GLabel 5100 2050 0    50   UnSpc ~ 0
 GND
@@ -672,24 +672,6 @@ Text Notes 5700 1200 2    50   ~ 0
 USB TOP
 Text Notes 8650 2400 3    50   ~ 0
 VGA/HDMI RIGHT
-$Comp
-L power:PWR_FLAG #FLG02
-U 1 1 6070D6CE
-P 4550 1450
-F 0 "#FLG02" H 4550 1525 50  0001 C CNN
-F 1 "PWR_FLAG" H 4550 1623 50  0000 C CNN
-F 2 "" H 4550 1450 50  0001 C CNN
-F 3 "~" H 4550 1450 50  0001 C CNN
-	1    4550 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 1950 4550 1950
-Wire Wire Line
-	4550 1450 4550 1950
-Connection ~ 4550 1950
-Wire Wire Line
-	4550 1950 5100 1950
 Text GLabel 8150 3200 2    50   Input ~ 0
 DV_DE
 Text GLabel 8150 3100 2    50   Input ~ 0

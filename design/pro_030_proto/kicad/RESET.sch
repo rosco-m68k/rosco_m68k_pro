@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 13
+Sheet 8 15
 Title "rosco_m68k Pro (030) Prototype"
-Date "2021-07-24"
+Date "2021-10-01"
 Rev "0"
 Comp "The Really Old-School Company Limited"
 Comment1 "Copyright ©2021 The Really Old-School Company Limited"
@@ -36,13 +36,6 @@ Wire Wire Line
 	3150 3800 3750 3800
 Wire Wire Line
 	6100 4800 6200 4800
-Wire Wire Line
-	6300 3800 6200 3800
-Wire Wire Line
-	6200 3800 6200 3600
-Wire Wire Line
-	6200 3600 6300 3600
-Connection ~ 6200 3800
 Text GLabel 9650 4800 2    67   Output ~ 0
 HALT
 Wire Wire Line
@@ -50,32 +43,10 @@ Wire Wire Line
 Wire Wire Line
 	7450 3200 7450 3000
 Wire Wire Line
-	5200 4800 5400 4800
-Wire Wire Line
-	5400 4800 5400 4700
-Wire Wire Line
-	5400 4700 5500 4700
-Wire Wire Line
-	5400 4800 5400 4900
-Wire Wire Line
-	5400 4900 5500 4900
-Wire Wire Line
 	5200 4800 5200 5300
-Wire Wire Line
-	5200 5300 5400 5300
-Wire Wire Line
-	5400 5300 5400 5200
-Wire Wire Line
-	5400 5200 5500 5200
-Wire Wire Line
-	5400 5300 5400 5400
-Wire Wire Line
-	5400 5400 5500 5400
-Connection ~ 5400 4800
-Connection ~ 5400 5300
 Connection ~ 5200 4800
 Wire Wire Line
-	4050 5200 4250 5200
+	4050 5200 4150 5200
 Wire Wire Line
 	4550 3800 4850 3800
 Wire Wire Line
@@ -87,7 +58,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 4900 2350 3400
 Wire Wire Line
-	3650 5200 3050 5200
+	3650 5200 3350 5200
 Wire Wire Line
 	3050 5200 3050 4900
 Wire Wire Line
@@ -118,7 +89,7 @@ F 3 "" H 4150 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rosco_m68k-eagle-import:7401N IC?
+L 74xx:74LS05 IC?
 U 1 1 6104F012
 P 5800 4800
 AR Path="/6104F012" Ref="IC?"  Part="1" 
@@ -126,14 +97,14 @@ AR Path="/5E53B952/6104F012" Ref="IC?"  Part="1"
 AR Path="/60FBFA5C/6104F012" Ref="IC?"  Part="1" 
 AR Path="/61043B8D/6104F012" Ref="IC14"  Part="1" 
 F 0 "IC14" H 5900 4925 59  0000 L BNN
-F 1 "74LS01N" H 5900 4600 59  0001 L BNN
+F 1 "74LS05" H 5900 4600 59  0001 L BNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 5800 4800 50  0001 C CNN
 F 3 "" H 5800 4800 50  0001 C CNN
 	1    5800 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L rosco_m68k-eagle-import:7401N IC?
+L 74xx:74LS05 IC?
 U 2 1 6104F018
 P 5800 5300
 AR Path="/6104F018" Ref="IC?"  Part="2" 
@@ -141,14 +112,14 @@ AR Path="/5E53B952/6104F018" Ref="IC?"  Part="2"
 AR Path="/60FBFA5C/6104F018" Ref="IC?"  Part="2" 
 AR Path="/61043B8D/6104F018" Ref="IC14"  Part="2" 
 F 0 "IC14" H 5900 5425 59  0000 L BNN
-F 1 "74LS01N" H 5900 5100 59  0001 L BNN
+F 1 "74LS05" H 5900 5100 59  0001 L BNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 5800 5300 50  0001 C CNN
 F 3 "" H 5800 5300 50  0001 C CNN
 	2    5800 5300
 	1    0    0    -1  
 $EndComp
 $Comp
-L rosco_m68k-eagle-import:7401N IC?
+L 74xx:74LS05 IC?
 U 3 1 6104F01E
 P 6600 3700
 AR Path="/6104F01E" Ref="IC?"  Part="3" 
@@ -156,7 +127,7 @@ AR Path="/5E53B952/6104F01E" Ref="IC?"  Part="3"
 AR Path="/60FBFA5C/6104F01E" Ref="IC?"  Part="3" 
 AR Path="/61043B8D/6104F01E" Ref="IC14"  Part="3" 
 F 0 "IC14" H 6700 3825 59  0000 L BNN
-F 1 "74LS01N" H 6700 3500 59  0001 L BNN
+F 1 "74LS05" H 6700 3500 59  0001 L BNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6600 3700 50  0001 C CNN
 F 3 "" H 6600 3700 50  0001 C CNN
 	3    6600 3700
@@ -413,8 +384,6 @@ Wire Wire Line
 Wire Wire Line
 	4650 2200 4650 4000
 Wire Wire Line
-	6200 3800 6200 4800
-Wire Wire Line
 	9150 3000 9150 5300
 Wire Wire Line
 	8500 3000 8500 4800
@@ -479,4 +448,59 @@ Wire Wire Line
 Connection ~ 8050 5300
 Wire Wire Line
 	8050 5300 9150 5300
+$Comp
+L 74xx:74LS05 IC?
+U 5 1 615FC564
+P 1900 4900
+AR Path="/615FC564" Ref="IC?"  Part="3" 
+AR Path="/5E53B952/615FC564" Ref="IC?"  Part="3" 
+AR Path="/60FBFA5C/615FC564" Ref="IC?"  Part="3" 
+AR Path="/61043B8D/615FC564" Ref="IC14"  Part="5" 
+F 0 "IC14" H 2000 5025 59  0000 L BNN
+F 1 "74LS05" H 2000 4700 59  0001 L BNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 1900 4900 50  0001 C CNN
+F 3 "" H 1900 4900 50  0001 C CNN
+	5    1900 4900
+	1    0    0    -1  
+$EndComp
+Text GLabel 1300 4900 0    50   Input ~ 0
+PWR_GD
+Wire Wire Line
+	2200 4900 2350 4900
+Connection ~ 2350 4900
+Wire Wire Line
+	1300 4900 1600 4900
+Wire Wire Line
+	5200 5300 5500 5300
+Wire Wire Line
+	5200 4800 5500 4800
+Wire Wire Line
+	6200 3700 6300 3700
+Wire Wire Line
+	6200 3700 6200 4800
+Connection ~ 3350 5200
+Wire Wire Line
+	3350 5200 3050 5200
+$Comp
+L Connector:Conn_01x02_Male J23
+U 1 1 6172EF3B
+P 3900 5600
+F 0 "J23" V 4200 5500 50  0000 L CNN
+F 1 "RESET_SW" V 4300 5350 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 3900 5600 50  0001 C CNN
+F 3 "~" H 3900 5600 50  0001 C CNN
+	1    3900 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 5800 3350 5800
+Wire Wire Line
+	3350 5200 3350 5800
+Wire Wire Line
+	3900 5800 4150 5800
+Wire Wire Line
+	4150 5800 4150 5200
+Connection ~ 4150 5200
+Wire Wire Line
+	4150 5200 4250 5200
 $EndSCHEMATC

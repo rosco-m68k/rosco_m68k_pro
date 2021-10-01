@@ -42,9 +42,9 @@ Pin 21 = NC           S0 = 0   S1 = 0
  32  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  33  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 20 = NC           S0 = 0   S1 = 0
- 34  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
- 35  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+Pin 20 = I2CCS        S0 = 1   S1 = 0
+ 34  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 35  -x-- -x-- -x-- -x-- -x-- -x-- -x-x -xx- x--- -x-x -x-x
  36  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  37  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  38  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx

@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 13
+Sheet 9 15
 Title "rosco_m68k Pro (030) Prototype"
-Date "2021-07-24"
+Date "2021-10-01"
 Rev "0"
 Comp "The Really Old-School Company Limited"
 Comment1 "Copyright ©2021 The Really Old-School Company Limited"
@@ -80,9 +80,6 @@ Wire Wire Line
 	2350 3500 3100 3500
 Wire Wire Line
 	3100 3500 3100 3000
-Connection ~ 2350 3500
-Wire Wire Line
-	2350 3500 2350 3700
 $Comp
 L Device:C C?
 U 1 1 61295B6B
@@ -636,62 +633,292 @@ $EndComp
 $Comp
 L Connector:Barrel_Jack J4
 U 1 1 61364993
-P 4750 2450
-F 0 "J4" H 4807 2775 50  0000 C CNN
-F 1 "Barrel_Jack" H 4807 2684 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 4800 2410 50  0001 C CNN
-F 3 "~" H 4800 2410 50  0001 C CNN
-	1    4750 2450
+P 4200 2400
+F 0 "J4" H 4257 2725 50  0000 C CNN
+F 1 "Barrel_Jack" H 4257 2634 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 4250 2360 50  0001 C CNN
+F 3 "~" H 4250 2360 50  0001 C CNN
+	1    4200 2400
 	1    0    0    -1  
 $EndComp
-Text GLabel 5050 2350 2    50   UnSpc ~ 0
-VCC
-Text GLabel 5050 2550 2    50   UnSpc ~ 0
-GND
 $Comp
 L Connector:Conn_01x02_Male J5
 U 1 1 613661C8
-P 4850 3050
-F 0 "J5" H 4958 3231 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 4958 3140 50  0000 C CNN
-F 2 "rosco_m68k:pin-1X02" H 4850 3050 50  0001 C CNN
-F 3 "~" H 4850 3050 50  0001 C CNN
-	1    4850 3050
+P 4300 3000
+F 0 "J5" H 4408 3181 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4408 3090 50  0000 C CNN
+F 2 "rosco_m68k:pin-1X02" H 4300 3000 50  0001 C CNN
+F 3 "~" H 4300 3000 50  0001 C CNN
+	1    4300 3000
 	1    0    0    -1  
 $EndComp
-Text GLabel 5050 3050 2    50   UnSpc ~ 0
-VCC
-Text GLabel 5050 3150 2    50   UnSpc ~ 0
-GND
 $Comp
 L power:VCC #PWR0101
 U 1 1 616C2815
-P 6300 1900
-F 0 "#PWR0101" H 6300 1750 50  0001 C CNN
-F 1 "VCC" H 6317 2073 50  0000 C CNN
-F 2 "" H 6300 1900 50  0001 C CNN
-F 3 "" H 6300 1900 50  0001 C CNN
-	1    6300 1900
+P 1100 1050
+F 0 "#PWR0101" H 1100 900 50  0001 C CNN
+F 1 "VCC" H 1117 1223 50  0000 C CNN
+F 2 "" H 1100 1050 50  0001 C CNN
+F 3 "" H 1100 1050 50  0001 C CNN
+	1    1100 1050
 	1    0    0    -1  
 $EndComp
-Text GLabel 6650 2100 2    50   UnSpc ~ 0
+Text GLabel 1450 1250 2    50   UnSpc ~ 0
 5V
 Wire Wire Line
-	6300 1900 6300 2100
+	1100 1050 1100 1250
 Wire Wire Line
-	6300 2100 6500 2100
+	1100 1250 1300 1250
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 616C870A
-P 6500 2100
-F 0 "#FLG0101" H 6500 2175 50  0001 C CNN
-F 1 "PWR_FLAG" H 6500 2273 50  0000 C CNN
-F 2 "" H 6500 2100 50  0001 C CNN
-F 3 "~" H 6500 2100 50  0001 C CNN
-	1    6500 2100
+P 1300 1250
+F 0 "#FLG0101" H 1300 1325 50  0001 C CNN
+F 1 "PWR_FLAG" H 1300 1423 50  0000 C CNN
+F 2 "" H 1300 1250 50  0001 C CNN
+F 3 "~" H 1300 1250 50  0001 C CNN
+	1    1300 1250
 	1    0    0    -1  
 $EndComp
-Connection ~ 6500 2100
+Connection ~ 1300 1250
 Wire Wire Line
-	6500 2100 6650 2100
+	1300 1250 1450 1250
+$Comp
+L Connector_Generic:Conn_02x12_Top_Bottom J20
+U 1 1 615E75D5
+P 8950 4000
+F 0 "J20" H 9000 4717 50  0000 C CNN
+F 1 "Conn_02x12_Top_Bottom" H 9000 4626 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-2412_2x12_P3.00mm_Vertical" H 8950 4000 50  0001 C CNN
+F 3 "~" H 8950 4000 50  0001 C CNN
+	1    8950 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 3500 0    50   UnSpc ~ 0
+3V3
+Text GLabel 8750 3600 0    50   UnSpc ~ 0
+3V3
+Text GLabel 9250 3500 2    50   UnSpc ~ 0
+3V3
+Text GLabel 8750 3700 0    50   UnSpc ~ 0
+GND
+Text GLabel 8750 3800 0    50   UnSpc ~ 0
+5V
+Text GLabel 8750 3900 0    50   UnSpc ~ 0
+GND
+Text GLabel 8750 4000 0    50   UnSpc ~ 0
+5V
+Text GLabel 8750 4100 0    50   UnSpc ~ 0
+GND
+Text GLabel 8750 4200 0    50   Output ~ 0
+PWR_GD
+Text GLabel 9250 3700 2    50   UnSpc ~ 0
+GND
+Text GLabel 9250 3900 2    50   UnSpc ~ 0
+GND
+Text GLabel 9250 4000 2    50   UnSpc ~ 0
+GND
+Text GLabel 9250 4100 2    50   UnSpc ~ 0
+GND
+NoConn ~ 9250 4200
+Text GLabel 9250 4300 2    50   UnSpc ~ 0
+5V
+Text GLabel 9250 4400 2    50   UnSpc ~ 0
+5V
+Text GLabel 9250 4500 2    50   UnSpc ~ 0
+5V
+Text GLabel 9250 4600 2    50   UnSpc ~ 0
+GND
+NoConn ~ 8750 4400
+NoConn ~ 8750 4500
+NoConn ~ 8750 4600
+NoConn ~ 9250 3600
+NoConn ~ 8750 4300
+Wire Wire Line
+	9250 3800 9600 3800
+$Comp
+L Connector_Generic:Conn_02x01 J21
+U 1 1 6162A857
+P 9800 3800
+F 0 "J21" H 9850 4017 50  0000 C CNN
+F 1 "PWR_SW" H 9850 3926 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 9800 3800 50  0001 C CNN
+F 3 "~" H 9800 3800 50  0001 C CNN
+	1    9800 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 3800 10300 3800
+Wire Wire Line
+	10300 3800 10300 3950
+Text GLabel 10300 3950 3    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	2350 3700 2350 3500
+Connection ~ 2350 3500
+$Comp
+L power:GND #PWR0103
+U 1 1 61660B8B
+P 1100 1750
+F 0 "#PWR0103" H 1100 1500 50  0001 C CNN
+F 1 "GND" H 1105 1577 50  0000 C CNN
+F 2 "" H 1100 1750 50  0001 C CNN
+F 3 "" H 1100 1750 50  0001 C CNN
+	1    1100 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 1450 1500 2    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	1450 1500 1300 1500
+Wire Wire Line
+	1100 1500 1100 1750
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 616654A0
+P 1300 1500
+F 0 "#FLG0102" H 1300 1575 50  0001 C CNN
+F 1 "PWR_FLAG" H 1300 1673 50  0000 C CNN
+F 2 "" H 1300 1500 50  0001 C CNN
+F 3 "~" H 1300 1500 50  0001 C CNN
+	1    1300 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 1300 1500
+Wire Wire Line
+	1300 1500 1100 1500
+$Comp
+L Connector:Conn_01x03_Female J22
+U 1 1 6166AFE0
+P 8300 5700
+F 0 "J22" H 8192 5375 50  0000 C CNN
+F 1 "Conn_01x03_Female" H 8192 5466 50  0000 C CNN
+F 2 "Connector:Banana_Jack_3Pin" H 8300 5700 50  0001 C CNN
+F 3 "~" H 8300 5700 50  0001 C CNN
+	1    8300 5700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8500 5600 9000 5600
+Wire Wire Line
+	8500 5700 9700 5700
+Wire Wire Line
+	8500 5800 9700 5800
+Text GLabel 9700 5600 2    50   UnSpc ~ 0
+5V
+Text GLabel 9700 5700 2    50   UnSpc ~ 0
+GND
+Text GLabel 9700 5800 2    50   UnSpc ~ 0
+3V3
+$Comp
+L Diode:BAT43 D9
+U 1 1 6168F379
+P 9300 5500
+F 0 "D9" H 9300 5284 50  0000 C CNN
+F 1 "BAT43" H 9300 5375 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9300 5325 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 9300 5500 50  0001 C CNN
+	1    9300 5500
+	-1   0    0    1   
+$EndComp
+Text GLabel 9700 5500 2    50   Output ~ 0
+PWR_GD
+Wire Wire Line
+	9450 5500 9700 5500
+Wire Wire Line
+	9150 5500 9000 5500
+Wire Wire Line
+	9000 5500 9000 5600
+Connection ~ 9000 5600
+Wire Wire Line
+	9000 5600 9700 5600
+$Comp
+L Regulator_Linear:LD1117S12TR_SOT223 IC29
+U 1 1 616B86CD
+P 5950 2300
+F 0 "IC29" H 5950 2542 50  0000 C CNN
+F 1 "LD1117S12TR_SOT223" H 5950 2451 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5950 2500 50  0001 C CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 6050 2050 50  0001 C CNN
+	1    5950 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2300 5150 2300
+Wire Wire Line
+	4500 3000 5150 3000
+Wire Wire Line
+	5150 3000 5150 2700
+Connection ~ 5150 2300
+Wire Wire Line
+	5150 2300 5150 1850
+$Comp
+L Device:C C65
+U 1 1 616CE895
+P 5500 2700
+F 0 "C65" V 5248 2700 50  0000 C CNN
+F 1 "100nF" V 5339 2700 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 5538 2550 50  0001 C CNN
+F 3 "~" H 5500 2700 50  0001 C CNN
+	1    5500 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 616D4032
+P 6400 2700
+AR Path="/60EC67C5/616D4032" Ref="C?"  Part="1" 
+AR Path="/60FC48A0/616D4032" Ref="C66"  Part="1" 
+F 0 "C66" V 6150 2650 50  0000 L CNN
+F 1 "10uF" V 6250 2600 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 6438 2550 50  0001 C CNN
+F 3 "~" H 6400 2700 50  0001 C CNN
+	1    6400 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 3100 5000 3100
+Wire Wire Line
+	5950 3100 5950 2700
+Wire Wire Line
+	5650 2700 5950 2700
+Connection ~ 5950 2700
+Wire Wire Line
+	5950 2700 5950 2600
+Wire Wire Line
+	6250 2700 5950 2700
+Wire Wire Line
+	4500 2500 5000 2500
+Wire Wire Line
+	5000 2500 5000 3100
+Connection ~ 5000 3100
+Wire Wire Line
+	5000 3100 5950 3100
+Wire Wire Line
+	5150 2700 5350 2700
+Connection ~ 5150 2700
+Wire Wire Line
+	5150 2700 5150 2300
+Wire Wire Line
+	5150 2300 5650 2300
+Wire Wire Line
+	6550 2700 6750 2700
+Wire Wire Line
+	6750 2700 6750 2300
+Wire Wire Line
+	6750 2300 6250 2300
+Wire Wire Line
+	5950 3100 6850 3100
+Connection ~ 5950 3100
+Wire Wire Line
+	6750 2300 6850 2300
+Connection ~ 6750 2300
+Wire Wire Line
+	5150 1850 6850 1850
+Text GLabel 6850 1850 2    50   UnSpc ~ 0
+5V
+Text GLabel 6850 2300 2    50   UnSpc ~ 0
+3V3
+Text GLabel 6850 3100 2    50   UnSpc ~ 0
+GND
 $EndSCHEMATC

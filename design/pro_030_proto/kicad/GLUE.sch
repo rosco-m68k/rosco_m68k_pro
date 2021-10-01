@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 13
+Sheet 6 15
 Title "rosco_m68k Pro (030) Prototype"
-Date "2021-07-24"
+Date "2021-10-01"
 Rev "0"
 Comp "The Really Old-School Company Limited"
 Comment1 "Copyright ©2021 The Really Old-School Company Limited"
@@ -94,26 +94,24 @@ Wire Wire Line
 Wire Wire Line
 	1950 750  1950 1150
 $Comp
-L rosco_m68k-eagle-import:7401N IC?
+L 74xx:74LS05 IC?
 U 4 1 60F552BD
-P 9950 1700
+P 9950 1600
 AR Path="/60F552BD" Ref="IC?"  Part="3" 
 AR Path="/5E53B952/60F552BD" Ref="IC?"  Part="4" 
 AR Path="/5E53BC83/60F552BD" Ref="IC?"  Part="4" 
 AR Path="/60FBFA5C/60F552BD" Ref="IC14"  Part="4" 
-F 0 "IC14" H 10050 1825 59  0000 L BNN
-F 1 "74LS01N" H 10050 1500 59  0001 L BNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 9950 1700 50  0001 C CNN
-F 3 "" H 9950 1700 50  0001 C CNN
-	4    9950 1700
+F 0 "IC14" H 10050 1725 59  0000 L BNN
+F 1 "74LS05" H 10050 1400 59  0001 L BNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 9950 1600 50  0001 C CNN
+F 3 "" H 9950 1600 50  0001 C CNN
+	4    9950 1600
 	1    0    0    -1  
 $EndComp
-Text GLabel 10250 1700 2    50   Output ~ 0
+Text GLabel 10250 1600 2    50   Output ~ 0
 BERR
 Text Notes 9050 2600 2    50   ~ 0
 DTACK / IACK WATCHDOG
-Wire Wire Line
-	8550 2000 8550 2200
 $Comp
 L power:GND #PWR027
 U 1 1 60F552C7
@@ -138,15 +136,6 @@ F 3 "" H 8550 750 50  0001 C CNN
 $EndComp
 NoConn ~ 9050 1500
 NoConn ~ 9050 1400
-Connection ~ 9350 1600
-Wire Wire Line
-	9350 1600 9050 1600
-Wire Wire Line
-	9350 1800 9650 1800
-Wire Wire Line
-	9350 1600 9350 1800
-Wire Wire Line
-	9650 1600 9350 1600
 Text GLabel 8050 1300 0    50   Input ~ 0
 CLK_1M
 Wire Wire Line
@@ -258,10 +247,6 @@ F 3 "" H 8050 4950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8050 3450 8050 4850
-Wire Wire Line
-	8050 5150 8600 5150
-Wire Wire Line
-	8600 5150 8600 4950
 $Comp
 L power:GND #PWR028
 U 1 1 61012297
@@ -273,7 +258,6 @@ F 3 "" H 8600 5150 50  0001 C CNN
 	1    8600 5150
 	1    0    0    -1  
 $EndComp
-Connection ~ 8600 5150
 $Comp
 L power:VCC #PWR025
 U 1 1 610129A0
@@ -765,4 +749,13 @@ Wire Wire Line
 NoConn ~ 6100 5750
 NoConn ~ 6100 6350
 NoConn ~ 6100 6950
+Wire Wire Line
+	9050 1600 9650 1600
+Wire Wire Line
+	8050 5150 8600 5150
+Wire Wire Line
+	8600 5150 8600 4950
+Connection ~ 8600 5150
+Wire Wire Line
+	8550 2200 8550 2000
 $EndSCHEMATC
