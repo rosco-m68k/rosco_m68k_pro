@@ -453,7 +453,7 @@ AVEC
 Text GLabel 2900 4700 2    50   Output ~ 0
 FPGA_W
 Text GLabel 2900 4800 2    50   3State ~ 0
-OIRQ
+UD_OIRQ
 NoConn ~ 2900 5000
 Text GLabel 2900 4900 2    50   Output ~ 0
 FPGA_R

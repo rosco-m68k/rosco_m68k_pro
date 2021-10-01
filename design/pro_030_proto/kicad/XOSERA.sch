@@ -312,7 +312,7 @@ U 1 1 5EBD8054
 P 2200 7000
 F 0 "C49" H 2315 7046 50  0000 L CNN
 F 1 "100nF" H 2315 6955 50  0000 L CNN
-F 2 "rosco_m68k:C2.5-3" H 2238 6850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 2238 6850 50  0001 C CNN
 F 3 "~" H 2200 7000 50  0001 C CNN
 	1    2200 7000
 	1    0    0    -1  
@@ -406,7 +406,7 @@ U 1 1 5EBD8730
 P 4150 7000
 F 0 "C53" H 4265 7046 50  0000 L CNN
 F 1 "100nF" H 4265 6955 50  0000 L CNN
-F 2 "rosco_m68k:C2.5-3" H 4188 6850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 4188 6850 50  0001 C CNN
 F 3 "~" H 4150 7000 50  0001 C CNN
 	1    4150 7000
 	1    0    0    -1  
@@ -417,7 +417,7 @@ U 1 1 5EBD7BDB
 P 1850 7000
 F 0 "C48" H 1965 7046 50  0000 L CNN
 F 1 "100nF" H 1965 6955 50  0000 L CNN
-F 2 "rosco_m68k:C2.5-3" H 1888 6850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 1888 6850 50  0001 C CNN
 F 3 "~" H 1850 7000 50  0001 C CNN
 	1    1850 7000
 	1    0    0    -1  
@@ -428,7 +428,7 @@ U 1 1 5EBD76DD
 P 1500 7000
 F 0 "C47" H 1615 7046 50  0000 L CNN
 F 1 "100nF" H 1615 6955 50  0000 L CNN
-F 2 "rosco_m68k:C2.5-3" H 1538 6850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 1538 6850 50  0001 C CNN
 F 3 "~" H 1500 7000 50  0001 C CNN
 	1    1500 7000
 	1    0    0    -1  
@@ -439,7 +439,7 @@ U 1 1 5EBD70D8
 P 1150 7000
 F 0 "C46" H 1265 7046 50  0000 L CNN
 F 1 "100nF" H 1265 6955 50  0000 L CNN
-F 2 "rosco_m68k:C2.5-3" H 1188 6850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 1188 6850 50  0001 C CNN
 F 3 "~" H 1150 7000 50  0001 C CNN
 	1    1150 7000
 	1    0    0    -1  
@@ -450,7 +450,7 @@ U 1 1 5EBD6A2D
 P 800 7000
 F 0 "C45" H 915 7046 50  0000 L CNN
 F 1 "100nF" H 915 6955 50  0000 L CNN
-F 2 "rosco_m68k:C2.5-3" H 838 6850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 838 6850 50  0001 C CNN
 F 3 "~" H 800 7000 50  0001 C CNN
 	1    800  7000
 	1    0    0    -1  
@@ -527,7 +527,7 @@ Upduino 3.0\nRGB Jumper Cut\nOSC Jumper Shorted
 NoConn ~ 5100 1250
 NoConn ~ 5100 1450
 Text GLabel 5100 1150 0    50   UnSpc ~ 0
-GND
+PMOD_GND
 Text GLabel 5100 1350 0    50   UnSpc ~ 0
 BUS_RESET_N
 Text GLabel 5100 1550 0    50   UnSpc ~ 0
@@ -633,7 +633,7 @@ VGA_B2
 Text GLabel 8150 2150 2    50   Input ~ 0
 VGA_B3
 Text GLabel 7650 2050 0    50   UnSpc ~ 0
-GND
+PMOD_GND
 Text GLabel 7650 1950 0    50   UnSpc ~ 0
 3V3
 Text GLabel 8150 3400 2    50   Input ~ 0
@@ -641,7 +641,7 @@ VGA_HS
 Text GLabel 8150 3300 2    50   Input ~ 0
 VGA_VS
 Text GLabel 7650 3000 0    50   UnSpc ~ 0
-GND
+PMOD_GND
 Text GLabel 7650 2900 0    50   UnSpc ~ 0
 3V3
 Text GLabel 7650 2450 0    50   Input ~ 0
@@ -661,11 +661,11 @@ VGA_G2
 Text GLabel 7650 3100 0    50   Input ~ 0
 VGA_G3
 Text GLabel 8150 2050 2    50   UnSpc ~ 0
-GND
+PMOD_GND
 Text GLabel 8150 1950 2    50   UnSpc ~ 0
 3V3
 Text GLabel 8150 3000 2    50   UnSpc ~ 0
-GND
+PMOD_GND
 Text GLabel 8150 2900 2    50   UnSpc ~ 0
 3V3
 Text Notes 5700 1200 2    50   ~ 0
@@ -696,17 +696,6 @@ F 1 "Conn_02x04_Counter_Clockwise" H 10350 4776 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 10300 4550 50  0001 C CNN
 F 3 "~" H 10300 4550 50  0001 C CNN
 	1    10300 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J17
-U 1 1 6071C4F2
-P 10300 5250
-F 0 "J17" H 10350 5567 50  0000 C CNN
-F 1 "Conn_02x04_Counter_Clockwise" H 10350 5476 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 10300 5250 50  0001 C CNN
-F 3 "~" H 10300 5250 50  0001 C CNN
-	1    10300 5250
 	1    0    0    -1  
 $EndComp
 Text GLabel 10100 3800 0    50   UnSpc ~ 0
@@ -741,27 +730,13 @@ Text GLabel 10100 4650 0    50   UnSpc ~ 0
 5V
 Text GLabel 10100 4750 0    50   UnSpc ~ 0
 5V
-Text GLabel 10100 5150 0    50   Input ~ 0
-VGA_HS
-Text GLabel 10100 5350 0    50   Input ~ 0
-VGA_VS
-Text GLabel 10100 5250 0    50   UnSpc ~ 0
-GND
-Text GLabel 10100 5450 0    50   UnSpc ~ 0
-GND
-Text GLabel 10600 5250 2    50   UnSpc ~ 0
-5V
-Text GLabel 10600 5350 2    50   UnSpc ~ 0
-GND
-Text GLabel 10600 5450 2    50   UnSpc ~ 0
-3V3
 $Comp
 L Device:C C54
 U 1 1 607305DC
 P 4650 7000
 F 0 "C54" H 4765 7046 50  0000 L CNN
 F 1 "100nF" H 4765 6955 50  0000 L CNN
-F 2 "rosco_m68k:C2.5-3" H 4688 6850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 4688 6850 50  0001 C CNN
 F 3 "~" H 4650 7000 50  0001 C CNN
 	1    4650 7000
 	1    0    0    -1  
@@ -772,7 +747,7 @@ U 1 1 607330BC
 P 5150 7000
 F 0 "C55" H 5265 7046 50  0000 L CNN
 F 1 "100nF" H 5265 6955 50  0000 L CNN
-F 2 "rosco_m68k:C2.5-3" H 5188 6850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 5188 6850 50  0001 C CNN
 F 3 "~" H 5150 7000 50  0001 C CNN
 	1    5150 7000
 	1    0    0    -1  
@@ -825,7 +800,7 @@ U 1 1 60636CE2
 P 2600 7000
 F 0 "C50" H 2715 7046 50  0000 L CNN
 F 1 "100nF" H 2715 6955 50  0000 L CNN
-F 2 "rosco_m68k:C2.5-3" H 2638 6850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 2638 6850 50  0001 C CNN
 F 3 "~" H 2600 7000 50  0001 C CNN
 	1    2600 7000
 	1    0    0    -1  
@@ -942,7 +917,7 @@ $EndComp
 Text GLabel 1150 1950 0    50   UnSpc ~ 0
 5V
 Text GLabel 1150 2050 0    50   Input ~ 0
-OIRQ
+UD_OIRQ
 NoConn ~ 1750 2150
 Text GLabel 1300 2450 0    50   Input ~ 0
 IRQRS
@@ -1025,9 +1000,9 @@ Text GLabel 7800 1050 2    50   Input ~ 0
 GND
 Text GLabel 7800 950  2    50   Input ~ 0
 GND
-Text GLabel 7800 1150 2    50   Input ~ 0
-AUDIO_R
 Text GLabel 7800 850  2    50   Input ~ 0
+AUDIO_R
+Text GLabel 7800 1150 2    50   Input ~ 0
 AUDIO_L
 $Comp
 L Connector:Conn_01x06_Male J12
@@ -1044,8 +1019,6 @@ Text GLabel 7800 750  2    50   UnSpc ~ 0
 3V3
 Text GLabel 7800 1250 2    50   UnSpc ~ 0
 5V
-Text GLabel 10600 5150 2    50   Input ~ 0
-UD_IRQ
 Wire Wire Line
 	10500 1650 10800 1650
 Connection ~ 7300 6050
@@ -1088,4 +1061,6 @@ F 3 "~" H 900 5550 50  0001 C CNN
 	1    900  5550
 	1    0    0    -1  
 $EndComp
+Text Notes 7350 1400 0    50   ~ 0
+N.B. L/R inverted from r1
 $EndSCHEMATC
