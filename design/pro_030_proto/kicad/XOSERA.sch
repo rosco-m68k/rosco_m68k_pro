@@ -472,7 +472,7 @@ Wire Wire Line
 	3650 4300 3650 4200
 Text GLabel 3650 4200 1    50   Input ~ 0
 3V3
-Text GLabel 3800 5300 2    50   Input ~ 0
+Text GLabel 3800 5300 2    50   3State ~ 0
 RESET
 Wire Wire Line
 	2800 5500 2500 5500

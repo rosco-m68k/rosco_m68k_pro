@@ -14,73 +14,6 @@ Comment3 "Prototype Hardware! Not suitable for general use!"
 Comment4 ""
 $EndDescr
 $Comp
-L 74xx:74LS08 IC?
-U 5 1 60FCB732
-P 8200 1700
-AR Path="/60FBFA5C/60FCB732" Ref="IC?"  Part="5" 
-AR Path="/60FC48A0/60FCB732" Ref="IC11"  Part="5" 
-F 0 "IC11" H 8430 1746 50  0000 L CNN
-F 1 "74LS08" H 8430 1655 50  0000 L CNN
-F 2 "" H 8200 1700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 8200 1700 50  0001 C CNN
-	5    8200 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60FCB739
-P 8200 2550
-AR Path="/60FBFA5C/60FCB739" Ref="#PWR?"  Part="1" 
-AR Path="/60FC48A0/60FCB739" Ref="#PWR041"  Part="1" 
-F 0 "#PWR041" H 8200 2300 50  0001 C CNN
-F 1 "GND" H 8205 2377 50  0000 C CNN
-F 2 "" H 8200 2550 50  0001 C CNN
-F 3 "" H 8200 2550 50  0001 C CNN
-	1    8200 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 2200 8200 2350
-$Comp
-L power:VCC #PWR040
-U 1 1 60FCB87C
-P 8200 950
-F 0 "#PWR040" H 8200 800 50  0001 C CNN
-F 1 "VCC" H 8217 1123 50  0000 C CNN
-F 2 "" H 8200 950 50  0001 C CNN
-F 3 "" H 8200 950 50  0001 C CNN
-	1    8200 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 950  8200 1100
-$Comp
-L rosco_m68k-eagle-import:C2,5-3 C?
-U 1 1 60FCDD34
-P 8950 1650
-AR Path="/60FCDD34" Ref="C?"  Part="1" 
-AR Path="/5E53B952/60FCDD34" Ref="C?"  Part="1" 
-AR Path="/60FBFA5C/60FCDD34" Ref="C?"  Part="1" 
-AR Path="/60FC48A0/60FCDD34" Ref="C30"  Part="1" 
-F 0 "C30" H 9010 1665 59  0000 L BNN
-F 1 "100nF" H 9010 1465 59  0000 L BNN
-F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 8950 1650 50  0001 C CNN
-F 3 "" H 8950 1650 50  0001 C CNN
-	1    8950 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 1100 8950 1100
-Wire Wire Line
-	8950 1100 8950 1550
-Connection ~ 8200 1100
-Wire Wire Line
-	8200 1100 8200 1200
-Wire Wire Line
-	8200 2350 8950 2350
-Wire Wire Line
-	8950 2350 8950 1850
-$Comp
 L Device:C C?
 U 1 1 61295B6B
 P 1850 3750
@@ -753,9 +686,6 @@ Wire Wire Line
 	10300 3800 10300 3950
 Text GLabel 10300 3950 3    50   UnSpc ~ 0
 GND
-Wire Wire Line
-	8200 2550 8200 2350
-Connection ~ 8200 2350
 $Comp
 L power:GND #PWR0103
 U 1 1 61660B8B

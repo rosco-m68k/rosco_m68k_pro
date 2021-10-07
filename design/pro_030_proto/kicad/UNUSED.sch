@@ -190,4 +190,18 @@ $EndComp
 Text GLabel 4650 3850 0    50   UnSpc ~ 0
 GND
 NoConn ~ 5250 3850
+$Comp
+L 74xx:74LS05 IC14
+U 4 1 615F8F5E
+P 4950 3300
+F 0 "IC14" H 4950 3617 50  0000 C CNN
+F 1 "74LS05" H 4950 3526 50  0000 C CNN
+F 2 "" H 4950 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 4950 3300 50  0001 C CNN
+	4    4950 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 3300 0    50   UnSpc ~ 0
+GND
+NoConn ~ 5250 3300
 $EndSCHEMATC
