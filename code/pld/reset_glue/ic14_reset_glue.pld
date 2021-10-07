@@ -16,10 +16,10 @@ RESET.E =  HWRST
 RUNLED  =  HWRST
 
 BQ0.R   = /HWRST
-BQ1.R   =  BQ0
-BQ2.R   =  BQ1
-BQ3.R   =  BQ3
-        +  BQ2
+BQ1.R   = /HWRST * BQ0
+BQ2.R   = /HWRST * BQ1
+BQ3.R   = /HWRST * BQ3
+        + /HWRST * BQ2
 
 
 DESCRIPTION
