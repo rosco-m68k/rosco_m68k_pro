@@ -1,0 +1,31 @@
+GAL22V10
+RSTGLUE
+
+AS     PWRGD  HWRST  NC     NC      NC      NC      NC     NC     NC     NC     GND
+NC     RSTR   HALT   RESET  RUNLED  BQ0     BQ1     BQ2    BQ3    NC     NC     VCC
+
+RSTR.T  =  GND
+RSTR.E  = /PWRGD
+
+HALT.T  =  GND
+HALT.E  =  HWRST
+
+RESET.T =  GND
+RESET.E =  HWRST
+
+RUNLED  =  HWRST
+
+BQ0.R   = /HWRST
+BQ1.R   =  BQ0
+BQ2.R   =  BQ1
+BQ3.R   =  BQ3
+        +  BQ2
+
+
+DESCRIPTION
+
+rosco_m68k Reset circuit & boot glue
+
+Copyright (c)2021 Ross Bamford & Contributors
+See LICENSE.md for licence details (spoiler: CERN / MIT).
+
