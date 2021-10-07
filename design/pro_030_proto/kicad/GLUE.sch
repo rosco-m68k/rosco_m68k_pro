@@ -13,86 +13,6 @@ Comment2 "Open Source Hardware (CERN OHL)"
 Comment3 "Prototype Hardware! Not suitable for general use!"
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	1950 1150 2750 1150
-Wire Wire Line
-	2750 1250 1950 1250
-Wire Wire Line
-	1950 1250 1950 1450
-Wire Wire Line
-	2750 1550 1950 1550
-Connection ~ 1950 1550
-Wire Wire Line
-	4150 2550 2350 2550
-Wire Wire Line
-	2350 2550 2350 1350
-Wire Wire Line
-	2350 1350 2750 1350
-Wire Wire Line
-	3750 1150 4150 1150
-Wire Wire Line
-	4150 1150 4150 2550
-Text GLabel 4700 1350 2    47   Output ~ 0
-BOOT
-Wire Wire Line
-	2750 1850 1050 1850
-Text GLabel 1050 1850 0    47   Input ~ 0
-AS
-Wire Wire Line
-	2750 1950 1050 1950
-Text GLabel 1050 1950 0    47   Input ~ 0
-RESET
-$Comp
-L rosco_m68k-eagle-import:74174N IC?
-U 1 1 60F55293
-P 3250 1550
-AR Path="/60F55293" Ref="IC?"  Part="1" 
-AR Path="/5E53B810/60F55293" Ref="IC?"  Part="1" 
-AR Path="/5E53B952/60F55293" Ref="IC?"  Part="1" 
-AR Path="/60FBFA5C/60F55293" Ref="IC9"  Part="1" 
-F 0 "IC9" H 2950 2075 59  0000 L BNN
-F 1 "74174N" H 2950 950 59  0000 L BNN
-F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 3250 1550 50  0001 C CNN
-F 3 "" H 3250 1550 50  0001 C CNN
-	1    3250 1550
-	1    0    0    -1  
-$EndComp
-Text Notes 3050 2750 0    59   ~ 0
-/BOOT LINE GENERATOR
-NoConn ~ 3750 1250
-NoConn ~ 3750 1550
-$Comp
-L power:GND #PWR?
-U 1 1 60F5529C
-P 1950 2450
-AR Path="/5E53B810/60F5529C" Ref="#PWR?"  Part="1" 
-AR Path="/5E53B952/60F5529C" Ref="#PWR?"  Part="1" 
-AR Path="/60FBFA5C/60F5529C" Ref="#PWR021"  Part="1" 
-F 0 "#PWR021" H 1950 2200 50  0001 C CNN
-F 1 "GND" H 1955 2277 50  0000 C CNN
-F 2 "" H 1950 2450 50  0001 C CNN
-F 3 "" H 1950 2450 50  0001 C CNN
-	1    1950 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 60F552A2
-P 1950 750
-AR Path="/5E53B810/60F552A2" Ref="#PWR?"  Part="1" 
-AR Path="/5E53B952/60F552A2" Ref="#PWR?"  Part="1" 
-AR Path="/60FBFA5C/60F552A2" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 1950 600 50  0001 C CNN
-F 1 "VCC" H 1967 923 50  0000 C CNN
-F 2 "" H 1950 750 50  0001 C CNN
-F 3 "" H 1950 750 50  0001 C CNN
-	1    1950 750 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 1550 1950 1650
-Wire Wire Line
-	1950 750  1950 1150
 $Comp
 L 74xx:74LS174 IC13
 U 1 1 60FDF4F7
@@ -356,20 +276,6 @@ Text Notes 9500 5950 2    50   ~ 0
 RAM/ROM DTACK DELAY CIRCUIT
 Text Notes 9800 6050 2    50   ~ 0
 N.B. RAMROMSEL AND RAMROMDT ARE ACTIVE HIGH!
-Wire Wire Line
-	3750 1350 4700 1350
-Wire Wire Line
-	2750 1450 1950 1450
-Connection ~ 1950 1450
-Wire Wire Line
-	1950 1450 1950 1550
-Wire Wire Line
-	2750 1650 1950 1650
-Connection ~ 1950 1650
-Wire Wire Line
-	1950 1650 1950 2450
-NoConn ~ 3750 1450
-NoConn ~ 3750 1650
 $Comp
 L Device:Jumper_NC_Small JP5
 U 1 1 60FDCB26
