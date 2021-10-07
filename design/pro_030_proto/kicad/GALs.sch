@@ -742,7 +742,6 @@ NoConn ~ 8800 5200
 NoConn ~ 8800 5300
 NoConn ~ 8800 5400
 NoConn ~ 9800 4900
-NoConn ~ 9800 4800
 NoConn ~ 9800 4700
 $Comp
 L rosco_m68k-eagle-import:C2,5-3 C?
@@ -787,8 +786,9 @@ Text GLabel 9800 5100 2    50   3State ~ 0
 I_RESET
 Text GLabel 9800 5000 2    50   Output ~ 0
 RUNLED
-Text GLabel 9800 4600 2    50   Output ~ 0
+Text GLabel 9800 4800 2    50   Output ~ 0
 BOOT
 Text Notes 8900 6000 0    50   ~ 0
 IC14 - RESET_GLUE
+NoConn ~ 9800 4600
 $EndSCHEMATC
