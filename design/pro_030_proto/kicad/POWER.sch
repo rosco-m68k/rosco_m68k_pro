@@ -622,7 +622,7 @@ U 1 1 615E75D5
 P 8950 4000
 F 0 "J20" H 9000 4717 50  0000 C CNN
 F 1 "Conn_02x12_Top_Bottom" H 9000 4626 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-2412_2x12_P3.00mm_Vertical" H 8950 4000 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-24A_2x12_P4.20mm_Vertical" H 8950 4000 50  0001 C CNN
 F 3 "~" H 8950 4000 50  0001 C CNN
 	1    8950 4000
 	1    0    0    -1  
@@ -717,51 +717,6 @@ $EndComp
 Connection ~ 1300 1500
 Wire Wire Line
 	1300 1500 1100 1500
-$Comp
-L Connector:Conn_01x03_Female J22
-U 1 1 6166AFE0
-P 8300 5700
-F 0 "J22" H 8192 5375 50  0000 C CNN
-F 1 "Conn_01x03_Female" H 8192 5466 50  0000 C CNN
-F 2 "Connector:Banana_Jack_3Pin" H 8300 5700 50  0001 C CNN
-F 3 "~" H 8300 5700 50  0001 C CNN
-	1    8300 5700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8500 5600 9000 5600
-Wire Wire Line
-	8500 5700 9700 5700
-Wire Wire Line
-	8500 5800 9700 5800
-Text GLabel 9700 5600 2    50   UnSpc ~ 0
-5V
-Text GLabel 9700 5700 2    50   UnSpc ~ 0
-GND
-Text GLabel 9700 5800 2    50   UnSpc ~ 0
-3V3
-$Comp
-L Diode:BAT43 D9
-U 1 1 6168F379
-P 9300 5500
-F 0 "D9" H 9300 5284 50  0000 C CNN
-F 1 "BAT43" H 9300 5375 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9300 5325 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 9300 5500 50  0001 C CNN
-	1    9300 5500
-	-1   0    0    1   
-$EndComp
-Text GLabel 9700 5500 2    50   Output ~ 0
-PWR_GD
-Wire Wire Line
-	9450 5500 9700 5500
-Wire Wire Line
-	9150 5500 9000 5500
-Wire Wire Line
-	9000 5500 9000 5600
-Connection ~ 9000 5600
-Wire Wire Line
-	9000 5600 9700 5600
 $Comp
 L Regulator_Linear:LD1117S12TR_SOT223 IC29
 U 1 1 616B86CD
