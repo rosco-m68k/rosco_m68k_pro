@@ -343,9 +343,6 @@ Wire Wire Line
 Connection ~ 6150 5250
 Wire Wire Line
 	6150 5250 7250 5250
-Wire Wire Line
-	1100 5250 2200 5250
-Connection ~ 2200 5250
 $Comp
 L Device:C C5
 U 1 1 60F98737
