@@ -335,14 +335,9 @@ Wire Wire Line
 Text GLabel 3500 4350 2    50   Output ~ 0
 CLK_8M
 Wire Wire Line
-	2850 3800 2850 4050
-Connection ~ 2850 4950
+	2850 3800 2850 3950
 Wire Wire Line
 	2850 4650 2850 4950
-Wire Wire Line
-	2350 4950 2850 4950
-Wire Wire Line
-	2350 4350 2350 4950
 Wire Wire Line
 	2550 4350 2350 4350
 $Comp
@@ -393,4 +388,11 @@ Wire Wire Line
 Connection ~ 8600 5150
 Wire Wire Line
 	3150 4350 3500 4350
+Wire Wire Line
+	2350 4350 2350 3950
+Wire Wire Line
+	2350 3950 2850 3950
+Connection ~ 2850 3950
+Wire Wire Line
+	2850 3950 2850 4050
 $EndSCHEMATC

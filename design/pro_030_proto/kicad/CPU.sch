@@ -363,14 +363,9 @@ $EndComp
 Wire Wire Line
 	8100 1650 7900 1650
 Wire Wire Line
-	7900 1650 7900 2250
-Wire Wire Line
-	7900 2250 8400 2250
-Wire Wire Line
 	8400 1950 8400 2250
-Connection ~ 8400 2250
 Wire Wire Line
-	8400 1100 8400 1350
+	8400 1100 8400 1250
 Text GLabel 4600 2650 2    50   Input ~ 0
 CIIN
 Wire Wire Line
@@ -825,4 +820,11 @@ Wire Wire Line
 	3050 700  3050 900 
 Text GLabel 3250 7450 3    50   UnSpc ~ 0
 GND
+Wire Wire Line
+	7900 1650 7900 1250
+Wire Wire Line
+	7900 1250 8400 1250
+Connection ~ 8400 1250
+Wire Wire Line
+	8400 1250 8400 1350
 $EndSCHEMATC

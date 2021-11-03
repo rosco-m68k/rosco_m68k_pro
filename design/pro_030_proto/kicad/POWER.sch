@@ -643,7 +643,7 @@ Text GLabel 8750 4000 0    50   UnSpc ~ 0
 5V
 Text GLabel 8750 4100 0    50   UnSpc ~ 0
 GND
-Text GLabel 8750 4200 0    50   Output ~ 0
+Text GLabel 7700 4200 0    50   Output ~ 0
 PWR_GD
 Text GLabel 9250 3700 2    50   UnSpc ~ 0
 GND
@@ -1069,4 +1069,41 @@ Wire Wire Line
 	4550 6100 4550 6250
 Wire Wire Line
 	4550 6850 4550 7050
+$Comp
+L Device:Jumper_NC_Small JP18
+U 1 1 61843C6B
+P 8150 4200
+F 0 "JP18" H 8150 4412 50  0000 C CNN
+F 1 "ATX_Power" H 8150 4321 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8150 4200 50  0001 C CNN
+F 3 "~" H 8150 4200 50  0001 C CNN
+	1    8150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP19
+U 1 1 61844B65
+P 8150 4500
+F 0 "JP19" H 8150 4712 50  0000 C CNN
+F 1 "NoATX_Power" H 8150 4621 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8150 4500 50  0001 C CNN
+F 3 "~" H 8150 4500 50  0001 C CNN
+	1    8150 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 4200 8750 4200
+Wire Wire Line
+	8050 4200 7750 4200
+Wire Wire Line
+	7750 4200 7750 4500
+Wire Wire Line
+	7750 4500 8050 4500
+Connection ~ 7750 4200
+Wire Wire Line
+	7750 4200 7700 4200
+Wire Wire Line
+	8250 4500 8350 4500
+Text GLabel 8350 4500 2    50   UnSpc ~ 0
+GND
 $EndSCHEMATC
