@@ -16,7 +16,7 @@ Pin 23 = IOS          S0 = 1   S1 = 0
 
 Pin 22 = ROMS         S0 = 0   S1 = 0
  10  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
- 11  x--- x--- x--- x--- x--x x--- x--- x--- -x-- ---- ----
+ 11  -x-- x--- x--- x--- x--x x--- x--- x--- x--- ---- ----
  12  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  13  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  14  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
