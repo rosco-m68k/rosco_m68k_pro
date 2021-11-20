@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 15
+Sheet 7 14
 Title "rosco_m68k Pro (030) Prototype"
 Date "2021-10-01"
 Rev "0"
@@ -205,21 +205,21 @@ Text GLabel 1900 2750 0    50   Input ~ 0
 A21
 Text GLabel 1900 2650 0    50   Input ~ 0
 A22
-Text GLabel 1900 2550 0    50   Input ~ 0
-A23
-Text GLabel 1900 2450 0    50   Input ~ 0
-A24
-Text GLabel 1900 2350 0    50   Input ~ 0
-A25
-Text GLabel 1900 2250 0    50   Input ~ 0
-A26
-Text GLabel 1900 2050 0    50   Input ~ 0
-A28
-Text GLabel 1900 1950 0    50   Input ~ 0
-A29
-Text GLabel 1900 1850 0    50   Input ~ 0
-A30
 Text GLabel 1900 1750 0    50   Input ~ 0
+A23
+Text GLabel 1900 1850 0    50   Input ~ 0
+A24
+Text GLabel 1900 1950 0    50   Input ~ 0
+A25
+Text GLabel 1900 2050 0    50   Input ~ 0
+A26
+Text GLabel 1900 2250 0    50   Input ~ 0
+A28
+Text GLabel 1900 2350 0    50   Input ~ 0
+A29
+Text GLabel 1900 2450 0    50   Input ~ 0
+A30
+Text GLabel 1900 2550 0    50   Input ~ 0
 A31
 $Comp
 L rosco_m68k:GAL22V10 IC2

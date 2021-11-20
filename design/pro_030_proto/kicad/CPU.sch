@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 15
+Sheet 2 14
 Title "rosco_m68k Pro (030) Prototype"
 Date "2021-10-01"
 Rev "0"
@@ -821,10 +821,24 @@ Wire Wire Line
 Text GLabel 3250 7450 3    50   UnSpc ~ 0
 GND
 Wire Wire Line
-	7900 1650 7900 1250
-Wire Wire Line
 	7900 1250 8400 1250
 Connection ~ 8400 1250
 Wire Wire Line
 	8400 1250 8400 1350
+$Comp
+L rosco_m68k-eagle-import:R-EU_0207_10 R?
+U 1 1 619838B5
+P 7900 1450
+AR Path="/619838B5" Ref="R?"  Part="1" 
+AR Path="/5E53B952/619838B5" Ref="R?"  Part="1" 
+AR Path="/60FBFA5C/619838B5" Ref="R?"  Part="1" 
+AR Path="/61043B8D/619838B5" Ref="R?"  Part="1" 
+AR Path="/60EC67C5/619838B5" Ref="R42"  Part="1" 
+F 0 "R42" V 8041 1500 59  0000 L BNN
+F 1 "4K7" V 7930 1500 59  0000 L BNN
+F 2 "rosco_m68k:R-0207_10" H 7900 1450 50  0001 C CNN
+F 3 "" H 7900 1450 50  0001 C CNN
+	1    7900 1450
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

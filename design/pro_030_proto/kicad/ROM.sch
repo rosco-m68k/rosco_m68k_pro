@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 15
+Sheet 4 14
 Title "rosco_m68k Pro (030) Prototype"
 Date "2021-10-01"
 Rev "0"
@@ -58,156 +58,140 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf" H 9600 3850 50 
 	1    0    0    -1  
 $EndComp
 Text GLabel 1600 2350 0    50   Input ~ 0
-A0
-Text GLabel 1600 2450 0    50   Input ~ 0
-A1
-Text GLabel 1600 2550 0    50   Input ~ 0
 A2
-Text GLabel 1600 2650 0    50   Input ~ 0
+Text GLabel 1600 2450 0    50   Input ~ 0
 A3
-Text GLabel 1600 2750 0    50   Input ~ 0
+Text GLabel 1600 2550 0    50   Input ~ 0
 A4
-Text GLabel 1600 2850 0    50   Input ~ 0
+Text GLabel 1600 2650 0    50   Input ~ 0
 A5
-Text GLabel 1600 2950 0    50   Input ~ 0
+Text GLabel 1600 2750 0    50   Input ~ 0
 A6
-Text GLabel 1600 3050 0    50   Input ~ 0
+Text GLabel 1600 2850 0    50   Input ~ 0
 A7
-Text GLabel 1600 3150 0    50   Input ~ 0
+Text GLabel 1600 2950 0    50   Input ~ 0
 A8
-Text GLabel 1600 3250 0    50   Input ~ 0
+Text GLabel 1600 3050 0    50   Input ~ 0
 A9
-Text GLabel 1600 3350 0    50   Input ~ 0
+Text GLabel 1600 3150 0    50   Input ~ 0
 A10
-Text GLabel 1600 3450 0    50   Input ~ 0
+Text GLabel 1600 3250 0    50   Input ~ 0
 A11
-Text GLabel 1600 3550 0    50   Input ~ 0
+Text GLabel 1600 3350 0    50   Input ~ 0
 A12
-Text GLabel 1600 3650 0    50   Input ~ 0
+Text GLabel 1600 3450 0    50   Input ~ 0
 A13
-Text GLabel 1600 3750 0    50   Input ~ 0
+Text GLabel 1600 3550 0    50   Input ~ 0
 A14
-Text GLabel 1600 3850 0    50   Input ~ 0
+Text GLabel 1600 3650 0    50   Input ~ 0
 A15
-Text GLabel 1600 3950 0    50   Input ~ 0
+Text GLabel 1600 3750 0    50   Input ~ 0
 A16
-Text GLabel 1600 4050 0    50   Input ~ 0
+Text GLabel 1600 3850 0    50   Input ~ 0
 A17
-Text GLabel 1600 4150 0    50   Input ~ 0
+Text GLabel 1600 3950 0    50   Input ~ 0
 A18
 Text GLabel 4200 2350 0    50   Input ~ 0
-A0
-Text GLabel 4200 2450 0    50   Input ~ 0
-A1
-Text GLabel 4200 2550 0    50   Input ~ 0
 A2
-Text GLabel 4200 2650 0    50   Input ~ 0
+Text GLabel 4200 2450 0    50   Input ~ 0
 A3
-Text GLabel 4200 2750 0    50   Input ~ 0
+Text GLabel 4200 2550 0    50   Input ~ 0
 A4
-Text GLabel 4200 2850 0    50   Input ~ 0
+Text GLabel 4200 2650 0    50   Input ~ 0
 A5
-Text GLabel 4200 2950 0    50   Input ~ 0
+Text GLabel 4200 2750 0    50   Input ~ 0
 A6
-Text GLabel 4200 3050 0    50   Input ~ 0
+Text GLabel 4200 2850 0    50   Input ~ 0
 A7
-Text GLabel 4200 3150 0    50   Input ~ 0
+Text GLabel 4200 2950 0    50   Input ~ 0
 A8
-Text GLabel 4200 3250 0    50   Input ~ 0
+Text GLabel 4200 3050 0    50   Input ~ 0
 A9
-Text GLabel 4200 3350 0    50   Input ~ 0
+Text GLabel 4200 3150 0    50   Input ~ 0
 A10
-Text GLabel 4200 3450 0    50   Input ~ 0
+Text GLabel 4200 3250 0    50   Input ~ 0
 A11
-Text GLabel 4200 3550 0    50   Input ~ 0
+Text GLabel 4200 3350 0    50   Input ~ 0
 A12
-Text GLabel 4200 3650 0    50   Input ~ 0
+Text GLabel 4200 3450 0    50   Input ~ 0
 A13
-Text GLabel 4200 3750 0    50   Input ~ 0
+Text GLabel 4200 3550 0    50   Input ~ 0
 A14
-Text GLabel 4200 3850 0    50   Input ~ 0
+Text GLabel 4200 3650 0    50   Input ~ 0
 A15
-Text GLabel 4200 3950 0    50   Input ~ 0
+Text GLabel 4200 3750 0    50   Input ~ 0
 A16
-Text GLabel 4200 4050 0    50   Input ~ 0
+Text GLabel 4200 3850 0    50   Input ~ 0
 A17
-Text GLabel 4200 4150 0    50   Input ~ 0
+Text GLabel 4200 3950 0    50   Input ~ 0
 A18
 Text GLabel 6650 2350 0    50   Input ~ 0
-A0
-Text GLabel 6650 2450 0    50   Input ~ 0
-A1
-Text GLabel 6650 2550 0    50   Input ~ 0
 A2
-Text GLabel 6650 2650 0    50   Input ~ 0
+Text GLabel 6650 2450 0    50   Input ~ 0
 A3
-Text GLabel 6650 2750 0    50   Input ~ 0
+Text GLabel 6650 2550 0    50   Input ~ 0
 A4
-Text GLabel 6650 2850 0    50   Input ~ 0
+Text GLabel 6650 2650 0    50   Input ~ 0
 A5
-Text GLabel 6650 2950 0    50   Input ~ 0
+Text GLabel 6650 2750 0    50   Input ~ 0
 A6
-Text GLabel 6650 3050 0    50   Input ~ 0
+Text GLabel 6650 2850 0    50   Input ~ 0
 A7
-Text GLabel 6650 3150 0    50   Input ~ 0
+Text GLabel 6650 2950 0    50   Input ~ 0
 A8
-Text GLabel 6650 3250 0    50   Input ~ 0
+Text GLabel 6650 3050 0    50   Input ~ 0
 A9
-Text GLabel 6650 3350 0    50   Input ~ 0
+Text GLabel 6650 3150 0    50   Input ~ 0
 A10
-Text GLabel 6650 3450 0    50   Input ~ 0
+Text GLabel 6650 3250 0    50   Input ~ 0
 A11
-Text GLabel 6650 3550 0    50   Input ~ 0
+Text GLabel 6650 3350 0    50   Input ~ 0
 A12
-Text GLabel 6650 3650 0    50   Input ~ 0
+Text GLabel 6650 3450 0    50   Input ~ 0
 A13
-Text GLabel 6650 3750 0    50   Input ~ 0
+Text GLabel 6650 3550 0    50   Input ~ 0
 A14
-Text GLabel 6650 3850 0    50   Input ~ 0
+Text GLabel 6650 3650 0    50   Input ~ 0
 A15
-Text GLabel 6650 3950 0    50   Input ~ 0
+Text GLabel 6650 3750 0    50   Input ~ 0
 A16
-Text GLabel 6650 4050 0    50   Input ~ 0
+Text GLabel 6650 3850 0    50   Input ~ 0
 A17
-Text GLabel 6650 4150 0    50   Input ~ 0
+Text GLabel 6650 3950 0    50   Input ~ 0
 A18
 Text GLabel 9000 2350 0    50   Input ~ 0
-A0
-Text GLabel 9000 2450 0    50   Input ~ 0
-A1
-Text GLabel 9000 2550 0    50   Input ~ 0
 A2
-Text GLabel 9000 2650 0    50   Input ~ 0
+Text GLabel 9000 2450 0    50   Input ~ 0
 A3
-Text GLabel 9000 2750 0    50   Input ~ 0
+Text GLabel 9000 2550 0    50   Input ~ 0
 A4
-Text GLabel 9000 2850 0    50   Input ~ 0
+Text GLabel 9000 2650 0    50   Input ~ 0
 A5
-Text GLabel 9000 2950 0    50   Input ~ 0
+Text GLabel 9000 2750 0    50   Input ~ 0
 A6
-Text GLabel 9000 3050 0    50   Input ~ 0
+Text GLabel 9000 2850 0    50   Input ~ 0
 A7
-Text GLabel 9000 3150 0    50   Input ~ 0
+Text GLabel 9000 2950 0    50   Input ~ 0
 A8
-Text GLabel 9000 3250 0    50   Input ~ 0
+Text GLabel 9000 3050 0    50   Input ~ 0
 A9
-Text GLabel 9000 3350 0    50   Input ~ 0
+Text GLabel 9000 3150 0    50   Input ~ 0
 A10
-Text GLabel 9000 3450 0    50   Input ~ 0
+Text GLabel 9000 3250 0    50   Input ~ 0
 A11
-Text GLabel 9000 3550 0    50   Input ~ 0
+Text GLabel 9000 3350 0    50   Input ~ 0
 A12
-Text GLabel 9000 3650 0    50   Input ~ 0
+Text GLabel 9000 3450 0    50   Input ~ 0
 A13
-Text GLabel 9000 3750 0    50   Input ~ 0
+Text GLabel 9000 3550 0    50   Input ~ 0
 A14
-Text GLabel 9000 3850 0    50   Input ~ 0
+Text GLabel 9000 3650 0    50   Input ~ 0
 A15
-Text GLabel 9000 3950 0    50   Input ~ 0
+Text GLabel 9000 3750 0    50   Input ~ 0
 A16
-Text GLabel 9000 4050 0    50   Input ~ 0
+Text GLabel 9000 3850 0    50   Input ~ 0
 A17
-Text GLabel 9000 4150 0    50   Input ~ 0
+Text GLabel 9000 3950 0    50   Input ~ 0
 A18
 Text GLabel 2800 2350 2    50   BiDi ~ 0
 D0
@@ -445,4 +429,20 @@ Text GLabel 6650 4650 0    50   Input ~ 0
 WR
 Text GLabel 9000 4650 0    50   Input ~ 0
 WR
+Text GLabel 1600 4050 0    50   Input ~ 0
+A19
+Text GLabel 1600 4150 0    50   Input ~ 0
+A20
+Text GLabel 4200 4050 0    50   Input ~ 0
+A19
+Text GLabel 4200 4150 0    50   Input ~ 0
+A20
+Text GLabel 6650 4050 0    50   Input ~ 0
+A19
+Text GLabel 6650 4150 0    50   Input ~ 0
+A20
+Text GLabel 9000 4050 0    50   Input ~ 0
+A19
+Text GLabel 9000 4150 0    50   Input ~ 0
+A20
 $EndSCHEMATC

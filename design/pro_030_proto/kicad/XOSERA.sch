@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 15
+Sheet 11 14
 Title "rosco_m68k Pro (030) Prototype"
 Date "2021-10-01"
 Rev "0"
@@ -507,9 +507,9 @@ F 3 "~" H 10200 1650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9900 1650 9600 1650
-Text GLabel 10800 1650 2    50   UnSpc ~ 0
-UD_5V
 Text GLabel 9600 1650 0    50   UnSpc ~ 0
+UD_5V
+Text GLabel 10800 1650 2    50   UnSpc ~ 0
 5V
 $Comp
 L Connector:Conn_01x24_Female J10
@@ -537,7 +537,7 @@ BUS_RD_NWR
 Text GLabel 5100 1850 0    50   UnSpc ~ 0
 UD_5V
 Text GLabel 5100 1950 0    50   UnSpc ~ 0
-3V3
+UD_3V3
 Text GLabel 5100 2050 0    50   UnSpc ~ 0
 GND
 Text GLabel 5100 1750 0    50   Input ~ 0
@@ -1063,4 +1063,23 @@ F 3 "~" H 900 5550 50  0001 C CNN
 $EndComp
 Text Notes 7350 1400 0    50   ~ 0
 N.B. L/R inverted from r1
+$Comp
+L Device:Jumper JP20
+U 1 1 619B1631
+P 10200 2750
+F 0 "JP20" H 10200 3014 50  0000 C CNN
+F 1 "Jumper" H 10200 2923 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10200 2750 50  0001 C CNN
+F 3 "~" H 10200 2750 50  0001 C CNN
+	1    10200 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2750 9600 2750
+Text GLabel 9600 2750 0    50   UnSpc ~ 0
+UD_3V3
+Text GLabel 10800 2750 2    50   UnSpc ~ 0
+3V3
+Wire Wire Line
+	10500 2750 10800 2750
 $EndSCHEMATC

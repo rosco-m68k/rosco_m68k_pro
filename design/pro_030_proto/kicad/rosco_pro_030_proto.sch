@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 15
+Sheet 1 14
 Title "rosco_m68k Pro (030) Prototype"
 Date "2021-10-01"
 Rev "0"
@@ -72,12 +72,6 @@ S 4150 4650 950  1100
 U 61161E57
 F0 "XOSERA" 50
 F1 "XOSERA.sch" 50
-$EndSheet
-$Sheet
-S 5250 4650 950  1100
-U 6116F31D
-F0 "LEVELSHIFT" 50
-F1 "LEVELSHIFT.sch" 50
 $EndSheet
 $Sheet
 S 6350 4650 950  1100

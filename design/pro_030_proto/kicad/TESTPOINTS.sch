@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 15
+Sheet 10 14
 Title "rosco_m68k Pro (030) Prototype"
 Date "2021-10-01"
 Rev "0"
@@ -37,129 +37,125 @@ F 3 "~" H 4850 3700 50  0001 C CNN
 $EndComp
 Text GLabel 3300 3000 0    50   BiDi ~ 0
 D0
-Text GLabel 3300 3100 0    50   BiDi ~ 0
-D2
 Text GLabel 3300 3200 0    50   BiDi ~ 0
-D4
-Text GLabel 3300 3300 0    50   BiDi ~ 0
-D6
+D2
 Text GLabel 3300 3400 0    50   BiDi ~ 0
-D8
-Text GLabel 3300 3500 0    50   BiDi ~ 0
-D10
+D4
 Text GLabel 3300 3600 0    50   BiDi ~ 0
-D12
-Text GLabel 3300 3700 0    50   BiDi ~ 0
-D14
+D6
 Text GLabel 3300 3800 0    50   BiDi ~ 0
-D16
-Text GLabel 3300 3900 0    50   BiDi ~ 0
-D18
+D8
 Text GLabel 3300 4000 0    50   BiDi ~ 0
-D20
-Text GLabel 3300 4100 0    50   BiDi ~ 0
-D22
+D10
 Text GLabel 3300 4200 0    50   BiDi ~ 0
-D24
-Text GLabel 3300 4300 0    50   BiDi ~ 0
-D26
+D12
 Text GLabel 3300 4400 0    50   BiDi ~ 0
+D14
+Text GLabel 4650 3000 0    50   BiDi ~ 0
+D16
+Text GLabel 4650 3200 0    50   BiDi ~ 0
+D18
+Text GLabel 4650 3400 0    50   BiDi ~ 0
+D20
+Text GLabel 4650 3600 0    50   BiDi ~ 0
+D22
+Text GLabel 4650 3800 0    50   BiDi ~ 0
+D24
+Text GLabel 4650 4000 0    50   BiDi ~ 0
+D26
+Text GLabel 4650 4200 0    50   BiDi ~ 0
 D28
-Text GLabel 3300 4500 0    50   BiDi ~ 0
+Text GLabel 4650 4400 0    50   BiDi ~ 0
 D30
-Text GLabel 3800 3000 2    50   BiDi ~ 0
+Text GLabel 3300 3100 0    50   BiDi ~ 0
 D1
-Text GLabel 3800 3100 2    50   BiDi ~ 0
+Text GLabel 3300 3300 0    50   BiDi ~ 0
 D3
-Text GLabel 3800 3200 2    50   BiDi ~ 0
+Text GLabel 3300 3500 0    50   BiDi ~ 0
 D5
-Text GLabel 3800 3300 2    50   BiDi ~ 0
+Text GLabel 3300 3700 0    50   BiDi ~ 0
 D7
-Text GLabel 3800 3400 2    50   BiDi ~ 0
+Text GLabel 3300 3900 0    50   BiDi ~ 0
 D9
-Text GLabel 3800 3500 2    50   BiDi ~ 0
+Text GLabel 3300 4100 0    50   BiDi ~ 0
 D11
-Text GLabel 3800 3600 2    50   BiDi ~ 0
+Text GLabel 3300 4300 0    50   BiDi ~ 0
 D13
-Text GLabel 3800 3700 2    50   BiDi ~ 0
+Text GLabel 3300 4500 0    50   BiDi ~ 0
 D15
-Text GLabel 3800 3800 2    50   BiDi ~ 0
+Text GLabel 4650 3100 0    50   BiDi ~ 0
 D17
-Text GLabel 3800 3900 2    50   BiDi ~ 0
+Text GLabel 4650 3300 0    50   BiDi ~ 0
 D19
-Text GLabel 3800 4000 2    50   BiDi ~ 0
+Text GLabel 4650 3500 0    50   BiDi ~ 0
 D21
-Text GLabel 3800 4100 2    50   BiDi ~ 0
+Text GLabel 4650 3700 0    50   BiDi ~ 0
 D23
-Text GLabel 3800 4200 2    50   BiDi ~ 0
+Text GLabel 4650 3900 0    50   BiDi ~ 0
 D25
-Text GLabel 3800 4300 2    50   BiDi ~ 0
+Text GLabel 4650 4100 0    50   BiDi ~ 0
 D27
-Text GLabel 3800 4400 2    50   BiDi ~ 0
+Text GLabel 4650 4300 0    50   BiDi ~ 0
 D29
-Text GLabel 3800 4500 2    50   BiDi ~ 0
+Text GLabel 4650 4500 0    50   BiDi ~ 0
 D31
-Text GLabel 4650 3000 0    50   Input ~ 0
+Text GLabel 3800 3000 2    50   Input ~ 0
 A0
-Text GLabel 4650 3100 0    50   Input ~ 0
-A2
-Text GLabel 4650 3200 0    50   Input ~ 0
-A4
-Text GLabel 4650 3300 0    50   Input ~ 0
+Text GLabel 3800 3600 2    50   Input ~ 0
 A6
-Text GLabel 4650 3400 0    50   Input ~ 0
+Text GLabel 3800 3800 2    50   Input ~ 0
 A8
-Text GLabel 4650 3500 0    50   Input ~ 0
+Text GLabel 3800 4000 2    50   Input ~ 0
 A10
-Text GLabel 4650 3600 0    50   Input ~ 0
+Text GLabel 3800 4200 2    50   Input ~ 0
 A12
-Text GLabel 4650 3700 0    50   Input ~ 0
+Text GLabel 3800 4400 2    50   Input ~ 0
 A14
-Text GLabel 4650 3800 0    50   Input ~ 0
-A16
-Text GLabel 4650 3900 0    50   Input ~ 0
-A18
-Text GLabel 4650 4000 0    50   Input ~ 0
-A20
-Text GLabel 4650 4100 0    50   Input ~ 0
-A22
-Text GLabel 4650 4200 0    50   Input ~ 0
-A24
-Text GLabel 4650 4300 0    50   Input ~ 0
-A26
-Text GLabel 4650 4400 0    50   Input ~ 0
-A28
-Text GLabel 4650 4500 0    50   Input ~ 0
-A30
 Text GLabel 5150 3000 2    50   Input ~ 0
-A1
-Text GLabel 5150 3100 2    50   Input ~ 0
-A3
+A16
 Text GLabel 5150 3200 2    50   Input ~ 0
-A5
-Text GLabel 5150 3300 2    50   Input ~ 0
-A7
+A18
 Text GLabel 5150 3400 2    50   Input ~ 0
-A9
-Text GLabel 5150 3500 2    50   Input ~ 0
-A11
+A20
 Text GLabel 5150 3600 2    50   Input ~ 0
-A13
-Text GLabel 5150 3700 2    50   Input ~ 0
-A15
+A22
 Text GLabel 5150 3800 2    50   Input ~ 0
-A17
-Text GLabel 5150 3900 2    50   Input ~ 0
-A19
+A24
 Text GLabel 5150 4000 2    50   Input ~ 0
-A21
-Text GLabel 5150 4100 2    50   Input ~ 0
-A23
+A26
 Text GLabel 5150 4200 2    50   Input ~ 0
-A25
-Text GLabel 5150 4300 2    50   Input ~ 0
-A27
+A28
 Text GLabel 5150 4400 2    50   Input ~ 0
+A30
+Text GLabel 3800 3100 2    50   Input ~ 0
+A1
+Text GLabel 3800 3300 2    50   Input ~ 0
+A3
+Text GLabel 3800 3500 2    50   Input ~ 0
+A5
+Text GLabel 3800 3700 2    50   Input ~ 0
+A7
+Text GLabel 3800 3900 2    50   Input ~ 0
+A9
+Text GLabel 3800 4100 2    50   Input ~ 0
+A11
+Text GLabel 3800 4300 2    50   Input ~ 0
+A13
+Text GLabel 3800 4500 2    50   Input ~ 0
+A15
+Text GLabel 5150 3100 2    50   Input ~ 0
+A17
+Text GLabel 5150 3300 2    50   Input ~ 0
+A19
+Text GLabel 5150 3500 2    50   Input ~ 0
+A21
+Text GLabel 5150 3700 2    50   Input ~ 0
+A23
+Text GLabel 5150 3900 2    50   Input ~ 0
+A25
+Text GLabel 5150 4100 2    50   Input ~ 0
+A27
+Text GLabel 5150 4300 2    50   Input ~ 0
 A29
 Text GLabel 5150 4500 2    50   Input ~ 0
 A31
@@ -208,21 +204,21 @@ Text GLabel 6200 4500 0    50   Input ~ 0
 SIZ1
 Text GLabel 6700 4300 2    50   Input ~ 0
 WR
-Text GLabel 6700 3000 2    50   Input ~ 0
+Text GLabel 6700 3400 2    50   Input ~ 0
 BR
-Text GLabel 6700 3100 2    50   Output ~ 0
+Text GLabel 6700 3300 2    50   Output ~ 0
 BGACK
 Text GLabel 6700 3200 2    50   Input ~ 0
 BG
-Text GLabel 6700 3300 2    50   BiDi ~ 0
+Text GLabel 6700 3100 2    50   BiDi ~ 0
 HALT
-Text GLabel 6700 3400 2    50   BiDi ~ 0
+Text GLabel 6700 3000 2    50   BiDi ~ 0
 RESET
-Text GLabel 6700 3500 2    50   Input ~ 0
+Text GLabel 6700 3700 2    50   Input ~ 0
 FC2
 Text GLabel 6700 3600 2    50   Input ~ 0
 FC1
-Text GLabel 6700 3700 2    50   Input ~ 0
+Text GLabel 6700 3500 2    50   Input ~ 0
 FC0
 Text GLabel 6700 3800 2    50   Output ~ 0
 AVEC
@@ -310,25 +306,6 @@ Text GLabel 8550 4900 2    50   Input ~ 0
 IACK7
 Text GLabel 8550 5000 2    50   Input ~ 0
 ANYIACK
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J19
-U 1 1 616A9AD9
-P 9500 3000
-F 0 "J19" H 9550 3217 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 9550 3126 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 9500 3000 50  0001 C CNN
-F 3 "~" H 9500 3000 50  0001 C CNN
-	1    9500 3000
-	1    0    0    -1  
-$EndComp
-Text GLabel 9300 3000 0    50   Output ~ 0
-LV_R
-Text GLabel 9300 3100 0    50   Output ~ 0
-LV_W
-Text GLabel 9800 3000 2    50   UnSpc ~ 0
-GND
-Text GLabel 9800 3100 2    50   UnSpc ~ 0
-GND
 Text GLabel 8050 4300 0    50   3State ~ 0
 IRQ1
 Text GLabel 8050 4400 0    50   3State ~ 0
@@ -345,4 +322,8 @@ Text GLabel 8050 4900 0    50   3State ~ 0
 IRQ7
 Text GLabel 8050 5000 0    50   UnSpc ~ 0
 GND
+Text GLabel 3800 3400 2    50   Input ~ 0
+A4
+Text GLabel 3800 3200 2    50   Input ~ 0
+A2
 $EndSCHEMATC
