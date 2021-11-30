@@ -27,21 +27,21 @@ $EndComp
 Text GLabel 2200 3150 0    50   Input ~ 0
 A1
 Text GLabel 2200 3350 0    50   3State ~ 0
-D0
+D24
 Text GLabel 2200 3450 0    50   3State ~ 0
-D1
+D25
 Text GLabel 2200 3550 0    50   3State ~ 0
-D2
+D26
 Text GLabel 2200 3650 0    50   3State ~ 0
-D3
+D27
 Text GLabel 2200 3750 0    50   3State ~ 0
-D4
+D28
 Text GLabel 2200 3850 0    50   3State ~ 0
-D5
+D29
 Text GLabel 2200 3950 0    50   3State ~ 0
-D6
+D30
 Text GLabel 2200 4050 0    50   3State ~ 0
-D7
+D31
 Text GLabel 2200 4350 0    50   3State ~ 0
 DT8
 Text GLabel 2200 4450 0    50   Input ~ 0

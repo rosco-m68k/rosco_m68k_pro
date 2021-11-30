@@ -126,21 +126,21 @@ A4
 Text GLabel 2000 2650 0    50   Input ~ 0
 RW
 Text GLabel 4000 3450 2    50   BiDi ~ 0
-D0
+D24
 Text GLabel 4000 3550 2    50   BiDi ~ 0
-D2
+D26
 Text GLabel 4000 3650 2    50   BiDi ~ 0
-D4
+D28
 Text GLabel 4000 3750 2    50   BiDi ~ 0
-D6
+D30
 Text GLabel 2000 3550 0    50   BiDi ~ 0
-D1
+D25
 Text GLabel 2000 3650 0    50   BiDi ~ 0
-D3
+D27
 Text GLabel 2000 3750 0    50   BiDi ~ 0
-D5
+D29
 Text GLabel 2000 3850 0    50   BiDi ~ 0
-D7
+D31
 Text GLabel 4000 3050 2    50   Output ~ 0
 RTSA
 Text GLabel 2000 2750 0    50   Output ~ 0

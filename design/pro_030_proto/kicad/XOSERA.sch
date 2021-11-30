@@ -198,37 +198,37 @@ Wire Wire Line
 Wire Wire Line
 	5700 5300 5800 5300
 Text GLabel 6100 5300 2    50   Input ~ 0
-68_D8
+D24
 Text GLabel 6100 5200 2    50   Input ~ 0
-68_D9
+D26
 Text GLabel 6100 5100 2    50   Input ~ 0
-68_D10
+D26
 Text GLabel 6100 5000 2    50   Input ~ 0
-68_D11
+D27
 Text GLabel 6100 4900 2    50   Input ~ 0
-68_D12
+D28
 Text GLabel 6100 4800 2    50   Input ~ 0
-68_D13
+D29
 Text GLabel 6100 4700 2    50   Input ~ 0
-68_D14
+D30
 Text GLabel 6100 4600 2    50   Input ~ 0
-68_D15
+D31
 Text GLabel 6800 5300 0    50   Output ~ 0
-68_D8
+D24
 Text GLabel 6800 5200 0    50   Output ~ 0
-68_D9
+D25
 Text GLabel 6800 5100 0    50   Output ~ 0
-68_D10
+D26
 Text GLabel 6800 5000 0    50   Output ~ 0
-68_D11
+D27
 Text GLabel 6800 4900 0    50   Output ~ 0
-68_D12
+D28
 Text GLabel 6800 4800 0    50   Output ~ 0
-68_D13
+D29
 Text GLabel 6800 4700 0    50   Output ~ 0
-68_D14
+D30
 Text GLabel 6800 4600 0    50   Output ~ 0
-68_D15
+D31
 Text GLabel 7800 5300 2    50   Input ~ 0
 BUS_DATA0
 Text GLabel 7800 5200 2    50   Input ~ 0
@@ -828,17 +828,6 @@ BUS_REG_NUM3
 Text Notes 5000 800  0    50   ~ 0
 All BUS_xxx signals are 3V3\nUpduino-compatible signals
 $Comp
-L Connector:Conn_01x08_Male TP1
-U 1 1 60633B4A
-P 950 3550
-F 0 "TP1" H 1058 4031 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 1058 3940 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 950 3550 50  0001 C CNN
-F 3 "~" H 950 3550 50  0001 C CNN
-	1    950  3550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x08_Male TP2
 U 1 1 6063609C
 P 950 4550
@@ -849,22 +838,6 @@ F 3 "~" H 950 4550 50  0001 C CNN
 	1    950  4550
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 3950 2    50   Input ~ 0
-68_D8
-Text GLabel 1150 3850 2    50   Input ~ 0
-68_D9
-Text GLabel 1150 3750 2    50   Input ~ 0
-68_D10
-Text GLabel 1150 3650 2    50   Input ~ 0
-68_D11
-Text GLabel 1150 3550 2    50   Input ~ 0
-68_D12
-Text GLabel 1150 3450 2    50   Input ~ 0
-68_D13
-Text GLabel 1150 3350 2    50   Input ~ 0
-68_D14
-Text GLabel 1150 3250 2    50   Input ~ 0
-68_D15
 Text GLabel 1150 4250 2    50   Input ~ 0
 BUS_DATA7
 Text GLabel 1150 4350 2    50   Input ~ 0
