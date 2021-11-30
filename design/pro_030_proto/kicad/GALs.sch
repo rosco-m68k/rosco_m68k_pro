@@ -151,7 +151,7 @@ SIZ1
 Text GLabel 4200 2650 0    50   Input ~ 0
 SIZ0
 Text GLabel 4200 2350 0    50   Input ~ 0
-RnW
+RW
 Text GLabel 4200 2250 0    50   Input ~ 0
 A0
 Text GLabel 4200 2150 0    50   Input ~ 0
@@ -459,7 +459,7 @@ Text GLabel 2900 4900 2    50   Output ~ 0
 FPGA_R
 NoConn ~ 2900 4600
 Text GLabel 1900 5300 0    50   Input ~ 0
-RnW
+RW
 Text GLabel 1900 4800 0    50   Input ~ 0
 AS
 Text GLabel 2900 5100 2    50   Output ~ 0

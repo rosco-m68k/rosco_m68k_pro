@@ -272,7 +272,7 @@ FPGA_CS
 Text GLabel 2800 5100 0    50   Output ~ 0
 BUS_CS_N
 Text GLabel 3800 5200 2    50   Input ~ 0
-RnW
+RW
 Text GLabel 2800 5200 0    50   Output ~ 0
 BUS_RD_NWR
 Wire Wire Line

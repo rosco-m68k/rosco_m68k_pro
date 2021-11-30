@@ -45,7 +45,7 @@ D7
 Text GLabel 2200 4350 0    50   3State ~ 0
 DT8
 Text GLabel 2200 4450 0    50   Input ~ 0
-RnW
+RW
 Text GLabel 3400 4250 2    50   Output ~ 0
 IRQ5
 Text GLabel 3400 4350 2    50   Input ~ 0
