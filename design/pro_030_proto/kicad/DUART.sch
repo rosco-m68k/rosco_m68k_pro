@@ -144,7 +144,7 @@ D7
 Text GLabel 4000 3050 2    50   Output ~ 0
 RTSA
 Text GLabel 2000 2750 0    50   Output ~ 0
-DUARTDTACK
+DT8
 Text GLabel 4800 3850 2    50   Output ~ 0
 IRQ4
 Text GLabel 2000 2050 0    50   Input ~ 0
@@ -755,7 +755,7 @@ DUARTX1
 Text GLabel 9600 5300 0    50   Output ~ 0
 DUARTCS
 Text GLabel 10100 5500 2    50   Input ~ 0
-DUARTDTACK
+DT8
 Text GLabel 10100 5600 2    50   Input ~ 0
 IRQ4
 $EndSCHEMATC
