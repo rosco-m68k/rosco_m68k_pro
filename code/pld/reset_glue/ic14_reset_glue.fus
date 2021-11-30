@@ -1,7 +1,7 @@
 
 
 AR
-  0  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+  0  ---- ---- x--- ---- ---- ---- ---- ---- ---- ---- ----
 
 Pin 23 = NC           S0 = 0   S1 = 0
   1  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -143,7 +143,7 @@ Pin 15 = HALT         S0 = 1   S1 = 0
 121  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
 Pin 14 = RSTR         S0 = 1   S1 = 0
-122  ---- -x-- ---- ---- ---- ---- ---- ---- ---- ---- ----
+122  ---- x--- ---- ---- ---- ---- ---- ---- ---- ---- ----
 123  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 124  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 125  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx

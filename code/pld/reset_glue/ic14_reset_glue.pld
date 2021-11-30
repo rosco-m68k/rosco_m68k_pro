@@ -5,7 +5,7 @@ AS     PWRGD  HWRST  NC     NC      NC      NC      NC     NC     NC     NC     
 NC     RSTR   HALT   RESET  RUNLED  BQ0     BQ1     BQ2    BQ3    NC     NC     VCC
 
 RSTR.T  =  GND
-RSTR.E  = /PWRGD                
+RSTR.E  =  PWRGD                
 
 HALT.T  =  GND
 HALT.E  =  HWRST
@@ -15,6 +15,7 @@ RESET.E =  HWRST
 
 RUNLED  =  HWRST
 
+AR      =  HWRST
 BQ0.R   = /HWRST                ; High after one memory cycle
 BQ1.R   = /HWRST * BQ0          ; High after two memory cycles
 BQ2.R   = /HWRST * BQ1          ; High after three memory cycles
