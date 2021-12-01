@@ -3,7 +3,7 @@
 AR
   0  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 23 = IOS          S0 = 1   S1 = 0
+Pin 23 = IOS          S0 = 0   S1 = 0
   1  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
   2  x--- x--- x--- x--- x--x x--x x--x x--x x--x -x-x -x-x
   3  x--- x--- x--- x--- x--x x--x x--x x--x x--x x--x -x-x

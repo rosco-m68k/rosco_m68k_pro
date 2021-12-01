@@ -1,0 +1,368 @@
+2021-11-19 20:46:00.561 [main] INFO  Freerouting v1.4.5-SNAPSHOT (build-date: 2021-09-22)
+2021-11-19 20:46:01.341 [main] TRACE Method 'MainApplication.main()' was performed in 1.13 seconds.
+2021-11-19 20:46:31.389 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.dsn'...
+2021-11-19 20:46:32.684 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.rules'...
+2021-11-19 20:46:32.686 [AWT-EventQueue-0] ERROR File 'rosco_pro_030_proto.rules' was not found.
+2021-11-19 20:46:45.632 [Thread-0] INFO  Starting auto-routing...
+2021-11-19 20:52:08.098 [AWT-EventQueue-0] INFO  Saving '/Users/rosco/Development/rosco-m68k/rosco_m68k_pro/design/pro_030_proto/kicad/rosco_pro_030_proto.bin'...
+2021-11-19 20:52:10.591 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '740534eb16d2fd88470803f39003539e' making 549 changes' was performed in 5 minute(s) 24.77 seconds.
+2021-11-19 20:52:10.592 [Thread-0] ERROR Cannot invoke "eu.mihosoft.freerouting.board.RoutingBoard.finish_autoroute()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_routing_board()" is null
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.board.RoutingBoard.finish_autoroute()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_routing_board()" is null
+	at eu.mihosoft.freerouting.interactive.BatchAutorouterThread.thread_action(BatchAutorouterThread.java:97) [freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.interactive.InteractiveActionThread.run(InteractiveActionThread.java:80) [freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+2021-11-19 20:52:10.609 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 5 minute(s) 24.98 seconds.
+2021-11-19 20:52:27.527 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.dsn'...
+2021-11-19 20:52:28.355 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.rules'...
+2021-11-19 20:52:28.357 [AWT-EventQueue-0] ERROR File 'rosco_pro_030_proto.rules' was not found.
+2021-11-19 20:52:56.769 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.bin'...
+2021-11-19 20:54:05.038 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.dsn'...
+2021-11-19 20:54:05.888 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.rules'...
+2021-11-19 20:54:05.889 [AWT-EventQueue-0] ERROR File 'rosco_pro_030_proto.rules' was not found.
+2021-11-19 20:56:15.626 [Thread-1] INFO  Starting auto-routing...
+2021-11-19 20:59:20.630 [Thread-1] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '740534eb16d2fd88470803f39003539e' making 0 changes' was performed in 3 minute(s) 4.86 seconds.
+2021-11-19 20:59:20.641 [Thread-1] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 3 minute(s) 5.01 seconds.
+2021-11-19 20:59:20.642 [Thread-1] INFO  Auto-routing was completed in 3 minute(s) 5.01 seconds.
+2021-11-19 20:59:20.642 [Thread-1] INFO  Starting routing optimization...
+2021-11-19 20:59:20.645 [Thread-1] ERROR / by zero
+java.lang.ArithmeticException: / by zero
+	at eu.mihosoft.freerouting.interactive.BatchAutorouterThread.thread_action(BatchAutorouterThread.java:146) [freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.interactive.InteractiveActionThread.run(InteractiveActionThread.java:80) [freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+2021-11-19 20:59:20.648 [Thread-1] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 3 minute(s) 5.02 seconds.
+2021-11-19 21:01:08.998 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.dsn'...
+2021-11-19 21:01:09.770 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.rules'...
+2021-11-19 21:01:09.771 [AWT-EventQueue-0] ERROR File 'rosco_pro_030_proto.rules' was not found.
+2021-11-19 21:01:12.848 [Thread-2] INFO  Starting auto-routing...
+2021-11-19 21:21:45.464 [Thread-2] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '740534eb16d2fd88470803f39003539e' making 1379 changes' was performed in 20 minute(s) 32.56 seconds.
+2021-11-19 21:51:12.573 [Thread-2] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board 'df46b4f603cf51f630fc09711ad665a4' making 1218 changes' was performed in 29 minute(s) 27.03 seconds.
+2021-11-19 22:24:27.090 [Thread-2] TRACE Method 'BatchAutorouter.autoroute_pass #3 on board '1ec3770136c901d6377d0575ef8143ff' making 1302 changes' was performed in 33 minute(s) 14.40 seconds.
+2021-11-20 03:15:52.985 [Thread-2] TRACE Method 'BatchAutorouter.autoroute_pass #4 on board 'd2fc444033b41960b8c4409d12617a8f' making 951 changes' was performed in 4 hour(s) 51 minute(s) 25.79 seconds.
+2021-11-20 09:14:44.848 [Thread-2] TRACE Method 'BatchAutorouter.autoroute_pass #5 on board '83d1eb4d22ee65983f4e35ba747405cd' making 713 changes' was performed in 5 hour(s) 58 minute(s) 51.76 seconds.
+2021-11-20 09:39:06.870 [Thread-2] TRACE Method 'BatchAutorouter.autoroute_pass #6 on board '766b5477cc6129d8a2b1c2aa38b7fd50' making 544 changes' was performed in 24 minute(s) 21.92 seconds.
+2021-11-20 10:01:37.371 [Thread-2] TRACE Method 'BatchAutorouter.autoroute_pass #7 on board '50e3990504a12ef4dd48f57c79d9d6e0' making 485 changes' was performed in 22 minute(s) 30.37 seconds.
+2021-11-20 10:21:58.665 [Thread-2] TRACE Method 'BatchAutorouter.autoroute_pass #8 on board '6c1b62c20d213fd2e409b3c9b84c792d' making 359 changes' was performed in 20 minute(s) 21.20 seconds.
+2021-11-20 10:40:05.389 [Thread-2] TRACE Method 'BatchAutorouter.autoroute_pass #9 on board '90765d5fd3d5bdcb4450c65a00b36c84' making 383 changes' was performed in 18 minute(s) 6.63 seconds.
+2021-11-20 11:25:45.799 [Thread-2] TRACE Method 'BatchAutorouter.autoroute_pass #10 on board '840bf45550c93f43a79efb6d292f3c48' making 206 changes' was performed in 45 minute(s) 40.32 seconds.
+2021-11-20 11:42:49.084 [Thread-2] TRACE Method 'BatchAutorouter.autoroute_pass #11 on board 'f1bb984b89219fce5e9048fb0f0818eb' making 109 changes' was performed in 17 minute(s) 3.19 seconds.
+2021-11-20 17:58:25.758 [Thread-2] TRACE Method 'BatchAutorouter.autoroute_pass #12 on board '6e6b84feeb287a6fe1f71f065e8f5dab' making 100 changes' was performed in 6 hour(s) 15 minute(s) 36.58 seconds.
+2021-11-20 17:58:48.282 [Thread-2] TRACE Method 'BatchAutorouter.autoroute_pass #13 on board '2401843eb71461a9895744fdbf420919' making 0 changes' was performed in 22.41 seconds.
+2021-11-20 17:58:48.301 [Thread-2] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 20 hour(s) 57 minute(s) 35.45 seconds.
+2021-11-20 17:58:48.302 [Thread-2] INFO  Auto-routing was completed in 20 hour(s) 57 minute(s) 35.45 seconds.
+2021-11-20 17:58:48.302 [Thread-2] INFO  Starting routing optimization...
+2021-11-20 17:58:48.306 [Thread-2] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 0.00 seconds.
+2021-11-20 17:58:48.308 [Thread-2] INFO  Routing optimization was completed in 0.00 seconds.
+2021-11-20 17:58:48.486 [Thread-2] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 20 hour(s) 57 minute(s) 35.64 seconds.
+2021-11-20 17:59:03.161 [AWT-EventQueue-0] INFO  Saving 'rosco_pro_030_proto.ses'...
+2021-11-20 17:59:05.152 [AWT-EventQueue-0] INFO  Saving 'rosco_pro_030_proto.rules'...
+2021-11-20 19:01:15.610 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.dsn'...
+2021-11-20 19:01:16.425 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.rules'...
+2021-11-20 19:03:31.698 [Thread-3] INFO  Starting auto-routing...
+2021-11-20 19:37:48.642 [Thread-3] TRACE Method 'BatchAutorouter.autoroute_pass #14 on board '051ea865fc135f20473a51fbbf42ebfa' making 2821 changes' was performed in 34 minute(s) 16.90 seconds.
+2021-11-20 19:38:52.035 [Thread-3] TRACE Method 'BatchAutorouter.autoroute_pass #15 on board '97b5444fb3ca89d3e65cb4c0a6672a36' making 291 changes' was performed in 1 minute(s) 3.29 seconds.
+2021-11-20 19:38:54.546 [Thread-3] TRACE Method 'BatchAutorouter.autoroute_pass #16 on board 'c912b0567295bd2f5d1a96b8094c9ae5' making 39 changes' was performed in 2.41 seconds.
+2021-11-20 19:38:54.860 [Thread-3] TRACE Method 'BatchAutorouter.autoroute_pass #17 on board 'f0abf93732a4f637efe58b3efc9ddc08' making 0 changes' was performed in 0.19 seconds.
+2021-11-20 19:38:54.861 [Thread-3] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 35 minute(s) 23.16 seconds.
+2021-11-20 19:38:54.862 [Thread-3] INFO  Auto-routing was completed in 35 minute(s) 23.16 seconds.
+2021-11-20 19:38:54.862 [Thread-3] INFO  Starting routing optimization...
+2021-11-20 19:41:44.798 [Thread-15] WARN  OptViaAlgo.opt_via_location: move via failed
+2021-11-20 19:44:36.934 [Thread-16] WARN  CalcFromSide: start corner was not found
+2021-11-20 20:00:30.681 [Thread-6] WARN  OptViaAlgo.opt_via_location: move via failed
+2021-11-20 20:23:17.220 [AWT-EventQueue-0] INFO  Saving 'rosco_pro_030_proto.ses'...
+2021-11-20 20:23:49.382 [AWT-EventQueue-0] INFO  Saving 'rosco_pro_030_proto.ses'...
+2021-11-20 20:23:53.080 [AWT-EventQueue-0] INFO  Saving 'rosco_pro_030_proto.ses'...
+2021-11-20 20:23:56.064 [AWT-EventQueue-0] INFO  Saving 'rosco_pro_030_proto.ses'...
+2021-11-20 20:24:01.195 [AWT-EventQueue-0] INFO  Saving 'rosco_pro_030_proto.ses'...
+2021-11-20 20:24:04.214 [AWT-EventQueue-0] INFO  Saving 'rosco_pro_030_proto.ses'...
+2021-11-20 20:24:19.936 [AWT-EventQueue-0] INFO  Saving 'rosco_pro_030_proto.ses'...
+2021-11-20 20:24:37.544 [AWT-EventQueue-0] INFO  Saving 'rosco_pro_030_proto.ses'...
+2021-11-20 20:25:40.911 [AWT-EventQueue-0] INFO  Saving 'rosco_pro_030_proto.ses'...
+2021-11-20 20:25:58.795 [AWT-EventQueue-0] INFO  Saving '/Users/rosco/Development/rosco-m68k/rosco_m68k_pro/design/pro_030_proto/kicad/rosco_pro_030_proto.bin'...
+2021-11-20 20:26:04.281 [AWT-EventQueue-0] INFO  Saving '/Users/rosco/Development/rosco-m68k/rosco_m68k_pro/design/pro_030_proto/kicad/rosco_pro_030_proto.bin'...
+2021-11-20 20:26:11.601 [Thread-26] ERROR Exception in thread pool worker thread: Thread[Thread-26,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:11.600 [Thread-14] ERROR Exception in thread pool worker thread: Thread[Thread-14,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:11.621 [Thread-3] ERROR Cannot read field "item_list" because "this.routing_board" is null
+java.lang.NullPointerException: Cannot read field "item_list" because "this.routing_board" is null
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.findItemOnBoard(OptimizeRouteTask.java:51) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.<init>(OptimizeRouteTask.java:40) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRouteMT.opt_route_pass(BatchOptRouteMT.java:274) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.optimize_board(BatchOptRoute.java:82) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.interactive.BatchAutorouterThread.thread_action(BatchAutorouterThread.java:112) [freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.interactive.InteractiveActionThread.run(InteractiveActionThread.java:80) [freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+2021-11-20 20:26:11.625 [Thread-3] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 1 hour(s) 22 minute(s) 39.93 seconds.
+2021-11-20 20:26:11.814 [Thread-27] ERROR Exception in thread pool worker thread: Thread[Thread-27,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:11.934 [Thread-20] ERROR Exception in thread pool worker thread: Thread[Thread-20,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:11.951 [Thread-9] ERROR Exception in thread pool worker thread: Thread[Thread-9,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:11.982 [Thread-6] ERROR Exception in thread pool worker thread: Thread[Thread-6,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.069 [Thread-35] ERROR Exception in thread pool worker thread: Thread[Thread-35,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.106 [Thread-7] ERROR Exception in thread pool worker thread: Thread[Thread-7,6,main]
+java.lang.NullPointerException: Cannot read field "autoroute_settings" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:204) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.163 [Thread-4] ERROR Exception in thread pool worker thread: Thread[Thread-4,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.173 [Thread-17] ERROR Exception in thread pool worker thread: Thread[Thread-17,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.197 [Thread-12] ERROR Exception in thread pool worker thread: Thread[Thread-12,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.237 [Thread-29] ERROR Exception in thread pool worker thread: Thread[Thread-29,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.238 [Thread-22] ERROR Exception in thread pool worker thread: Thread[Thread-22,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.291 [Thread-8] ERROR Exception in thread pool worker thread: Thread[Thread-8,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.303 [Thread-23] ERROR Exception in thread pool worker thread: Thread[Thread-23,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.410 [Thread-10] ERROR Exception in thread pool worker thread: Thread[Thread-10,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.428 [Thread-28] ERROR Exception in thread pool worker thread: Thread[Thread-28,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.436 [Thread-24] ERROR Exception in thread pool worker thread: Thread[Thread-24,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.446 [Thread-19] ERROR Exception in thread pool worker thread: Thread[Thread-19,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.458 [Thread-16] ERROR Exception in thread pool worker thread: Thread[Thread-16,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.483 [Thread-5] ERROR Exception in thread pool worker thread: Thread[Thread-5,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.540 [Thread-21] ERROR Exception in thread pool worker thread: Thread[Thread-21,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.551 [Thread-25] ERROR Exception in thread pool worker thread: Thread[Thread-25,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.550 [Thread-34] ERROR Exception in thread pool worker thread: Thread[Thread-34,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.565 [Thread-31] ERROR Exception in thread pool worker thread: Thread[Thread-31,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.578 [Thread-18] ERROR Exception in thread pool worker thread: Thread[Thread-18,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.587 [Thread-15] ERROR Exception in thread pool worker thread: Thread[Thread-15,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.588 [Thread-33] ERROR Exception in thread pool worker thread: Thread[Thread-33,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.587 [Thread-11] ERROR Exception in thread pool worker thread: Thread[Thread-11,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.659 [Thread-32] ERROR Exception in thread pool worker thread: Thread[Thread-32,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:12.678 [Thread-13] ERROR Exception in thread pool worker thread: Thread[Thread-13,6,main]
+java.lang.NullPointerException: Cannot invoke "eu.mihosoft.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "eu.mihosoft.freerouting.interactive.BoardHandling.get_settings()" is null
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:310) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:70) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:215) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.autoroute.OptimizeRouteTask.run(OptimizeRouteTask.java:76) ~[freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2021-11-20 20:26:35.811 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.bin'...
+2021-11-20 20:26:42.064 [AWT-EventQueue-0] INFO  Saving 'rosco_pro_030_proto.ses'...
+2021-11-20 20:26:46.114 [AWT-EventQueue-0] INFO  Saving 'rosco_pro_030_proto.rules'...
