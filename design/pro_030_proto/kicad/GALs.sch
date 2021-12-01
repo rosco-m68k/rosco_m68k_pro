@@ -322,7 +322,6 @@ Text GLabel 8800 2150 0    50   3State ~ 0
 DT16
 Text GLabel 8800 2250 0    50   3State ~ 0
 DT32
-NoConn ~ 5200 1850
 NoConn ~ 7500 1850
 $Comp
 L rosco_m68k:GAL22V10 IC5
@@ -442,8 +441,6 @@ Text GLabel 8800 1850 0    50   Input ~ 0
 ROMS
 Text GLabel 8800 1950 0    50   Input ~ 0
 RAMROMDT
-Text GLabel 9800 2650 2    50   Output ~ 0
-RAMROMSEL
 Text GLabel 1900 4400 0    50   Input ~ 0
 XVIDCS
 Text GLabel 2900 4400 2    50   3State ~ 0
@@ -791,4 +788,7 @@ BOOT
 Text Notes 8900 6000 0    50   ~ 0
 IC14 - RESET_GLUE
 NoConn ~ 9800 4600
+Text GLabel 5200 1850 2    50   Output ~ 0
+RAMROMSEL
+NoConn ~ 9800 2650
 $EndSCHEMATC
