@@ -42,7 +42,7 @@ Pin 21 = NC           S0 = 0   S1 = 0
  32  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  33  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 20 = I2CCS        S0 = 1   S1 = 0
+Pin 20 = I2CCS        S0 = 0   S1 = 0
  34  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
  35  -x-- -x-- -x-- -x-- -x-- -x-- -x-x -xx- x--- -x-x -x-x
  36  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -59,7 +59,7 @@ Pin 20 = I2CCS        S0 = 1   S1 = 0
  47  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  48  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 19 = XVIDCS       S0 = 1   S1 = 0
+Pin 19 = XVIDCS       S0 = 0   S1 = 0
  49  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
  50  -x-- -x-- -x-- -x-- -x-- -x-- -x-x -x-- -x-- x--- ----
  51  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -78,7 +78,7 @@ Pin 19 = XVIDCS       S0 = 1   S1 = 0
  64  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  65  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 18 = DUARTCS      S0 = 1   S1 = 0
+Pin 18 = DUARTCS      S0 = 0   S1 = 0
  66  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
  67  -x-- -x-- -x-- -x-- -x-- -x-- -x-x -xx- -x-- -x-- ----
  68  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
