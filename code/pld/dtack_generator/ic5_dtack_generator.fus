@@ -142,10 +142,10 @@ Pin 15 = NC           S0 = 0   S1 = 0
 120  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 121  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 14 = RRSEL        S0 = 1   S1 = 0
-122  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
-123  -x-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
-124  ---- -x-- ---- ---- ---- ---- ---- ---- ---- ---- ----
+Pin 14 = NC           S0 = 0   S1 = 0
+122  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+123  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+124  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 125  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 126  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 127  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx

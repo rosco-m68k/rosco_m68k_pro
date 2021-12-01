@@ -14,16 +14,16 @@ Pin 23 = NC           S0 = 0   S1 = 0
   8  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
   9  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 22 = NC           S0 = 0   S1 = 0
- 10  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
- 11  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
- 12  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
- 13  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
- 14  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
- 15  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
- 16  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
- 17  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
- 18  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+Pin 22 = RRSEL        S0 = 1   S1 = 0
+ 10  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 11  ---- ---- ---- ---- ---- ---x ---- ---- ---- ---- ----
+ 12  ---- ---- ---- ---- ---x ---- ---- ---- ---- ---- ----
+ 13  ---- ---- ---- ---x ---- ---- ---- ---- ---- ---- ----
+ 14  ---- ---- ---x ---- ---- ---- ---- ---- ---- ---- ----
+ 15  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---x ----
+ 16  ---- ---- ---- ---- ---- ---- ---- ---- ---x ---- ----
+ 17  ---- ---- ---- ---- ---- ---- ---- ---x ---- ---- ----
+ 18  ---- ---- ---- ---- ---- ---- ---x ---- ---- ---- ----
  19  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  20  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 

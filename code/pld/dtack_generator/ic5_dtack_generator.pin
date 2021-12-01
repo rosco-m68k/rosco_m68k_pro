@@ -15,7 +15,7 @@
   11   | NC       | Input
   12   | GND      | GND
   13   | NC       | Input
-  14   | RRSEL    | Output
+  14   | NC       | NC
   15   | NC       | NC
   16   | NC       | NC
   17   | NC       | NC

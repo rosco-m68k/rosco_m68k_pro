@@ -2,10 +2,7 @@ GAL22V10
 DTACKGEN
 
 RAMS  ROMS  RRDT  DT8   DT16  DT32  NC    NC    NC    NC    NC   GND
-NC    RRSEL NC    NC    NC    PPCI  PPDS0 PPDS1 CI    DS0   DS1  VCC
-
-RRSEL   = /RAMS
-        + /ROMS
+NC    NC    NC    NC    NC    PPCI  PPDS0 PPDS1 CI    DS0   DS1  VCC
 
 /PPCI   = DT32 * /RRDT
 
@@ -27,7 +24,7 @@ DS1.E   = /PPDS1
 
 DESCRIPTION
 
-N.B. RRDT and RRSEL signals are ACTIVE HIGH!
+N.B. RRDT signal is ACTIVE HIGH!
 
 rosco_m68k Pro dynamic bus-sizing DSACKn generation and cache
 control for on-board bus ports.
