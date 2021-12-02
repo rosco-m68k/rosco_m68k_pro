@@ -408,29 +408,30 @@ TICK_HANDLER:
     move.l  A0,-(A7)                  ; Check if this is a counter interrupt...
     move.l  SDB_UARTBASE,A0
     move.b  R_ISR(A0),D0
-    btst    #3,D0   
+    btst    #3,D0
     bne.s   .COUNTER                  ; Continue if so,
-    
+
     move.l  (A7)+,A0                  ; Else restore regs...
     move.l  (A7)+,D0
     rte                               ; ...and bail.
 
 .COUNTER
+
     move.l  D1,-(A7)                  ; Save D1
 
     ; Increment upticks
     move.l  SDB_UPTICKS,D0            ; Read SDB dword at 12
     add.l   #1,D0                     ; Increment
     move.l  D0,SDB_UPTICKS            ; And write back
-    
+
     ; Heartbeat
     move.l  SDB_UARTBASE,A0           ; And fetch UART base pointer
 
     move.w  SDB_TICKCNT,D0            ; Read SDB word at 8
     tst.w   D0                        ; Is LSB zero?
     bne.s   .TICK_HANDLER_DONE        ; Done if not
-    
-    ; counted to zero, so toggle indicator 0 (if allowed) 
+
+    ; counted to zero, so toggle indicator 0 (if allowed)
     ; and reset counter
     move.b  SDB_SYSFLAGS,D1           ; Get sysflags (high byte)
     btst    #1,D1                     ; Is sysflag bit 1 set?
@@ -439,7 +440,7 @@ TICK_HANDLER:
     move.b  SDB_INTFLAGS,D1
     tst     D1                        ; Is INTFLAGS zero?
     beq.s   .TURNON                   ; If so, go to turn on
-    
+
     ; If here, LED is already on, turn it off
     move.b  #$20,W_OPR_RESETCMD(A0)   ; Turn it off
     move.b  #0,D1
@@ -449,13 +450,13 @@ TICK_HANDLER:
     ; LED is off, turn it on
     move.b  #$20,W_OPR_SETCMD(A0)     ; Turn it on
     move.b  #1,D1
-    
+
 .LEDDONE
     move.b  D1,SDB_INTFLAGS
 
 .TICKRESET
     move.w  #50,D0                    ; Reset counter
-    
+
 .TICK_HANDLER_DONE:
 
     sub.w   #$1,D0                    ; Decrement counter...
@@ -464,10 +465,10 @@ TICK_HANDLER:
 
     move.b  R_STARTCNTCMD(A0),D0      ; Reissue START COUNTER command
     move.l  (A7)+,A0                  ; Restore A0
+    move.l  (A7)+,D0                  ; Restore D0
+    rte
 
-    rte                               ; We're done
-
-    
+ 
 ; Call busywait from C code...
 BUSYWAIT_C::
     move.l  (4,A7),D0

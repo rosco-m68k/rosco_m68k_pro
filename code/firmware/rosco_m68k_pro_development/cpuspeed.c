@@ -15,6 +15,7 @@
 #include <machine.h>
 
 #define _TIMER_100HZ  0x40c
+//#define MEM_2WS
 
 uint32_t cpuspeed(uint8_t model) {
     uint32_t count;
@@ -25,6 +26,12 @@ uint32_t cpuspeed(uint8_t model) {
       mult = 26;
     } else if (model == 2) {
       mult = 30;
+    } else if (model == 3) {
+#ifdef MEM_2WS
+      mult = 31; 
+#else
+      mult = 27;
+#endif
     } else {
       mult = 0;
     }

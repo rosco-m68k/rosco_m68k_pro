@@ -175,8 +175,7 @@ skip9958:
 #endif
 
     // Now we have tick, we can determine CPU speed
-#if 1
-//#ifdef NO_TICK
+#ifdef NO_TICK
     sdb->cpu_speed = 0;
 #else
     sdb->cpu_speed = cpuspeed(sdb->cpu_model);
