@@ -200,7 +200,7 @@ Wire Wire Line
 Text GLabel 6100 5300 2    50   Input ~ 0
 D24
 Text GLabel 6100 5200 2    50   Input ~ 0
-D26
+D25
 Text GLabel 6100 5100 2    50   Input ~ 0
 D26
 Text GLabel 6100 5000 2    50   Input ~ 0
