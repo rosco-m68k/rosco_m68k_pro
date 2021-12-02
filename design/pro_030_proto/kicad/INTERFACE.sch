@@ -722,4 +722,29 @@ Text GLabel 7750 4750 2    50   UnSpc ~ 0
 3V3
 Text GLabel 7750 4650 2    50   UnSpc ~ 0
 GND
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 61A9011E
+P 2250 6350
+AR Path="/60FBD3A8/61A9011E" Ref="J?"  Part="1" 
+AR Path="/61738494/61A9011E" Ref="J25"  Part="1" 
+F 0 "J25" H 2358 6731 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 2358 6640 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2250 6350 50  0001 C CNN
+F 3 "~" H 2250 6350 50  0001 C CNN
+	1    2250 6350
+	1    0    0    -1  
+$EndComp
+Text GLabel 2450 6150 2    50   Input ~ 0
+DUART_OP2
+Text GLabel 2450 6250 2    50   Input ~ 0
+DUART_OP4
+Text GLabel 2450 6350 2    50   Input ~ 0
+DUART_OP6
+Text GLabel 2450 6450 2    50   Input ~ 0
+DUART_IP2
+Text GLabel 2450 6550 2    50   UnSpc ~ 0
+5V
+Text GLabel 2450 6650 2    50   UnSpc ~ 0
+GND
 $EndSCHEMATC

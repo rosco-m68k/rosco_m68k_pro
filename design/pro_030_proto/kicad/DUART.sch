@@ -476,9 +476,9 @@ Text GLabel 6800 5500 2    50   Output ~ 0
 P_TXDB
 Text GLabel 6800 5600 2    50   Input ~ 0
 P_RTSB
-Text GLabel 1650 6650 0    50   UnSpc ~ 0
-VCCUB
 Text GLabel 1650 7050 0    50   UnSpc ~ 0
+VCCUB
+Text GLabel 1650 6650 0    50   UnSpc ~ 0
 VCCUA
 $Comp
 L Device:Jumper JP3
