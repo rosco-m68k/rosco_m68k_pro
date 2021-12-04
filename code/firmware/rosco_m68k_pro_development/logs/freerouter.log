@@ -1,0 +1,80 @@
+2021-12-01 19:06:01.357 [main] INFO  Freerouting v1.4.5-SNAPSHOT (build-date: 2021-09-22)
+2021-12-01 19:06:02.014 [main] TRACE Method 'MainApplication.main()' was performed in 0.85 seconds.
+2021-12-01 19:06:34.396 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.dsn'...
+2021-12-01 19:06:35.664 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.rules'...
+2021-12-01 19:06:35.666 [AWT-EventQueue-0] ERROR File 'rosco_pro_030_proto.rules' was not found.
+2021-12-01 19:20:21.329 [AWT-EventQueue-0] INFO  Saving '/Users/rosco/Development/rosco-m68k/rosco_m68k_pro/design/pro_030_proto/kicad/rosco_pro_030_proto.bin'...
+2021-12-01 19:20:56.540 [Thread-1] INFO  Starting auto-routing...
+2021-12-01 19:21:45.186 [Thread-1] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '8a4e6d66f216d6cc4fcb29c24adc52e5' making 0 changes' was performed in 48.53 seconds.
+2021-12-01 19:21:45.197 [Thread-1] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 48.66 seconds.
+2021-12-01 19:21:45.198 [Thread-1] INFO  Auto-routing was completed in 48.66 seconds.
+2021-12-01 19:21:45.199 [Thread-1] INFO  Starting routing optimization...
+2021-12-01 19:21:45.202 [Thread-1] ERROR / by zero
+java.lang.ArithmeticException: / by zero
+	at eu.mihosoft.freerouting.interactive.BatchAutorouterThread.thread_action(BatchAutorouterThread.java:146) [freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.interactive.InteractiveActionThread.run(InteractiveActionThread.java:80) [freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+2021-12-01 19:21:45.212 [Thread-1] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 48.67 seconds.
+2021-12-01 19:21:55.756 [main] INFO  Freerouting v1.4.5-SNAPSHOT (build-date: 2021-09-22)
+2021-12-01 19:21:56.410 [main] TRACE Method 'MainApplication.main()' was performed in 0.90 seconds.
+2021-12-01 19:22:18.328 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.bin'...
+2021-12-01 19:22:59.381 [Thread-0] INFO  Starting auto-routing...
+2021-12-01 19:24:38.090 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '6da9f7a190e30dc2c14e7caf4fde087b' making 0 changes' was performed in 1 minute(s) 38.59 seconds.
+2021-12-01 19:24:38.103 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 1 minute(s) 38.72 seconds.
+2021-12-01 19:24:38.104 [Thread-0] INFO  Auto-routing was completed in 1 minute(s) 38.72 seconds.
+2021-12-01 19:24:38.105 [Thread-0] INFO  Starting routing optimization...
+2021-12-01 19:24:38.108 [Thread-0] ERROR / by zero
+java.lang.ArithmeticException: / by zero
+	at eu.mihosoft.freerouting.interactive.BatchAutorouterThread.thread_action(BatchAutorouterThread.java:146) [freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+	at eu.mihosoft.freerouting.interactive.InteractiveActionThread.run(InteractiveActionThread.java:80) [freerouting-SNAPSHOT-2021-09-22_13-16-03.jar:unspecified]
+2021-12-01 19:24:38.118 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 1 minute(s) 38.74 seconds.
+2021-12-01 19:24:47.572 [main] INFO  Freerouting v1.4.5-SNAPSHOT (build-date: 2021-09-22)
+2021-12-01 19:24:48.211 [main] TRACE Method 'MainApplication.main()' was performed in 0.83 seconds.
+2021-12-01 19:25:04.962 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.dsn'...
+2021-12-01 19:25:06.276 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.rules'...
+2021-12-01 19:25:06.278 [AWT-EventQueue-0] ERROR File 'rosco_pro_030_proto.rules' was not found.
+2021-12-01 19:27:26.301 [AWT-EventQueue-0] WARN  ViaVindow.setValueAt: via_info not found
+2021-12-01 19:28:09.972 [Thread-0] INFO  Starting auto-routing...
+2021-12-01 19:39:23.312 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '6da9f7a190e30dc2c14e7caf4fde087b' making 1395 changes' was performed in 11 minute(s) 13.17 seconds.
+2021-12-01 19:56:53.114 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board 'd10c5de1e51c4f0db4821285686d6217' making 1109 changes' was performed in 17 minute(s) 29.70 seconds.
+2021-12-01 20:17:21.913 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #3 on board 'c5daf652c12a214cb76c086aa062b0c9' making 1199 changes' was performed in 20 minute(s) 28.68 seconds.
+2021-12-01 20:39:10.771 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #4 on board 'f3b31b6d4586c206247f4edbff017940' making 1122 changes' was performed in 21 minute(s) 48.77 seconds.
+2021-12-01 20:56:08.332 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #5 on board 'a9f1011007510f9c762ff5c0cd390019' making 594 changes' was performed in 16 minute(s) 57.47 seconds.
+2021-12-01 20:56:08.844 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #6 on board 'ba0d68c07505ee83d56a308a8e15d6f8' making 0 changes' was performed in 0.42 seconds.
+2021-12-01 20:56:08.862 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 1 hour(s) 27 minute(s) 58.89 seconds.
+2021-12-01 20:56:08.864 [Thread-0] INFO  Auto-routing was completed in 1 hour(s) 27 minute(s) 58.89 seconds.
+2021-12-01 20:56:08.865 [Thread-0] INFO  Starting routing optimization...
+2021-12-01 20:56:08.869 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 0.00 seconds.
+2021-12-01 20:56:08.870 [Thread-0] INFO  Routing optimization was completed in 0.00 seconds.
+2021-12-01 20:56:09.367 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 1 hour(s) 27 minute(s) 59.40 seconds.
+2021-12-01 21:02:49.065 [main] INFO  Freerouting v1.4.5-SNAPSHOT (build-date: 2021-09-22)
+2021-12-01 21:02:49.732 [main] TRACE Method 'MainApplication.main()' was performed in 0.91 seconds.
+2021-12-01 21:03:04.527 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.dsn'...
+2021-12-01 21:03:05.954 [AWT-EventQueue-0] INFO  Opening 'rosco_pro_030_proto.rules'...
+2021-12-01 21:03:05.956 [AWT-EventQueue-0] ERROR File 'rosco_pro_030_proto.rules' was not found.
+2021-12-01 21:07:47.366 [AWT-EventQueue-0] INFO  Saving '/Users/rosco/Development/rosco-m68k/rosco_m68k_pro/design/pro_030_proto/kicad/rosco_pro_030_proto.bin'...
+2021-12-01 21:07:52.087 [Thread-0] INFO  Starting auto-routing...
+2021-12-01 21:16:09.368 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board 'e15d0c22060b838d5fc3b1f2fed7e6f2' making 1378 changes' was performed in 8 minute(s) 17.15 seconds.
+2021-12-01 21:28:44.598 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board '31cbcdf43fb4921a94258d0d4e6a18ed' making 1199 changes' was performed in 12 minute(s) 35.13 seconds.
+2021-12-01 21:42:09.119 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #3 on board 'efc12649c42ac9c8eb8dc5459194e636' making 1114 changes' was performed in 13 minute(s) 24.41 seconds.
+2021-12-01 21:52:16.924 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #4 on board '31e6518d46da93a9a82849129ea97d76' making 1099 changes' was performed in 10 minute(s) 7.71 seconds.
+2021-12-01 21:59:12.232 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #5 on board 'd28124f6b5dea88da9df9c98f0dab591' making 939 changes' was performed in 6 minute(s) 55.18 seconds.
+2021-12-01 22:04:07.409 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #6 on board '84c93ca84c4c14175724000ea474c29e' making 686 changes' was performed in 4 minute(s) 55.08 seconds.
+2021-12-01 22:07:28.619 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #7 on board 'b84acb9f7b1bedea78661298406c798e' making 538 changes' was performed in 3 minute(s) 21.12 seconds.
+2021-12-01 22:08:25.807 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #8 on board 'e6c1121deecd29619082d285a3b7adbb' making 202 changes' was performed in 57.10 seconds.
+2021-12-01 22:08:57.978 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #9 on board 'cbcefdf9d50e37198256743a337195d6' making 180 changes' was performed in 32.08 seconds.
+2021-12-01 22:09:22.128 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #10 on board 'af3fb3a6076342636c60bd2f070927a4' making 86 changes' was performed in 24.05 seconds.
+2021-12-01 22:09:38.757 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #11 on board 'ae1f61852a94e79972093055af1a0299' making 62 changes' was performed in 16.52 seconds.
+2021-12-01 22:09:55.665 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #12 on board '3d38da9e3f4230fb87ec5d2d145a6939' making 38 changes' was performed in 16.81 seconds.
+2021-12-01 22:10:10.921 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #13 on board '0ea1d34df76f8a5d32f52ad2b12d1296' making 22 changes' was performed in 15.16 seconds.
+2021-12-01 22:10:28.493 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #14 on board '63fd09dc733ff32c10539cbffc3facd8' making 38 changes' was performed in 17.41 seconds.
+2021-12-01 22:10:35.823 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #15 on board '012beb2210c886768807839e45dffd85' making 10 changes' was performed in 7.24 seconds.
+2021-12-01 22:10:45.305 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #16 on board 'b0adcd559b09193714f707506c5894ea' making 28 changes' was performed in 9.39 seconds.
+2021-12-01 22:10:53.397 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #17 on board '3073932cd3c00041becc56ec47f56aed' making 10 changes' was performed in 7.99 seconds.
+2021-12-01 22:11:03.962 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #18 on board '84d6ed6a22475ad382d85ce9a5bdd713' making 52 changes' was performed in 10.47 seconds.
+2021-12-01 22:11:10.533 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #19 on board 'ed4cc32c29ec30dcc373221819d52f64' making 4 changes' was performed in 6.47 seconds.
+2021-12-01 22:11:16.877 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #20 on board '058127336fe9dc2c11fe8bfaf59cff56' making 21 changes' was performed in 6.25 seconds.
+2021-12-01 22:11:23.873 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #21 on board '2705c75d6b73b91e8292e3dffcf528a4' making 16 changes' was performed in 6.90 seconds.
+2021-12-01 22:11:24.165 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #22 on board '54dd749e3982ba59ccd6f097b9fdf85f' making 0 changes' was performed in 0.20 seconds.
+2021-12-01 22:11:24.166 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 1 hour(s) 3 minute(s) 32.08 seconds.
+2021-12-01 22:11:24.167 [Thread-0] INFO  Auto-routing was completed in 1 hour(s) 3 minute(s) 32.08 seconds.
+2021-12-01 22:11:24.168 [Thread-0] INFO  Starting routing optimization...
