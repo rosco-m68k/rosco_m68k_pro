@@ -884,12 +884,12 @@ Wire Wire Line
 Wire Wire Line
 	650  6650 850  6650
 $Comp
-L Jumper:SolderJumper_2_Open JP23
+L Jumper:SolderJumper_2_Bridged JP23
 U 1 1 6064DE34
 P 9900 2800
 F 0 "JP23" H 9900 3005 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 10150 2900 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9900 2800 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 9900 2800 50  0001 C CNN
 F 3 "~" H 9900 2800 50  0001 C CNN
 	1    9900 2800
 	1    0    0    -1  
@@ -1125,7 +1125,7 @@ Wire Wire Line
 	4050 7150 3650 7150
 Connection ~ 3650 7150
 Text Notes 4150 6750 0    50   ~ 0
-Only place C9\nif 44-pin mini-\nconnector J3\nis selected.
+Only place C78\nif 44-pin mini-\nconnector J3\nis selected.
 Wire Wire Line
 	6900 2350 7250 2350
 Wire Wire Line
