@@ -19,7 +19,7 @@ Open Source hardware under the CERN Open Hardware Licence.
 See LICENCE.txt for details.
 
 <p align='center'>
-<img alt='OSHWA Certified' src='/images/oshwa-uk000035?raw=true' title='OSHWA Certification UK000035' width='100%'>
+<img alt='OSHWA Certified' src='/images/oshwa-uk000035.png?raw=true' title='OSHWA Certification UK000035' width='100%'>
 </p>
 <p align='center'>
 https://certification.oshwa.org/uk000035.html
