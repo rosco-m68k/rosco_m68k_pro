@@ -1124,7 +1124,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 7150 3650 7150
 Connection ~ 3650 7150
-Text Notes 4150 6750 0    50   ~ 0
+Text Notes 3550 6450 0    50   ~ 0
 Only place C78\nif 44-pin mini-\nconnector J3\nis selected.
 Wire Wire Line
 	6900 2350 7250 2350
@@ -1230,4 +1230,23 @@ Wire Wire Line
 Connection ~ 5500 1800
 NoConn ~ 4150 2650
 NoConn ~ 4250 3000
+$Comp
+L Connector_Generic:Conn_02x01 J?
+U 1 1 61E8C30F
+P 4800 6750
+AR Path="/60FC48A0/61E8C30F" Ref="J?"  Part="1" 
+AR Path="/61B3F22F/61E8C30F" Ref="J26"  Part="1" 
+F 0 "J26" H 4850 6967 50  0000 C CNN
+F 1 "IDE_LED" H 4850 6876 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 4800 6750 50  0001 C CNN
+F 3 "~" H 4800 6750 50  0001 C CNN
+	1    4800 6750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 7050 5250 7050
+Connection ~ 5250 7050
+Wire Wire Line
+	4800 6550 5250 6550
+Connection ~ 5250 6550
 $EndSCHEMATC

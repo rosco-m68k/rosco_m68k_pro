@@ -37,9 +37,9 @@ Wire Wire Line
 Text GLabel 9650 4800 2    67   Output ~ 0
 HALT
 Wire Wire Line
-	7450 3700 7450 3500
+	7450 3700 7450 3600
 Wire Wire Line
-	7450 3200 7450 3000
+	7450 3200 7450 3100
 Wire Wire Line
 	3350 5200 3450 5200
 Wire Wire Line
@@ -241,8 +241,8 @@ AR Path="/6104F060" Ref="LED?"  Part="1"
 AR Path="/5E53B952/6104F060" Ref="LED?"  Part="1" 
 AR Path="/60FBFA5C/6104F060" Ref="LED?"  Part="1" 
 AR Path="/61043B8D/6104F060" Ref="LED1"  Part="1" 
-F 0 "LED1" H 7700 3400 59  0000 R TNN
-F 1 "GREEN" H 7800 3300 59  0000 R TNN
+F 0 "LED1" H 7450 3450 59  0000 R TNN
+F 1 "GREEN" H 7500 3100 59  0000 R TNN
 F 2 "rosco_m68k:LED5MM" H 7450 3300 50  0001 C CNN
 F 3 "" H 7450 3300 50  0001 C CNN
 	1    7450 3300
@@ -348,7 +348,7 @@ Connection ~ 8050 2500
 Wire Wire Line
 	8050 2500 8500 2500
 Wire Wire Line
-	8050 3000 8050 3200
+	8050 3000 8050 3100
 Connection ~ 9150 5300
 Wire Wire Line
 	9150 5300 9650 5300
@@ -389,7 +389,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 5300 8050 5300
 Wire Wire Line
-	8050 3500 8050 5300
+	8050 3500 8050 3600
 Connection ~ 8050 5300
 Wire Wire Line
 	8050 5300 9150 5300
@@ -439,4 +439,50 @@ Text GLabel 6100 4800 0    50   3State ~ 0
 I_HALT
 Text GLabel 6100 3700 0    50   Input ~ 0
 RUNLED
+$Comp
+L Connector_Generic:Conn_02x01 J?
+U 1 1 61EA3684
+P 7150 3400
+AR Path="/60FC48A0/61EA3684" Ref="J?"  Part="1" 
+AR Path="/61043B8D/61EA3684" Ref="J29"  Part="1" 
+F 0 "J29" H 7200 3617 50  0000 C CNN
+F 1 "RUN_LED" H 7200 3526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 7150 3400 50  0001 C CNN
+F 3 "~" H 7150 3400 50  0001 C CNN
+	1    7150 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x01 J?
+U 1 1 61EA5001
+P 7800 3400
+AR Path="/60FC48A0/61EA5001" Ref="J?"  Part="1" 
+AR Path="/61043B8D/61EA5001" Ref="J30"  Part="1" 
+F 0 "J30" H 7850 3617 50  0000 C CNN
+F 1 "RESET_LED" H 7850 3526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 7800 3400 50  0001 C CNN
+F 3 "~" H 7800 3400 50  0001 C CNN
+	1    7800 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 3100 8050 3100
+Connection ~ 8050 3100
+Wire Wire Line
+	8050 3100 8050 3200
+Wire Wire Line
+	7800 3600 8050 3600
+Connection ~ 8050 3600
+Wire Wire Line
+	8050 3600 8050 5300
+Wire Wire Line
+	7150 3100 7450 3100
+Connection ~ 7450 3100
+Wire Wire Line
+	7450 3100 7450 3000
+Wire Wire Line
+	7150 3600 7450 3600
+Connection ~ 7450 3600
+Wire Wire Line
+	7450 3600 7450 3500
 $EndSCHEMATC
