@@ -250,15 +250,15 @@ FPGA_W
 Text GLabel 6800 5600 0    50   Input ~ 0
 FPGA_R
 Text GLabel 3800 4600 2    50   Input ~ 0
-A1
+A0
 Text GLabel 3800 4700 2    50   Input ~ 0
-A2
+A1
 Text GLabel 3800 4800 2    50   Input ~ 0
-A3
+A2
 Text GLabel 3800 4900 2    50   Input ~ 0
-A4
+A3
 Text GLabel 3800 5000 2    50   Input ~ 0
-A7
+A4
 Text GLabel 2800 4600 0    50   Output ~ 0
 BUS_BYTESEL
 Text GLabel 2800 4700 0    50   Output ~ 0
@@ -881,7 +881,7 @@ L Device:R R33
 U 1 1 60D232A8
 P 1900 1950
 F 0 "R33" V 1693 1950 50  0000 C CNN
-F 1 "18K" V 1784 1950 50  0000 C CNN
+F 1 "150K" V 1784 1950 50  0000 C CNN
 F 2 "rosco_m68k:R-0207_10" V 1830 1950 50  0001 C CNN
 F 3 "~" H 1900 1950 50  0001 C CNN
 	1    1900 1950
