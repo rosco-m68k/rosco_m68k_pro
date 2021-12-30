@@ -107,7 +107,7 @@ typedef struct _xreg
     {                                                                                                                  \
         (void)(XM_##xmreg);                                                                                            \
         uint16_t uval16 = (word_value);                                                                                \
-        __asm__ __volatile__("move.w %[src]," XM_STR(XM_##xmreg) "(%[ptr])"                                           \
+        __asm__ __volatile__("move.w %[src]," XM_STR(XM_##xmreg) "(%[ptr])"                                            \
                              :                                                                                         \
                              : [src] "d"(uval16), [ptr] "a"(xosera_ptr)                                                \
                              :);                                                                                       \
@@ -119,12 +119,12 @@ typedef struct _xreg
     {                                                                                                                  \
         (void)(XM_##xmreg);                                                                                            \
         uint32_t uval32 = (long_value);                                                                                \
-        __asm__ __volatile__("move.l %[src]," XM_STR(XM_##xmreg) "(%[ptr])"                                           \
+        __asm__ __volatile__("move.l %[src]," XM_STR(XM_##xmreg) "(%[ptr])"                                            \
                              :                                                                                         \
                              : [src] "d"(uval32), [ptr] "a"(xosera_ptr)                                                \
                              :);                                                                                       \
     } while (false)
-// set XR register XR_<xreg> to 16-bit word word_value (uses MOVEP.L if reg and value are constant)
+// set XR register XR_<xreg> to 16-bit word word_value (uses MOVE.L if reg and value are constant)
 #define xreg_setw(xreg, word_value)                                                                                    \
     do                                                                                                                 \
     {                                                                                                                  \
@@ -132,7 +132,7 @@ typedef struct _xreg
         uint16_t uval16 = (word_value);                                                                                \
         if (__builtin_constant_p((XR_##xreg)) && __builtin_constant_p((word_value)))                                   \
         {                                                                                                              \
-            __asm__ __volatile__("move.l %[rxav]," XM_STR(XM_XR_ADDR) "(%[ptr]) ; "                                   \
+            __asm__ __volatile__("move.l %[rxav]," XM_STR(XM_XR_ADDR) "(%[ptr]) ; "                                    \
                                  :                                                                                     \
                                  : [rxav] "d"(((XR_##xreg) << 16) | (uint16_t)((word_value))), [ptr] "a"(xosera_ptr)   \
                                  :);                                                                                   \
@@ -140,7 +140,7 @@ typedef struct _xreg
         else                                                                                                           \
         {                                                                                                              \
             __asm__ __volatile__(                                                                                      \
-                "move.w %[rxa]," XM_STR(XM_XR_ADDR) "(%[ptr]) ; move.w %[src]," XM_STR(XM_XR_DATA) "(%[ptr])"        \
+                "move.w %[rxa]," XM_STR(XM_XR_ADDR) "(%[ptr]) ; move.w %[src]," XM_STR(XM_XR_DATA) "(%[ptr])"          \
                 :                                                                                                      \
                 : [rxa] "d"((XR_##xreg)), [src] "d"(uval16), [ptr] "a"(xosera_ptr)                                     \
                 :);                                                                                                    \
@@ -154,7 +154,7 @@ typedef struct _xreg
         uint16_t umem16 = (xrmem);                                                                                     \
         uint16_t uval16 = (word_value);                                                                                \
         __asm__ __volatile__(                                                                                          \
-            "move.w %[xra]," XM_STR(XM_XR_ADDR) "(%[ptr]) ; move.w %[src]," XM_STR(XM_XR_DATA) "(%[ptr])"            \
+            "move.w %[xra]," XM_STR(XM_XR_ADDR) "(%[ptr]) ; move.w %[src]," XM_STR(XM_XR_DATA) "(%[ptr])"              \
             :                                                                                                          \
             : [xra] "d"(umem16), [src] "d"(uval16), [ptr] "a"(xosera_ptr)                                              \
             :);                                                                                                        \
@@ -173,7 +173,7 @@ typedef struct _xreg
     ({                                                                                                                 \
         (void)(XM_##xmreg);                                                                                            \
         uint16_t word_value;                                                                                           \
-        __asm__ __volatile__("move.w " XM_STR(XM_##xmreg) "(%[ptr]),%[dst]"                                           \
+        __asm__ __volatile__("move.w " XM_STR(XM_##xmreg) "(%[ptr]),%[dst]"                                            \
                              : [dst] "=d"(word_value)                                                                  \
                              : [ptr] "a"(xosera_ptr)                                                                   \
                              :);                                                                                       \
@@ -184,7 +184,7 @@ typedef struct _xreg
     ({                                                                                                                 \
         (void)(XM_##xmreg);                                                                                            \
         uint32_t long_value;                                                                                           \
-        __asm__ __volatile__("move.l " XM_STR(XM_##xmreg) "(%[ptr]),%[dst]"                                           \
+        __asm__ __volatile__("move.l " XM_STR(XM_##xmreg) "(%[ptr]),%[dst]"                                            \
                              : [dst] "=d"(long_value)                                                                  \
                              : [ptr] "a"(xosera_ptr)                                                                   \
                              :);                                                                                       \
@@ -199,7 +199,7 @@ typedef struct _xreg
     ({                                                                                                                 \
         uint16_t word_value;                                                                                           \
         xm_setw(XR_ADDR, xrmem);                                                                                       \
-        __asm__ __volatile__("move.w " XM_STR(XM_XR_DATA) "(%[ptr]),%[dst]"                                           \
+        __asm__ __volatile__("move.w " XM_STR(XM_XR_DATA) "(%[ptr]),%[dst]"                                            \
                              : [dst] "=d"(word_value)                                                                  \
                              : [ptr] "a"(xosera_ptr)                                                                   \
                              :);                                                                                       \
@@ -230,7 +230,7 @@ typedef struct _xreg
         (void)(XR_##xreg);                                                                                             \
         uint16_t word_value;                                                                                           \
         xm_setw(XR_ADDR, (XR_##xreg));                                                                                 \
-        __asm__ __volatile__("move.w " XM_STR(XM_XR_DATA) "(%[ptr]),%[dst]"                                           \
+        __asm__ __volatile__("move.w " XM_STR(XM_XR_DATA) "(%[ptr]),%[dst]"                                            \
                              : [dst] "=d"(word_value)                                                                  \
                              : [ptr] "a"(xosera_ptr)                                                                   \
                              :);                                                                                       \

@@ -34,10 +34,10 @@
 #define XM_XR_DATA   0x2         // (R /W+) read/write XR register/memory at XM_XR_ADDR (XM_XR_ADDR incr. on write)
 #define XM_RD_INCR   0x4         // (R /W ) increment value for XM_RD_ADDR read from XM_DATA/XM_DATA_2
 #define XM_RD_ADDR   0x6         // (R /W+) VRAM address for reading from VRAM when XM_DATA/XM_DATA_2 is read
-#define XM_WR_INCR   0x8        // (R /W ) increment value for XM_WR_ADDR on write to XM_DATA/XM_DATA_2
-#define XM_WR_ADDR   0xA        // (R /W ) VRAM address for writing to VRAM when XM_DATA/XM_DATA_2 is written
-#define XM_DATA      0xC        // (R+/W+) read/write VRAM word at XM_RD_ADDR/XM_WR_ADDR (and add XM_RD_INCR/XM_WR_INCR)
-#define XM_DATA_2    0xE        // (R+/W+) 2nd XM_DATA(to allow for 32-bit read/write access)
+#define XM_WR_INCR   0x8         // (R /W ) increment value for XM_WR_ADDR on write to XM_DATA/XM_DATA_2
+#define XM_WR_ADDR   0xA         // (R /W ) VRAM address for writing to VRAM when XM_DATA/XM_DATA_2 is written
+#define XM_DATA      0xC         // (R+/W+) read/write VRAM word at XM_RD_ADDR/XM_WR_ADDR (and add XM_RD_INCR/XM_WR_INCR)
+#define XM_DATA_2    0xE         // (R+/W+) 2nd XM_DATA(to allow for 32-bit read/write access)
 #define XM_SYS_CTRL  0x10        // (R /W+) busy status, FPGA reconfig, interrupt status/control, write masking
 #define XM_TIMER     0x12        // (RO   ) read 1/10th millisecond timer [TODO]
 #define XM_UNUSED_A  0x14        // (R /W ) unused direct register 0xA [TODO]
