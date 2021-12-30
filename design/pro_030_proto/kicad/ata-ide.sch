@@ -1249,4 +1249,6 @@ Connection ~ 5250 7050
 Wire Wire Line
 	4800 6550 5250 6550
 Connection ~ 5250 6550
+Text Label 9600 2800 0    50   ~ 0
+JPIRQ5
 $EndSCHEMATC

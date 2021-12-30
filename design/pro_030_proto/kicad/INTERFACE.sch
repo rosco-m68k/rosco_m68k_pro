@@ -747,4 +747,8 @@ Text GLabel 2450 6550 2    50   UnSpc ~ 0
 5V
 Text GLabel 2450 6650 2    50   UnSpc ~ 0
 GND
+Text Label 3600 3350 2    50   ~ 0
+SDA
+Text Label 3600 3550 2    50   ~ 0
+SCL
 $EndSCHEMATC
