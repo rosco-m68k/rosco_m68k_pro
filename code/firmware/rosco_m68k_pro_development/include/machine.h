@@ -18,32 +18,7 @@
 #include <stdnoreturn.h>
 #include <stdint.h>
 
-#ifdef REVISION1X
-#define MFP_GPDR      0xf80001
-#define MFP_AER       0xf80003
-#define MFP_DDR       0xf80005
-#define MFP_IERA      0xf80007
-#define MFP_IERB      0xf80009
-#define MFP_IPRA      0xf8000B
-#define MFP_IPRB      0xf8000D
-#define MFP_ISRA      0xf8000F
-#define MFP_ISRB      0xf80011
-#define MFP_IMRA      0xf80013
-#define MFP_IMRB      0xf80015
-#define MFP_VR        0xf80017
-#define MFP_TACR      0xf80019
-#define MFP_TBCR      0xf8001B
-#define MFP_TCDCR     0xf8001D
-#define MFP_TADR      0xf8001F
-#define MFP_TBDR      0xf80021
-#define MFP_TCDR      0xf80023
-#define MFP_TDDR      0xf80025
-#define MFP_SCR       0xf80027
-#define MFP_UCR       0xf80029
-#define MFP_RSR       0xf8002B
-#define MFP_TSR       0xf8002D
-#define MFP_UDR       0xf8002F
-#else
+// DUART base and registers
 #define DUART_BASE              0xff800001
 #define DUART_RW_MODE_A         DUART_BASE+0x0  // RW register 0
 
@@ -121,12 +96,18 @@
 #define DUART_TBB     W_TXBUF_B
 #define DUART_IVR     RW_IVR
 #define DUART_OPCR    W_OUTPORTCFG
-#endif
 
 // Define addresses used by the temporary bus error handler.
 // N.B. These are duplicated in equates.asm, and must be kept in sync!
 #define BERR_SAVED                  0x1180
 #define BERR_FLAG                   0x1184
+
+// rosco ROM firmware revision. Defined by linker.
+extern unsigned int _FIRMWARE_REV;
+
+// Direct calls to EFP functions (required by ANSI terminal)
+extern void (*_EFP_RECVCHAR)();
+extern void (*_EFP_CHECKCHAR)();
 
 /* 
  * Idle the processor.
@@ -144,7 +125,7 @@ noreturn void IDLE();
  * Halt the processor.
  *
  * Issues a STOP instruction, keeping the CPU in supervisor mode,
- * masking all interrupts (priority to 7) and disabling the MFP interrupts.
+ * masking all interrupts (priority to 7).
  *
  * The only way to come back from this is via the wetware!
  *
@@ -153,16 +134,12 @@ noreturn void IDLE();
 noreturn void HALT();
 
 /*
- * Start the system tick (MFP Timer C).
- *
- * Note that this cannot be done until we've finished using polled
- * (synchronous) IO on the UART (i.e. the EARLY_PRINT routines).
- * Otherwise, timing issues will cause garbage on the serial port. 
+ * Start the system tick.
  */
 void START_HEART();
 
 /*
- * Stop the system tick (MFP Timer C)
+ * Stop the system tick.
  */
 void STOP_HEART();
 
@@ -175,18 +152,16 @@ void SET_INTR(uint8_t priority);
 
 /*
  * Early print null-terminated string.
- *
- * Don't use this after START_HEART has been called. 
  */
 void EARLY_PRINT_C(char *str);
 
 /*
- * Firmware PRINT function (uses pointer at $414)
+ * Firmware PRINT function (uses EFP pointer at $414)
  */
 void FW_PRINT_C(char *str);
 
 /*
- * Firmware PRINTLN function (uses pointer at $418)
+ * Firmware PRINTLN function (uses EFP pointer at $418)
  */
 void FW_PRINTLN_C(char *str);
 

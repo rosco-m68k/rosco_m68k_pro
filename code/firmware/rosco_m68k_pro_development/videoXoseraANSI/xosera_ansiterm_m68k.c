@@ -37,10 +37,6 @@
 #else
 
 #define DEBUG 0        // must be zero (no printf in firmware)
-// thse are missing from kernel machine.h
-extern unsigned int _FIRMWARE_REV;        // rosco ROM firmware revision
-extern void (*_EFP_RECVCHAR)();
-extern void (*_EFP_CHECKCHAR)();
 
 #endif
 
@@ -1769,7 +1765,7 @@ static const char xansiterm_banner[] =
     "|  _| . |_ -| _| . |     |     | . | . | '_|\r\n"
     "|_| |___|___|__|___|_____|_|_|_|___|___|_,_|\r\n"
     "\x1b[35mX\x1b[93mo\x1b[33ms\x1b[96me\x1b[92mr\x1b[91ma \x1b[0mv";                     // 0.20
-static const char xansiterm_banner2[] = " XANSI \x1b[93m|_____|\x1b[0m   Classic ";        // 2.0.DEV\r\n;
+static const char xansiterm_banner2[] = " XANSI \x1b[93m|_____|\x1b[0m   Pro     ";        // 2.0.DEV\r\n;
 
 // initialize terminal functions
 // TODO: ICP default values
