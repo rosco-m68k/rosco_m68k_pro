@@ -769,7 +769,7 @@ Text GLabel 5450 5000 2    50   Input ~ 0
 Text GLabel 3650 5000 2    50   Input ~ 0
 ~LSEL~
 Text Notes 3850 1450 0    50   ~ 0
-With ~IOS~ and A[20..5], we have\nenough for complete decoding.\nThis device will not have any shadow\ninstances of itself in the memory map.
+With ~IOS~ and A[21..5], we have\nenough for complete decoding.\nThis device will not have any shadow\ninstances of itself in the memory map.
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO1
 U 1 1 602B4F2E
@@ -1140,51 +1140,8 @@ Wire Wire Line
 	10250 2800 10050 2800
 Wire Wire Line
 	9600 2800 9750 2800
-$Comp
-L Device:Jumper JP24
-U 1 1 61B11C1E
-P 5100 1800
-F 0 "JP24" H 5100 2064 50  0000 C CNN
-F 1 "Main clock" H 5100 1973 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5100 1800 50  0001 C CNN
-F 3 "~" H 5100 1800 50  0001 C CNN
-	1    5100 1800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper JP25
-U 1 1 61B162C3
-P 5100 2100
-F 0 "JP25" H 5100 2364 50  0000 C CNN
-F 1 "8M Clock" H 5100 2273 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5100 2100 50  0001 C CNN
-F 3 "~" H 5100 2100 50  0001 C CNN
-	1    5100 2100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper JP26
-U 1 1 61B1AA97
-P 5100 2400
-F 0 "JP26" H 5100 2664 50  0000 C CNN
-F 1 "1M clock" H 5100 2573 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5100 2400 50  0001 C CNN
-F 3 "~" H 5100 2400 50  0001 C CNN
-	1    5100 2400
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5400 2400 5500 2400
-Wire Wire Line
-	5400 1800 5500 1800
-Wire Wire Line
-	5400 2100 5500 2100
-Text GLabel 4800 1800 0    50   Input ~ 0
-CLK
-Text GLabel 4800 2100 0    50   Input ~ 0
+Text GLabel 5900 1650 0    50   Input ~ 0
 CLK_8M
-Text GLabel 4800 2400 0    50   Input ~ 0
-CLK_1M
 Text GLabel 5900 2250 0    50   Input ~ 0
 SIZ0
 Text GLabel 5900 2150 0    50   Input ~ 0
@@ -1218,18 +1175,7 @@ NoConn ~ 4150 1750
 NoConn ~ 4150 1850
 Wire Wire Line
 	3650 2850 3650 3050
-Connection ~ 5500 2100
-Wire Wire Line
-	5500 1800 5500 2100
-Wire Wire Line
-	5500 2100 5500 2400
-Wire Wire Line
-	5900 1650 5500 1650
-Wire Wire Line
-	5500 1650 5500 1800
-Connection ~ 5500 1800
 NoConn ~ 4150 2650
-NoConn ~ 4250 3000
 $Comp
 L Connector_Generic:Conn_02x01 J?
 U 1 1 61E8C30F

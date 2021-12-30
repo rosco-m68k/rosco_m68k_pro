@@ -46,7 +46,7 @@ Wire Wire Line
 	8500 2900 9150 2900
 Wire Wire Line
 	6850 3000 7500 3000
-Text GLabel 5850 3300 0    50   Input ~ 0
+Text GLabel 4600 2600 0    50   Input ~ 0
 CLK
 Wire Wire Line
 	6650 2900 6750 2900
@@ -279,59 +279,57 @@ N.B. RAMROMSEL AND RAMROMDT ARE ACTIVE HIGH!
 $Comp
 L Device:Jumper_NC_Small JP5
 U 1 1 60FDCB26
-P 6150 3300
-F 0 "JP5" H 6150 3512 50  0000 C CNN
-F 1 "FAST" H 6150 3421 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6150 3300 50  0001 C CNN
-F 3 "~" H 6150 3300 50  0001 C CNN
-	1    6150 3300
+P 4900 2600
+F 0 "JP5" H 4900 2812 50  0000 C CNN
+F 1 "FAST" H 4900 2721 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4900 2600 50  0001 C CNN
+F 3 "~" H 4900 2600 50  0001 C CNN
+	1    4900 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Jumper_NC_Small JP6
 U 1 1 60FE19EE
-P 6150 3600
-F 0 "JP6" H 6150 3812 50  0000 C CNN
-F 1 "SLOW" H 6150 3721 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6150 3600 50  0001 C CNN
-F 3 "~" H 6150 3600 50  0001 C CNN
-	1    6150 3600
+P 4900 2900
+F 0 "JP6" H 4900 3112 50  0000 C CNN
+F 1 "SLOW" H 4900 3021 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4900 2900 50  0001 C CNN
+F 3 "~" H 4900 2900 50  0001 C CNN
+	1    4900 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Jumper_NC_Small JP7
 U 1 1 60FE6839
-P 6150 3900
-F 0 "JP7" H 6150 4112 50  0000 C CNN
-F 1 "SLOWEST" H 6150 4021 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6150 3900 50  0001 C CNN
-F 3 "~" H 6150 3900 50  0001 C CNN
-	1    6150 3900
+P 4900 3200
+F 0 "JP7" H 4900 3412 50  0000 C CNN
+F 1 "SLOWEST" H 4900 3321 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4900 3200 50  0001 C CNN
+F 3 "~" H 4900 3200 50  0001 C CNN
+	1    4900 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 5850 3900 0    50   Input ~ 0
+Text GLabel 4600 3200 0    50   Input ~ 0
 CLK_1M
-Text GLabel 5850 3600 0    50   Input ~ 0
+Text GLabel 4600 2900 0    50   Input ~ 0
 CLK_8M
 Wire Wire Line
-	5850 3300 6050 3300
+	4600 2600 4800 2600
 Wire Wire Line
-	5850 3600 6050 3600
+	4600 2900 4800 2900
 Wire Wire Line
-	5850 3900 6050 3900
+	4600 3200 4800 3200
 Wire Wire Line
-	6250 3600 6500 3600
+	5000 2900 5250 2900
 Wire Wire Line
-	6250 3300 6500 3300
+	5000 2600 5250 2600
 Wire Wire Line
-	6500 3300 6500 3600
-Connection ~ 6500 3600
+	5250 2600 5250 2900
+Connection ~ 5250 2900
 Wire Wire Line
-	6500 3600 7500 3600
+	5250 3200 5250 2900
 Wire Wire Line
-	6500 3900 6500 3600
-Wire Wire Line
-	6250 3900 6500 3900
+	5000 3200 5250 3200
 Text GLabel 2900 3500 2    50   Output ~ 0
 CLK_8M
 Wire Wire Line
@@ -409,4 +407,12 @@ F 3 "" H 1750 3300 50  0001 C CNN
 	1    1750 3300
 	0    -1   -1   0   
 $EndComp
+Text GLabel 5400 2900 2    50   Output ~ 0
+DTCLK
+Wire Wire Line
+	5250 2900 5400 2900
+Text GLabel 6650 3600 0    50   Input ~ 0
+DTCLK
+Wire Wire Line
+	6650 3600 7500 3600
 $EndSCHEMATC
