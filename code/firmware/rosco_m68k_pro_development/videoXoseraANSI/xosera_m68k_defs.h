@@ -26,27 +26,26 @@
 
 // See: https://github.com/XarkLabs/Xosera/blob/master/REFERENCE.md
 
-#define XM_BASEADDR 0xf80060        // Xosera rosco_m68k register base address
+#define XM_BASEADDR 0xff800020        // Xosera rosco_m68k register base address
 
 // Xosera Main Registers (XM Registers, directly CPU accessable)
-// NOTE: Main register numbers are multiplied by 4 for rosco_m68k, because of even byte 6800 8-bit addressing plus
 // 16-bit registers
 #define XM_XR_ADDR   0x0         // (R /W+) XR register number/address for XM_XR_DATA read/write access
-#define XM_XR_DATA   0x4         // (R /W+) read/write XR register/memory at XM_XR_ADDR (XM_XR_ADDR incr. on write)
-#define XM_RD_INCR   0x8         // (R /W ) increment value for XM_RD_ADDR read from XM_DATA/XM_DATA_2
-#define XM_RD_ADDR   0xC         // (R /W+) VRAM address for reading from VRAM when XM_DATA/XM_DATA_2 is read
-#define XM_WR_INCR   0x10        // (R /W ) increment value for XM_WR_ADDR on write to XM_DATA/XM_DATA_2
-#define XM_WR_ADDR   0x14        // (R /W ) VRAM address for writing to VRAM when XM_DATA/XM_DATA_2 is written
-#define XM_DATA      0x18        // (R+/W+) read/write VRAM word at XM_RD_ADDR/XM_WR_ADDR (and add XM_RD_INCR/XM_WR_INCR)
-#define XM_DATA_2    0x1C        // (R+/W+) 2nd XM_DATA(to allow for 32-bit read/write access)
-#define XM_SYS_CTRL  0x20        // (R /W+) busy status, FPGA reconfig, interrupt status/control, write masking
-#define XM_TIMER     0x24        // (RO   ) read 1/10th millisecond timer [TODO]
-#define XM_UNUSED_A  0x28        // (R /W ) unused direct register 0xA [TODO]
-#define XM_UNUSED_B  0x2C        // (R /W ) unused direct register 0xB [TODO]
-#define XM_RW_INCR   0x30        // (R /W ) XM_RW_ADDR increment value on read/write of XM_RW_DATA/XM_RW_DATA_2
-#define XM_RW_ADDR   0x34        // (R /W+) read/write address for VRAM access from XM_RW_DATA/XM_RW_DATA_2
-#define XM_RW_DATA   0x38        // (R+/W+) read/write VRAM word at XM_RW_ADDR (and add XM_RW_INCR)
-#define XM_RW_DATA_2 0x3C        // (R+/W+) 2nd XM_RW_DATA(to allow for 32-bit read/write access)
+#define XM_XR_DATA   0x2         // (R /W+) read/write XR register/memory at XM_XR_ADDR (XM_XR_ADDR incr. on write)
+#define XM_RD_INCR   0x4         // (R /W ) increment value for XM_RD_ADDR read from XM_DATA/XM_DATA_2
+#define XM_RD_ADDR   0x6         // (R /W+) VRAM address for reading from VRAM when XM_DATA/XM_DATA_2 is read
+#define XM_WR_INCR   0x8         // (R /W ) increment value for XM_WR_ADDR on write to XM_DATA/XM_DATA_2
+#define XM_WR_ADDR   0xA         // (R /W ) VRAM address for writing to VRAM when XM_DATA/XM_DATA_2 is written
+#define XM_DATA      0xC         // (R+/W+) read/write VRAM word at XM_RD_ADDR/XM_WR_ADDR (and add XM_RD_INCR/XM_WR_INCR)
+#define XM_DATA_2    0xE         // (R+/W+) 2nd XM_DATA(to allow for 32-bit read/write access)
+#define XM_SYS_CTRL  0x10        // (R /W+) busy status, FPGA reconfig, interrupt status/control, write masking
+#define XM_TIMER     0x12        // (RO   ) read 1/10th millisecond timer [TODO]
+#define XM_UNUSED_A  0x14        // (R /W ) unused direct register 0xA [TODO]
+#define XM_UNUSED_B  0x16        // (R /W ) unused direct register 0xB [TODO]
+#define XM_RW_INCR   0x18        // (R /W ) XM_RW_ADDR increment value on read/write of XM_RW_DATA/XM_RW_DATA_2
+#define XM_RW_ADDR   0x1A        // (R /W+) read/write address for VRAM access from XM_RW_DATA/XM_RW_DATA_2
+#define XM_RW_DATA   0x1C        // (R+/W+) read/write VRAM word at XM_RW_ADDR (and add XM_RW_INCR)
+#define XM_RW_DATA_2 0x1E        // (R+/W+) 2nd XM_RW_DATA(to allow for 32-bit read/write access)
 
 // XR Extended Register / Region (accessed via XM_XR_ADDR and XM_XR_DATA)
 
