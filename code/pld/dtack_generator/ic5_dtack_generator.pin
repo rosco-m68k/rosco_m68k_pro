@@ -8,7 +8,7 @@
    4   | DT8      | Input
    5   | DT16     | Input
    6   | DT32     | Input
-   7   | NC       | Input
+   7   | DS       | Input
    8   | NC       | Input
    9   | NC       | Input
   10   | NC       | Input
