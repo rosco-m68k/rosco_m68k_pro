@@ -1,7 +1,7 @@
 GAL22V10
 IOSTRETCH
 
-CLK    NC     IODT   NC     NC    NC      NC      NC     NC     NC     NC     GND
+CLK    AS     IODT   DS     NC    NC      NC      NC     NC     NC     NC     GND
 /OE    DT1    DT2    DT3    DT4   DT5     NC      NC     NC     NC     DTO    VCC
 
 DT1.R   = /IODT

@@ -10,7 +10,7 @@
    6   | A0       | Input
    7   | RW       | Input
    8   | BOOT     | Input
-   9   | NC       | Input
+   9   | DS       | Input
   10   | SIZ0     | Input
   11   | SIZ1     | Input
   12   | GND      | GND

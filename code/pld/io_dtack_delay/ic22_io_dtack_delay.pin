@@ -3,9 +3,9 @@
  Pin # | Name     | Pin Type
 -----------------------------
    1   | CLK      | Clock/Input
-   2   | NC       | Input
+   2   | AS       | Input
    3   | IODT     | Input
-   4   | NC       | Input
+   4   | DS       | Input
    5   | NC       | Input
    6   | NC       | Input
    7   | NC       | Input

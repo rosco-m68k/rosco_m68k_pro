@@ -5,7 +5,7 @@
    1   | FSEL     | Clock/Input
    2   | IACK2    | Input
    3   | NC       | Input
-   4   | NC       | Input
+   4   | DS       | Input
    5   | AS       | Input
    6   | NC       | Input
    7   | NC       | Input

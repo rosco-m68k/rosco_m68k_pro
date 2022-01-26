@@ -9,7 +9,7 @@
                           |                 |
                        NC |  3           22 | VPA
                           |                 |
-                       NC |  4           21 | PPVPA
+                       DS |  4           21 | PPVPA
                           |                 |
                        AS |  5           20 | FPGAW
                           |                 |
