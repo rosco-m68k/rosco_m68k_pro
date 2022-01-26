@@ -1,7 +1,7 @@
 GAL22V10
 CLKGEN
 
-CLK    AS     IACK   NC     NC      NC      NC      NC     NC     NC     NC     GND
+CLK    AS     IACK   DS     NC      NC      NC      NC     NC     NC     NC     GND
 /OE    AX4M   AX2M   AX1M   WDQ0    WDQ1    WDQ2    WDQ3   WDEN   PBERR  BERR   VCC
 
 AX4M.R  = /AX4M

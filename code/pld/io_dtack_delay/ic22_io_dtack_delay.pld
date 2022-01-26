@@ -1,0 +1,26 @@
+GAL22V10
+IOSTRETCH
+
+CLK    AS     IODT   DS     NC    NC      NC      NC     NC     NC     NC     GND
+/OE    DT1    DT2    DT3    DT4   DT5     NC      NC     NC     NC     DTO    VCC
+
+DT1.R   = /IODT
+DT2.R   = /IODT * DT1
+DT3.R   = /IODT * DT2
+DT4.R   = /IODT * DT3
+DT5.R   = /IODT * DT4
+
+DTO.T   = GND
+DTO.E   = /IODT * DT5
+
+DESCRIPTION
+
+IO stretched DTACK generator for rosco_m68k Pro.
+
+Most of the pins here are NC from the circuit perspective. This
+should give enough flexibility that this can be reprogrammed
+as necessary.
+
+Copyright (c)2021 Ross Bamford & Contributors
+See LICENSE.md for licence details (spoiler: CERN / MIT).
+

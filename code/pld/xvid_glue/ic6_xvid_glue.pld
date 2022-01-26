@@ -1,7 +1,7 @@
 GAL22V10
 XVIDGLUE
 
-FSEL  IACK2  NC     NC      AS    NC      NC     NC     NC       RnW   UDIRQ     GND
+FSEL  IACK2  NC     DS      AS    NC      NC     NC     NC       RnW   UDIRQ     GND
 NC    NC     IRQRS  FPGACS  PPDT  FPGAR   OIRQ   FPGAW  PPVPA    VPA   ODTACK    VCC
 
 /FPGAR     = /FSEL * /AS *  RnW

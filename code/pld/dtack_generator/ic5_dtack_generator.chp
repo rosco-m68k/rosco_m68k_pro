@@ -15,7 +15,7 @@
                           |                 |
                      DT32 |  6           19 | PPDS0
                           |                 |
-                       NC |  7           18 | PPCI
+                       DS |  7           18 | PPCI
                           |                 |
                        NC |  8           17 | NC
                           |                 |
