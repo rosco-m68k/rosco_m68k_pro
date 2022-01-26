@@ -1105,6 +1105,9 @@
     (path "/00000000-0000-0000-0000-00006103896c/00000000-0000-0000-0000-000061d9741c"
       (reference "R48") (unit 1) (value "1K2") (footprint "rosco_m68k:R-0207_10")
     )
+    (path "/00000000-0000-0000-0000-000061b3f22f/60c6d961-7185-4558-8fbf-00529dd9373b"
+      (reference "R49") (unit 1) (value "4k7") (footprint "rosco_m68k:R-0207_10")
+    )
     (path "/00000000-0000-0000-0000-0000611f7bd0/00000000-0000-0000-0000-0000611fde09"
       (reference "R74") (unit 1) (value "2K2") (footprint "rosco_m68k:R-0207_10")
     )
