@@ -17,6 +17,7 @@
 #include <machine.h>
 
 extern void subsys_mem();
+extern void subsys_interrupts();
 
 void kmain() {
     printf("\033[1;36mrosco_m68k Pro Design Qualification Tests v1.0\033[0m\n");
@@ -33,5 +34,8 @@ void kmain() {
 
     printf("\033[1;33mMemory Subsystem Tests\n======================\033[0m\n\n");
     subsys_mem();
+    
+    printf("\n\033[1;33mInterrupt Subsystem Tests\n=========================\033[0m\n\n");
+    subsys_interrupts();
 }
 
