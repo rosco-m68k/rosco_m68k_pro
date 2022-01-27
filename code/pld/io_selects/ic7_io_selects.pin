@@ -24,6 +24,6 @@
   20   | I2CCS    | Output
   21   | NC       | NC
   22   | NC       | NC
-  23   | NC       | NC
+  23   | IDECS    | Output
   24   | VCC      | VCC
 

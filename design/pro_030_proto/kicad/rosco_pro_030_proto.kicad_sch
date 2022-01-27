@@ -361,17 +361,11 @@
     (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-00006036bf5e"
       (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-00006036c9f8"
-      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-000060372aa1"
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061b3f22f/814b013a-6c3c-445b-a659-a587f7e66d83"
       (reference "#PWR0111") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/dd1bb642-e639-4160-aa4a-7d120a7a5efc"
-      (reference "#PWR0112") (unit 1) (value "VCC") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061b3f22f/d70eb675-88ad-41a1-99c9-736fd8a497ab"
       (reference "#PWR0113") (unit 1) (value "VCC") (footprint "")
@@ -735,9 +729,6 @@
     )
     (path "/00000000-0000-0000-0000-00006103896c/00000000-0000-0000-0000-0000616244b8"
       (reference "IC10") (unit 1) (value "ATF22V10C") (footprint "Package_DIP:DIP-24_W7.62mm_Socket_LongPads")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-000061ba8c27"
-      (reference "IC11") (unit 1) (value "ATF22V10C") (footprint "Package_DIP:DIP-24_W7.62mm_Socket_LongPads")
     )
     (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-000060246c41"
       (reference "IC12") (unit 1) (value "74HCT245") (footprint "Package_DIP:DIP-20_W7.62mm_Socket_LongPads")
