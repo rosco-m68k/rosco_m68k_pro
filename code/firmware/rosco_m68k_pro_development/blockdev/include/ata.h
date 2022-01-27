@@ -23,8 +23,8 @@
 #define ATA_MASTER                  0x0
 #define ATA_SLAVE                   0x1
 
-#define IO_BASE                     0x00F80000
-#define IDE_BASE                    (IO_BASE + 0x0040)
+#define IO_BASE                     0x00FF800000
+#define IDE_BASE                    (IO_BASE + 0x0060)
 
 #define ATA_REG_RD_DATA             0
 #define ATA_REG_RD_ERROR            1
