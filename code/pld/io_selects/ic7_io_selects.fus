@@ -3,9 +3,9 @@
 AR
   0  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 23 = NC           S0 = 0   S1 = 0
-  1  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
-  2  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+Pin 23 = IDECS        S0 = 0   S1 = 0
+  1  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+  2  -x-- -x-- -x-- -x-- -x-- -x-- -x-x -x-- x--- x--- ----
   3  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
   4  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
   5  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
