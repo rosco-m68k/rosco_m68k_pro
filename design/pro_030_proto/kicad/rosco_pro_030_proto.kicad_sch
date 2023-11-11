@@ -6,10 +6,10 @@
 
   (title_block
     (title "rosco_m68k Pro (030) Prototype")
-    (date "2022-01-14")
-    (rev "p4")
+    (date "2023-11-11")
+    (rev "p5")
     (company "The Really Old-School Company Limited")
-    (comment 1 "Copyright ©2021-2022 The Really Old-School Company Limited")
+    (comment 1 "Copyright ©2021-2023 The Really Old-School Company Limited")
     (comment 2 "Open Source Hardware (CERN OHL)")
     (comment 3 "Prototype Hardware! Not suitable for general use!")
   )
@@ -174,21 +174,8 @@
     )
   )
 
-  (sheet (at 133.35 118.11) (size 24.13 27.94) (fields_autoplaced)
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-000061b3f22f)
-    (property "Sheet name" "ATA-IDE" (id 0) (at 133.35 117.3984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "ATA-IDE.kicad_sch" (id 1) (at 133.35 146.6346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
   (sheet_instances
     (path "/" (page "1"))
-    (path "/00000000-0000-0000-0000-000061b3f22f" (page "2"))
     (path "/00000000-0000-0000-0000-000060ec67c5" (page "3"))
     (path "/00000000-0000-0000-0000-000060fbd3a8" (page "4"))
     (path "/00000000-0000-0000-0000-00006103896c" (page "5"))
@@ -210,9 +197,6 @@
     )
     (path "/00000000-0000-0000-0000-000060fc48a0/00000000-0000-0000-0000-0000616654a0"
       (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000602b4f2e"
-      (reference "#LOGO1") (unit 1) (value "Logo_Open_Hardware_Small") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060ec67c5/00000000-0000-0000-0000-000060a969d2"
       (reference "#PWR01") (unit 1) (value "VCC") (footprint "")
@@ -340,68 +324,8 @@
     (path "/00000000-0000-0000-0000-000060fc48a0/00000000-0000-0000-0000-0000616c2815"
       (reference "#PWR0101") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061b3f22f/3a938de3-5aeb-42af-8ce0-d452e851fb94"
-      (reference "#PWR0102") (unit 1) (value "VCC") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000060fc48a0/00000000-0000-0000-0000-000061660b8b"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/29e4343d-b5e8-40a1-9e1b-3500b4ac1704"
-      (reference "#PWR0104") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-00006036156c"
-      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-00006036333d"
-      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-00006036ada5"
-      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-00006036bf5e"
-      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-000060372aa1"
-      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/814b013a-6c3c-445b-a659-a587f7e66d83"
-      (reference "#PWR0111") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/d70eb675-88ad-41a1-99c9-736fd8a497ab"
-      (reference "#PWR0113") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/aba75809-85fb-4c6e-8196-5fa9cf947811"
-      (reference "#PWR0114") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/0b13caeb-3511-452d-b128-cccea30b19a8"
-      (reference "#PWR0115") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/bcf0608d-e204-4138-888e-a2d547ca5ab0"
-      (reference "#PWR0116") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000602d7460"
-      (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000602d4edd"
-      (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000603c6218"
-      (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-00006050335f"
-      (reference "#PWR0122") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-00006054f644"
-      (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-00006060bb31"
-      (reference "#PWR0124") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-00006064cae3"
-      (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000606580ad"
-      (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061043b8d/00000000-0000-0000-0000-00006104f054"
       (reference "#SUPPLY01") (unit 1) (value "GND") (footprint "")
@@ -574,30 +498,6 @@
     (path "/00000000-0000-0000-0000-000061161e57/00000000-0000-0000-0000-0000607330bc"
       (reference "C55") (unit 1) (value "100nF") (footprint "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm")
     )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000602decd9"
-      (reference "C56") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000602e0ed1"
-      (reference "C57") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000602e1d4a"
-      (reference "C58") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000602e2bbd"
-      (reference "C59") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000602e3b77"
-      (reference "C60") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000602f8250"
-      (reference "C61") (unit 1) (value "1u") (footprint "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000602e832c"
-      (reference "C62") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000602fd673"
-      (reference "C63") (unit 1) (value "10u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm")
-    )
     (path "/00000000-0000-0000-0000-0000611f7bd0/00000000-0000-0000-0000-0000611fb0fb"
       (reference "C64") (unit 1) (value "100nF") (footprint "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm")
     )
@@ -640,9 +540,6 @@
     (path "/00000000-0000-0000-0000-000060fc48a0/00000000-0000-0000-0000-0000616442bb"
       (reference "C77") (unit 1) (value "220uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000605e0f75"
-      (reference "C78") (unit 1) (value "4u7") (footprint "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm")
-    )
     (path "/00000000-0000-0000-0000-00006103896c/00000000-0000-0000-0000-000061d405e4"
       (reference "C79") (unit 1) (value "100nF") (footprint "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm")
     )
@@ -669,9 +566,6 @@
     )
     (path "/00000000-0000-0000-0000-000060fbd3a8/00000000-0000-0000-0000-00006105c1e8"
       (reference "D8") (unit 1) (value "1.5KE33A") (footprint "Diode_THT:D_DO-201AE_P15.24mm_Horizontal")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000602632f6"
-      (reference "D9") (unit 1) (value "LED") (footprint "LED_THT:LED_D3.0mm")
     )
     (path "/00000000-0000-0000-0000-000061712f15/00000000-0000-0000-0000-00006171a4c9"
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3mm_Pad")
@@ -724,14 +618,8 @@
     (path "/00000000-0000-0000-0000-000060fbd3a8/00000000-0000-0000-0000-000060fbd731"
       (reference "IC8") (unit 1) (value "XR68C681CJTR-F-XR68C681") (footprint "Package_LCC:PLCC-44_THT-Socket")
     )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000602433ac"
-      (reference "IC9") (unit 1) (value "74HCT245") (footprint "Package_DIP:DIP-20_W7.62mm_Socket_LongPads")
-    )
     (path "/00000000-0000-0000-0000-00006103896c/00000000-0000-0000-0000-0000616244b8"
       (reference "IC10") (unit 1) (value "ATF22V10C") (footprint "Package_DIP:DIP-24_W7.62mm_Socket_LongPads")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-000060246c41"
-      (reference "IC12") (unit 1) (value "74HCT245") (footprint "Package_DIP:DIP-20_W7.62mm_Socket_LongPads")
     )
     (path "/00000000-0000-0000-0000-000060fbfa5c/00000000-0000-0000-0000-000060fdf4f7"
       (reference "IC13") (unit 1) (value "74HCT174") (footprint "Package_DIP:DIP-16_W7.62mm_Socket_LongPads")
@@ -759,15 +647,6 @@
     )
     (path "/00000000-0000-0000-0000-000061161e57/00000000-0000-0000-0000-00005f933841"
       (reference "IC19") (unit 1) (value "74HCT245") (footprint "Package_DIP:DIP-20_W7.62mm_Socket_LongPads")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-000060293b31"
-      (reference "IC20") (unit 1) (value "ATF750") (footprint "Package_DIP:DIP-24_W7.62mm_Socket_LongPads")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000604d1b88"
-      (reference "IC21") (unit 1) (value "74HCT241") (footprint "Package_DIP:DIP-20_W7.62mm_Socket_LongPads")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000604d4b64"
-      (reference "IC21") (unit 2) (value "74HCT241") (footprint "Package_DIP:DIP-20_W7.62mm_Socket_LongPads")
     )
     (path "/00000000-0000-0000-0000-00006103896c/00000000-0000-0000-0000-000061d405d5"
       (reference "IC22") (unit 1) (value "ATF22V10C") (footprint "Package_DIP:DIP-24_W7.62mm_Socket_LongPads")
@@ -856,15 +735,6 @@
     (path "/00000000-0000-0000-0000-000061738494/00000000-0000-0000-0000-000061a9011e"
       (reference "J25") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-000061e8c30f"
-      (reference "J26") (unit 1) (value "IDE_LED") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-00006023d392"
-      (reference "J27") (unit 1) (value "Conn_02x20_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000605abf8f"
-      (reference "J28") (unit 1) (value "Conn_02x22_Odd_Even") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x22_P2.00mm_Vertical")
-    )
     (path "/00000000-0000-0000-0000-000061043b8d/00000000-0000-0000-0000-000061ea3684"
       (reference "J29") (unit 1) (value "RUN_LED") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical")
     )
@@ -931,15 +801,6 @@
     (path "/00000000-0000-0000-0000-000061161e57/00000000-0000-0000-0000-0000619b1631"
       (reference "JP20") (unit 1) (value "Jumper") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-000060266efd"
-      (reference "JP21") (unit 1) (value "Pin 20 5V Supply") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-000060585f08"
-      (reference "JP22") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-00006064de34"
-      (reference "JP23") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
-    )
     (path "/00000000-0000-0000-0000-000061043b8d/00000000-0000-0000-0000-00006104f060"
       (reference "LED1") (unit 1) (value "GREEN") (footprint "rosco_m68k:LED5MM")
     )
@@ -948,9 +809,6 @@
     )
     (path "/00000000-0000-0000-0000-000061161e57/00000000-0000-0000-0000-000060d18fd6"
       (reference "Q1") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000602bad8b"
-      (reference "Q2") (unit 1) (value "2N3906") (footprint "Package_TO_SOT_THT:TO-92_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000060ec67c5/00000000-0000-0000-0000-000061135274"
       (reference "R1") (unit 1) (value "4K7") (footprint "rosco_m68k:R-0207_10")
@@ -1081,23 +939,8 @@
     (path "/00000000-0000-0000-0000-000060fbfa5c/00000000-0000-0000-0000-00006198953a"
       (reference "R43") (unit 1) (value "4K7") (footprint "rosco_m68k:R-0207_10")
     )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000602c75c9"
-      (reference "R44") (unit 1) (value "330") (footprint "rosco_m68k:R-0207_10")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-000060264d8b"
-      (reference "R45") (unit 1) (value "10k") (footprint "rosco_m68k:R-0207_10")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-0000602ca347"
-      (reference "R46") (unit 1) (value "4k7") (footprint "rosco_m68k:R-0207_10")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/00000000-0000-0000-0000-00006026136b"
-      (reference "R47") (unit 1) (value "10k") (footprint "rosco_m68k:R-0207_10")
-    )
     (path "/00000000-0000-0000-0000-00006103896c/00000000-0000-0000-0000-000061d9741c"
       (reference "R48") (unit 1) (value "1K2") (footprint "rosco_m68k:R-0207_10")
-    )
-    (path "/00000000-0000-0000-0000-000061b3f22f/60c6d961-7185-4558-8fbf-00529dd9373b"
-      (reference "R49") (unit 1) (value "4k7") (footprint "rosco_m68k:R-0207_10")
     )
     (path "/00000000-0000-0000-0000-0000611f7bd0/00000000-0000-0000-0000-0000611fde09"
       (reference "R74") (unit 1) (value "2K2") (footprint "rosco_m68k:R-0207_10")
